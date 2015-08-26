@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  //###################  LOGIN WITH CROP    ############################
+  <EnterUsername><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButtojn>
+
+
+  //#######################   Residual Income  #######################
+  <ClickResidualIncomeTab><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClickResidualIncomeTab>
+  <ClickOnImport><![CDATA[//*[@id='css3menu']/li[4]/div/div[1]/ul/li/a]]></ClickOnImport> 
+  
+  //  ############################  IMPORT
+  <ClickOnImportNew><![CDATA[//*[@id='actionbuttons']/span]]></ClickOnImportNew>
+  <ProcessorType><![CDATA[//*[@id='ProcessorTypeProcessor']]]></ProcessorType>
+  
+  //Set Values
+  <EnterValuesSeleniumOff><![CDATA[//table[@class='datatable']/tbody/tr[1]/td[3]/input]]></EnterValuesSeleniumOff>
+  <EnterSelValue><![CDATA[//table[@class='datatable']/tbody/tr[2]/td[3]/input]]></EnterSelValue>
+  
+  //Set values
+  <ClickOnSave><![CDATA[//*[@id='main_container']/div[1]/div[3]/a[1]/span[1]]]></ClickOnSave>
+  
+</Locators>
+
+

@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <OpportunitiesTab><![CDATA[//*[@id='css3menu']/li[2]/a]]></OpportunitiesTab>
+
+  <OpportunitiesCreate><![CDATA[//*[@id='actionbuttons']/span]]></OpportunitiesCreate>
+
+  <OpportunitiesName><![CDATA[//*[@id='OpportunityOpportunityName']]]></OpportunitiesName>
+  <OpportunitiesCompany><![CDATA[//*[@id='OpportunityCompanyName']]]></OpportunitiesCompany>
+  <OpportunitiesIndustry><![CDATA[//*[@id='OpportunityIndustry']]]></OpportunitiesIndustry>
+  <OpportunitiesSICCode><![CDATA[//*[@id='OpportunitySicCode']]]></OpportunitiesSICCode>
+  <OpportunitiesScore><![CDATA[//*[@id='OpportunityCreditScore']]]></OpportunitiesScore>
+  <OpportunitiesNoOfEmployee><![CDATA[//*[@id='OpportunityNoOfEmployees']]]></OpportunitiesNoOfEmployee>
+  <OpportunitiesLanguage><![CDATA[//*[@id='OpportunityLanguage']]]></OpportunitiesLanguage> #English
+  <OpportunitiesAmmount><![CDATA[//*[@id='OpportunityOpportunityAmount']]]></OpportunitiesAmmount>
+  <OpportunitiesPtobability><![CDATA[//*[@id='OpportunityOpportunityProbability']]]></OpportunitiesPtobability>
+  <OpportunitiesSalesMin><![CDATA[//*[@id='OpportunityAnnualSalesMin']]]></OpportunitiesSalesMin>
+  <OpportunitiesSalesMax><![CDATA[//*[@id='OpportunityAnnualSalesMax']]]></OpportunitiesSalesMax>
+  <OpportunitiesAverage><![CDATA[//*[@id='OpportunitySalesTransactionAvg']]]></OpportunitiesAverage>
+  <OpportunitiesNewBusiness><![CDATA[//*[@id='OpportunityNewBusiness']]]></OpportunitiesNewBusiness>
+
+  <OpportunitiesPhoneType><![CDATA[]]></OpportunitiesPhoneType> #Work
+  <OpportunitiesPhoneNumber><![CDATA[//*[@id='OpportunityPhone0PhoneFormat']]]></OpportunitiesPhoneNumber>
+  <OpportunitiesExtension><![CDATA[//*[@id='OpportunityPhone0PhoneExtension']]]></OpportunitiesExtension>
+  <OpportunitiesPhonePrimary><![CDATA[//*[@id='radios']]]></OpportunitiesPhonePrimary>
+  <OpportunitiesPhoneDNC><![CDATA[//*[@id='OpportunityPhone0DoNotCall']]]></OpportunitiesPhoneDNC>
+
+  <OpportunitiesEmilType><![CDATA[//*[@id='OpportunityElectronicAddress0ElectronicContentType']]]></OpportunitiesEmilType>
+  #IM
+  <OpportunitiesEmailLabel><![CDATA[//*[@id='OpportunityElectronicAddress0ElectronicContentLabel']]]></OpportunitiesEmailLabel>
+  #Work
+  <OpportunitiesEmaileAddress><![CDATA[//*[@id='OpportunityElectronicAddress0ElectronicContent']]]></OpportunitiesEmaileAddress>
+  <OpportunitiesEmailPrimary><![CDATA[//*[@id='radio']]]></OpportunitiesEmailPrimary>
+  <OpportunitiesEmailOpt><![CDATA[//*[@id='OpportunityElectronicAddress0OptOut']]]></OpportunitiesEmailOpt>
+
+  <OpportunitiesAddressLine1><![CDATA[//*[@id='OpportunityAddress0AddressLine1']]]></OpportunitiesAddressLine1>
+  <OpportunitiesAddressLine2><![CDATA[//*[@id='OpportunityAddress0AddressLine2']]]></OpportunitiesAddressLine2>
+  <OpportunitiesAddressCounty><![CDATA[//*[@id='OpportunityAddress0County']]]></OpportunitiesAddressCounty>
+  <OpportunitiesAddressCity><![CDATA[//input[@id='OpportunityAddress0City']]]></OpportunitiesAddressCity>
+  <OpportunitiesAddressCountry><![CDATA[//input[@id='OpportunityAddress0Country']]]></OpportunitiesAddressCountry>
+  <OpportunitiesAddressState><![CDATA[//*[@id='OpportunityAddress0State']]]></OpportunitiesAddressState> #AK
+  <OpportunitiesAddressZip><![CDATA[//*[@id='OpportunityAddress0PostalCode']]]></OpportunitiesAddressZip>
+  <OpportunitiesAddressDN><![CDATA[//*[@id='OpportunityAddress0DoNotSolicit']]]></OpportunitiesAddressDN>
+
+  <OpportunitiesMailingLine1><![CDATA[//*[@id='OpportunityAddress1AddressLine1']]]></OpportunitiesMailingLine1>
+  <OpportunitiesMailingLine2><![CDATA[//*[@id='OpportunityAddress1AddressLine2']]]></OpportunitiesMailingLine2>
+  <OpportunitiesMailingCounty><![CDATA[//*[@id='OpportunityAddress1County']]]></OpportunitiesMailingCounty>
+  <OpportunitiesMailingCountry><![CDATA[//*[@id='OpportunityAddress1Country']]]></OpportunitiesMailingCountry>
+  <OpportunitiesMailingCity><![CDATA[//input[@id='OpportunityAddress1City']]]></OpportunitiesMailingCity>
+  <OpportunitiesMailingState><![CDATA[//*[@id='OpportunityAddress1State']]]></OpportunitiesMailingState>
+  <OpportunitiesMailingZip><![CDATA[//*[@id='OpportunityAddress1PostalCode']]]></OpportunitiesMailingZip>
+  <OpportunitiesMailingDN><![CDATA[//*[@id='OpportunityAddress1DoNotSolicit']]]></OpportunitiesMailingDN>
+
+  <Save><![CDATA[//*[@id='OpportunityCreateForm']/div[5]/div/a[1]/span[2]]]></Save>
+  <Dublicatebtn><![CDATA[//*[@id='message']/div[4]/div/a[1]/span[2]]]></Dublicatebtn>
+  <SelectAddCntry><![CDATA[//*[@id='OpportunityAddress0Country']]]></SelectAddCntry>
+  <SelectMailigCntry><![CDATA[//*[@id='OpportunityAddress1Country']]]></SelectMailigCntry>
+  
+  <!--1099 SALE AGENT-->
+  <ClickOnOppurtunitiesTab><![CDATA[//a[@title='Opportunities']]]></ClickOnOppurtunitiesTab>
+  <ClickOnLeadsTab><![CDATA[//a[@title='Leads']]]></ClickOnLeadsTab>
+  <ClickOnClientTab><![CDATA[//a[@title='Clients']]]></ClickOnClientTab>
+  <CompanySrch><![CDATA[//*[@id='gs_company_name']]]></CompanySrch>
+  
+  <!--  EDIY OPPORTUNITIES  -->
+  <ClickOnEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[7]/span/a]]></ClickOnEdit>
+  <ClickOnEditSaleAgnt><![CDATA[//table[@id='list1']/tbody/tr[2]/td/span/a[@title='Edit Opportunity']]]></ClickOnEditSaleAgnt>
+
+
+    <!--CONVERT OPPORTUNITIES TO LEAD   -->
+  <ClickOnOpp><![CDATA[//table[@id='list1']/tbody/tr[2]/td[14]/a]]></ClickOnOpp>
+  <Convert><![CDATA[//*[@id='rerun']/span[1]]]></Convert>
+  <LeadRadioBtn><![CDATA[//*[@id='OpportunityConversionTargetModuleId14']]]></LeadRadioBtn>
+  <ClickSaveCovertBtn><![CDATA[//*[@id='convert-submit']/span[1]]]></ClickSaveCovertBtn>
+  <NoRecycleBin><![CDATA[//*[@id='OpportunityConversionDelete0']]]></NoRecycleBin>
+  <!--ADD NOTE-->
+  <ClickOnAddNote><![CDATA[//a[@title='Add Note']]]></ClickOnAddNote>
+  <NoteName><![CDATA[//*[@id='NoteName']]]></NoteName>
+  <NoteDescription><![CDATA[//*[@id='NoteDescription']]]></NoteDescription>
+  <Browserfile><![CDATA[//*[@id='DocumentFile']]]></Browserfile>
+  <SaveNote><![CDATA[//*[@id='savenotebtn']/span[1]]]></SaveNote>
+  
+</Locators>

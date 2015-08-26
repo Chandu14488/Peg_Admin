@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <LeadFirstName><![CDATA[//*[@id='LeadFirstName']]]></LeadFirstName>
+  <LastName><![CDATA[//*[@id='LeadLastName']]]></LastName>
+  <LeadCompanyNmae><![CDATA[//*[@id='LeadCompanyName']]]></LeadCompanyNmae>
+  <LeadPhnNumber><![CDATA[//*[@id='LeadPhone0PhoneFormat']]]></LeadPhnNumber>
+  <LeadEmail><![CDATA[//*[@id='LeadElectronicAddress0ElectronicContent']]]></LeadEmail>
+  <SrchLeadCompany><![CDATA[//*[@id='gs_company_name']]]></SrchLeadCompany>
+  <SrchEmail><![CDATA[//*[@id='gs_electronic_content']]]></SrchEmail>
+  <ClickonChangeResponsibility><![CDATA[//div[@class='grid_toolbar']/div/div[1]/ul/li[1]/a]]></ClickonChangeResponsibility>
+  <ChangeStatus><![CDATA[//div[@class='grid_toolbar']/div/div[1]/ul/li[2]/a]]></ChangeStatus>
+  <ChangeCategory><![CDATA[//div[@class='grid_toolbar']/div/div[1]/ul/li[3]/a]]></ChangeCategory>
+  <ChangeSource><![CDATA[//div[@class='grid_toolbar']/div/div[1]/ul/li[4]/a]]></ChangeSource>
+  <ChangeAccountManager><![CDATA[//div[@class='grid_toolbar']/div/div[1]/ul/li[5]/a]]></ChangeAccountManager>
+  <ChangeUserGrp><![CDATA[//div[@class='grid_toolbar']/div/div[1]/ul/li[7]/a]]></ChangeUserGrp>
+  <ChangePartner><![CDATA[//div[@class='grid_toolbar']/div/div[1]/ul/li[8]/a]]></ChangePartner>
+  <ChnageClientType><![CDATA[//div[@class='grid_toolbar']/div/div[1]/ul/li[9]/a]]></ChnageClientType>
+  <ChangePermisions><![CDATA[//div[@class='grid_toolbar']/div/div[1]/ul/li[10]/a]]></ChangePermisions>
+
+  <SelectResponsibilty><![CDATA[//*[@id='LeadResponsibilityUpdateAssignedUserId']]]></SelectResponsibilty>#423
+  <ClickUpdate><![CDATA[//a[text()='Update']/span]]></ClickUpdate>
+  <SelectStatus><![CDATA[//*[@id='LeadStatusUpdateStatus']]]></SelectStatus>#New
+  <UpdateStatusClk><![CDATA[//a[@onclick='validateStatusUpdate()']]]></UpdateStatusClk>
+  <SelectSource><![CDATA[//*[@id='LeadSourceUpdateReferralSource']]]></SelectSource>#Web Site
+  <SourceUpdateBtn><![CDATA[//a[@onclick='validateSourceUpdate()']]]></SourceUpdateBtn>
+  <SelectAccountManager><![CDATA[//*[@id='LeadManagerUpdateAssignedManagerId']]]></SelectAccountManager>
+  <AccntMngrUpdtaeBtn><![CDATA[//a[@onclick='validateManagerUpdate()']]]></AccntMngrUpdtaeBtn>
+  <SelectUserGrp><![CDATA[//*[@id='LeadGroupUpdateAssignedUserGroupId']]]></SelectUserGrp>
+  <UserGrpUpdateBtn><![CDATA[//a[@onclick='validateGroupUpdate()']]]></UserGrpUpdateBtn>
+  <SelectClinetType><![CDATA[//*[@id='LeadClienttypeUpdateClientType']]]></SelectClinetType>
+  <UpdateClientTypeBtn><![CDATA[//a[@onclick='validateClienttypeUpdate()']]]></UpdateClientTypeBtn>
+  <UpdatePermissions><![CDATA[//a[@onclick='validatePermissionUpdate()']]]></UpdatePermissions>
+
+  <!--SEND EMAIL FROM LEAD -->
+  <ClickOnLead><![CDATA[//table[@id='list1']/tbody/tr[2]/td[16]/a]]></ClickOnLead>
+  <ClickOnEmail><![CDATA[//span[text()='Send E-Mail']]]></ClickOnEmail>
+  <EnterCc><![CDATA[//*[@id='EmailCcAddrs']]]></EnterCc>
+  <ClickOnSendBtn><![CDATA[//div[@class='clearfix']/div[2]/a[1]]]></ClickOnSendBtn>
+  
+  <!--ADD NOTE FOR LEAD -->
+  <ClickOnAddNote><![CDATA[//span[text()='Add Note']]]></ClickOnAddNote>
+  <EnterSubject><![CDATA[//*[@id='NoteName']]]></EnterSubject>
+  <EnterDescription><![CDATA[//*[@id='NoteDescription']]]></EnterDescription>
+  <SendNoteBtn><![CDATA[//*[@id='savenotebtn']/span[2]]]></SendNoteBtn>
+  
+  <!--ADD DOCUMENT FOR LEAD -->
+  <ClickOnAddDocumnet><![CDATA[//span[text()='Add Document']]]></ClickOnAddDocumnet>
+  <DocumentName><![CDATA[//*[@id='DocumentName']]]></DocumentName>
+  <DocumentDesc><![CDATA[//*[@id='DocumentDescription']]]></DocumentDesc>
+  <AttachmentDoc><![CDATA[//*[@id='DocumentFiles']]]></AttachmentDoc>
+  <SaveDocButn><![CDATA[//*[@id='savedocument']/span[1]]]></SaveDocButn>
+  
+  <!--ADD MEETING FOR LEAD -->
+  <ClickOnAddMeeting><![CDATA[//span[text()='New Meeting']]]></ClickOnAddMeeting>
+  <EnterSubjectMeeting><![CDATA[//*[@id='MeetingName']]]></EnterSubjectMeeting>
+  <ClickOnStartDate><![CDATA[//*[@id='MeetingStartDate']]]></ClickOnStartDate>
+  <SelectDate><![CDATA[//a[text()='27']]]></SelectDate>
+  <ClickOnEndDate><![CDATA[//*[@id='MeetingEndDate']]]></ClickOnEndDate>
+  <SeletEndDate><![CDATA[//a[text()='28']]]></SeletEndDate>
+  <ClickOnSaveMeeting><![CDATA[//*[@id='main_container']/div/div[3]/a[1]/span[1]]]></ClickOnSaveMeeting>
+  
+  <!--CLONE LEDA -->
+  <ClickOnCloneLead><![CDATA[//span[text()='Clone']]]></ClickOnCloneLead>
+  <!--ADD NEW TASK FOR LEAD-->
+  <ClickOnNewTask><![CDATA[//span[text()='New Task']]]></ClickOnNewTask>
+  <EnterSubjectTask><![CDATA[//*[@id='TaskName']]]></EnterSubjectTask>
+  <TaskStrtDate><![CDATA[//*[@id='TaskStartDate']]]></TaskStrtDate>
+  <ClickOnSaveBtnTask><![CDATA[//div[@class='ui-buttonset']/a[1]]]></ClickOnSaveBtnTask>
+  <ShowMeetingOnCalender><![CDATA[]]></ShowMeetingOnCalender>
+  <ClickOnCalender><![CDATA[//span[contains(text(),'Meetings (')]]]></ClickOnCalender>
+  
+  
+</Locators>
+

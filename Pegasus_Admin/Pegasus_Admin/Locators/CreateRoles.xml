@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   OFFFICE   #######################
+  <MoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]]]></MoveHover>
+  <ClickOnAdmin><![CDATA[link=Admin]]></ClickOnAdmin>
+  <ClickOnOfficeTab><![CDATA[//*[@id='css3menu']/li[1]/a]]></ClickOnOfficeTab>
+  <ClickOnCreate><![CDATA[//a[@title='Create New Role']]]></ClickOnCreate>
+  //######################    Create Department
+  <RoleName><![CDATA[//*[@id='OrganizationRoleName']]]></RoleName>
+  <SelectDepartment><![CDATA[//*[@id='OrganizationRoleOrgDeptId']]]></SelectDepartment>
+  <Manager><![CDATA[//*[@id='OrganizationRoleManager']]]></Manager>
+  //################   CLICK ON SAVE
+  <ClickOnSave><![CDATA[//*[@id='roleCreate']]]></ClickOnSave>
+
+</Locators>

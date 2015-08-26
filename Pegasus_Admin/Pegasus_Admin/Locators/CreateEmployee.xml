@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //###################  LOGIN WITH CROP    ############################
+  <EnterUsername><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButtojn>
+  //####################  OFFICE TAB
+  <ClickOnEmployeesTab><![CDATA[//*[@id='css3menu']/li[2]/a]]></ClickOnEmployeesTab>
+  <ClickOnCreate><![CDATA[//*[@id='createbutton']/span/span]]></ClickOnCreate>
+  <UserName><![CDATA[//*[@id='UserUserName']]]></UserName>
+  <PrimaryEmail><![CDATA[//*[@id='UserVerificationEmail']]]></PrimaryEmail>
+  <Salutation><![CDATA[//*[@id='CorporateUserSalutation']]]></Salutation>
+  <FirstName><![CDATA[//*[@id='CorporateUserFirstName']]]></FirstName>
+  <LastName><![CDATA[//*[@id='CorporateUserLastName']]]></LastName>
+  //##############  Avatars
+  <CorporateAdmin><![CDATA[//*[@id='117']]]></CorporateAdmin>
+  //############   PHONE
+  <SelectCountry><![CDATA[//*[@id='CorporateUserPhone0PhoneCountryCode']]]></SelectCountry>
+  <PhoneNumber><![CDATA[//*[@id='CorporateUserPhone0PhoneFormat']]]></PhoneNumber>
+  //#############  E-Mails And Internet
+  <eAddress><![CDATA[//*[@id='CorporateUserElectronicAddress0ElectronicContent']]]></eAddress>
+  //#############   ADDRESS
+  <AddressLine1><![CDATA[//*[@id='CorporateUserAddress0AddressLine1']]]></AddressLine1>
+  <Country><![CDATA[//*[@id='CorporateUserAddress0Country']]]></Country>
+  <State><![CDATA[//*[@id='CorporateUserAddress0State']]]></State>
+  //################  SAVE
+  <ClickOnSaveBtn><![CDATA[//*[@id='CorporateUserEmployeeCreateForm']/div[5]/div/a[1]/span[1]]]></ClickOnSaveBtn>
+
+  <!--     EDIT EMPLOYEE   -->
+  <ClickOnEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/span/a]]></ClickOnEdit>
+  <ClickSaveBtn><![CDATA[//a[@title='Save']]]></ClickSaveBtn>
+  <searchemployee><![CDATA[//*[@id='gs_electronic_content']]]></searchemployee>
+  
+  <!--DELETE CLIENT -->
+  <ClickCreateClientBtn><![CDATA[//a[@title='Create New Client']]]></ClickCreateClientBtn>
+  <EnterCompanyDBAName><![CDATA[//*[@id='ClientCompanyDbaName']]]></EnterCompanyDBAName>
+  <CompanyDBAName><![CDATA[//*[@id='ClientCompanyDbaName']]]></CompanyDBAName>
+  <SearchCompany><![CDATA[//*[@id='gs_company_dba_name']]]></SearchCompany>
+  <SelectClientDEl><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></SelectClientDEl>
+  <ClickOnDel><![CDATA[//*[@id='deleteclient']/span[1]]]></ClickOnDel>
+  
+  <!--Disable Employee-->
+  <ClickOnEmployee><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></ClickOnEmployee>
+  
+  
+</Locators>

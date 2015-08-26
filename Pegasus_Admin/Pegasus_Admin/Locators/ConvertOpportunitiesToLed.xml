@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <OpportunitiesTab><![CDATA[//*[@id='css3menu']/li[2]/a]]></OpportunitiesTab>
+
+  <OpportunitiesCreate><![CDATA[//*[@id='actionbuttons']/span]]></OpportunitiesCreate>
+  <EnterTestName><![CDATA[//*[@id='gs_opportunity_name']]]></EnterTestName>
+  <ClickOnName><![CDATA[//table[@id="list1"]/tbody/tr[2]/td[14]/a]]></ClickOnName>
+  <ClickOnConvert><![CDATA[//*[@id='rerun']/span[2]]]></ClickOnConvert>
+  <ClickOnLead><![CDATA[//*[@id='OpportunityConversionTargetModuleId14']]]></ClickOnLead>
+  <ClickOnSaveBtn><![CDATA[//*[@id='convert-submit']/span[2]]]></ClickOnSaveBtn>
+  
+  <!--IMPORT OPPORTUNITIES -->
+  <ClickOnImportOpportunities><![CDATA[//*[@id='main_container']/div[3]/div/div[3]/div[3]/a[2]/span/span]]></ClickOnImportOpportunities>
+  <BrowseFile><![CDATA[//*[@id='vcard_file']]]></BrowseFile>
+  <ClickImportBtn><![CDATA[//*[@id='importform']/input[2]]]></ClickImportBtn>
+  <ClickOnMergeFile><![CDATA[//a[@title='Merge']]]></ClickOnMergeFile>
+  <!--MERGE OPPORTUNITIES -->
+  <ClickMergeRecords><![CDATA[//*[@id='mergeOpportunities']/span/span]]></ClickMergeRecords>
+  <Select1Oppp><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></Select1Oppp>
+  <Select2Opp><![CDATA[//table[@id='list1']/tbody/tr[3]/td[1]/input]]></Select2Opp>
+  <SelectCompanyToMerge><![CDATA[//*[@id='OpportunityMergeForm']/div[2]/div[2]/div[1]/input]]></SelectCompanyToMerge>
+  <ClickMergeOpp><![CDATA[//*[@id='merge_popup']/div[3]/div/a[1]/span[1]]]></ClickMergeOpp>
+  
+</Locators>

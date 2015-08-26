@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //###################  LOGIN WITH CROP    ############################
+  <EnterUsername><![CDATA[//*[@id='UserUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserPasswordHash']]]></EnterPassword>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButtojn>
+  //#######################   Residual Income  #######################
+  <ClickResidualIncomeTab><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClickResidualIncomeTab>
+  <ClickOnImport><![CDATA[//*[@id='css3menu']/li[4]/div/div[1]/ul/li/a]]></ClickOnImport>
+  //  ############################  IMPORT
+  <ClickOnImportNew><![CDATA[//*[@id='actionbuttons']/span]]></ClickOnImportNew>
+  <ProcessorType><![CDATA[//*[@id='ImportIndexProcessor']]]></ProcessorType>
+  <ReportingPeriod><![CDATA[//*[@id='ImportIndexReportingMonth']]]></ReportingPeriod>
+  <ReportingYear><![CDATA[//*[@id='ImportIndexReportingYear']]]></ReportingYear>
+  <FileDate><![CDATA[//*[@id='ImportIndexFileDate']]]></FileDate>
+  <ClickOnDate><![CDATA[//*[@id='ui-datepicker-div']/table/tbody/tr[2]/td[3]/a]]></ClickOnDate>
+  <SelectBrowseCSVFile><![CDATA[//*[@id='ImportIndexCsvFile']]]></SelectBrowseCSVFile>
+  <ClickOnImportBtn><![CDATA[//*[@id='main_container']/div[2]/div[3]/a[1]/span[2]]]></ClickOnImportBtn>
+  //########################### SET FILTER
+  <SelectFiletReportingPeriod><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[1]/select]]></SelectFiletReportingPeriod>
+  <SelectProcessorFiler><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[3]/select]]></SelectProcessorFiler>
+  <FilterFileFormat><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[4]/select]]></FilterFileFormat>
+  <FileName><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[5]/input]]></FileName>
+  <SelectStatus><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[6]/select]]></SelectStatus>
+  <ClickOnCalculation><![CDATA[//*[@id='wizardaction']/span]]></ClickOnCalculation>
+  //Calculation wizard
+  <ClickOnStep1><![CDATA[//*[@id='main_container']/div[2]/div[3]/div[1]/div[3]/div/div/ul/li[3]/h3/a]]></ClickOnStep1>
+  <EnterRevenuePercentage><![CDATA[//*[@id='text1']]]></EnterRevenuePercentage>
+  <ClickOnApplyCheckBox><![CDATA[//*[@id='ResidualFileRevenueOrgrevenueshare']]]></ClickOnApplyCheckBox>
+  <ClickOnCalucationSaveBtn><![CDATA[//*[@id='ResidualFileRevenueRevenueForm']/div[2]/div[3]/a[1]/span[2]]]></ClickOnCalucationSaveBtn>
+  //Calculate Payout
+  <CalculatePayout><![CDATA[//*[@id='main_container']/div[3]/div[3]/div[3]/div[3]/div/div/ul/li[3]/h3/a]]></CalculatePayout>
+  //Publish Payout
+  <PublishPayout><![CDATA[//*[@id='main_container']/div[2]/div[3]/div[5]/div[3]/div/div/ul/li[3]/h3/a]]></PublishPayout>
+  //###############  LOGOUT
+  <WelcomeMoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]/div]]></WelcomeMoveHover>
+  <ClickOnWelcomeBack><![CDATA[//*[@id='user_header_info']/table/tbody/tr/td[2]/div[2]/a[2]]]></ClickOnWelcomeBack>
+  // ######################## LOGIN WITH OFFICE    ############################
+  <EnterUsernameOff><![CDATA[//*[@id='UserUserName']]]></EnterUsernameOff>
+  <EnterPasswordOff><![CDATA[//*[@id='UserPasswordHash']]]></EnterPasswordOff>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButtojn>
+
+  <OfficeResidualIncomeTab><![CDATA[//*[@id='css3menu']/li[9]/a]]></OfficeResidualIncomeTab>
+  //####################  Calulation WizarD
+  <AgentOutlook><![CDATA[//*[@id='main_container']/div[2]/div[3]/div[1]/div[3]/div/div/ul/li[3]/h3/a]]></AgentOutlook>
+  //################   START OVER
+  <clickOnStartOver><![CDATA[//*[@id='startoverdiv']/a/span]]></clickOnStartOver>
+  //########### Calculate Ajustment
+  <CalculateAdjustment><![CDATA[//*[@id='main_container']/div[2]/div[3]/div[3]/div[3]/div/div/ul/li[3]/h3/a]]></CalculateAdjustment>
+  //######### CALCULATE PAYOUT
+  <CalculatePayoutoff><![CDATA[//*[@id='main_container']/div[2]/div[3]/div[5]/div[3]/div/div/ul/li[3]/h3/a]]></CalculatePayoutoff>
+  //########## PUBLISH LAYOUT
+  <PublishLayout0ff><![CDATA[//*[@id='main_container']/div[2]/div[3]/div[7]/div[3]/div/div/ul/li[3]/h3/a]]></PublishLayout0ff>
+  
+  
+  
+  
+</Locators>

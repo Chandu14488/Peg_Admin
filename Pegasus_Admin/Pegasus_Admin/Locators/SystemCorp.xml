@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <SystemTab><![CDATA[//*[@id='css3menu']/li[8]/a]]></SystemTab>
+  <ClickOnLinkAddressType><![CDATA[link=Address Type]]></ClickOnLinkAddressType>
+  <ClickOnAddNewItem><![CDATA[//a[@title='Add New Item']]]></ClickOnAddNewItem>
+  <AddNewItem><![CDATA[//*[@id='CorporatePickListValueValue']]]></AddNewItem>
+  <ClickOnSaveBtn><![CDATA[//a[@title='Save']]]></ClickOnSaveBtn>
+  <ClickOnCancel><![CDATA[//a[@title='Cancel']]]></ClickOnCancel>
+  
+  <!-- eAddress Label for E-Mails      -->
+  <eAddressLabelForEmail><![CDATA[link=eAddress Label for E-Mails]]></eAddressLabelForEmail>
+  <eAddressLabelIMS><![CDATA[link=eAddress Label for IMs]]></eAddressLabelIMS>
+  <eAddressLabelForSocialMedia><![CDATA[link=eAddress Label for Social Media]]></eAddressLabelForSocialMedia>
+  <eAddressType><![CDATA[link=eAddress Type]]></eAddressType>
+  <Salutation><![CDATA[link=Salutation]]></Salutation>
+  <PhoneType><![CDATA[link=Phone Type]]></PhoneType>
+  
+  <!-- SCHEDULAR  -->
+  <ClickOnCreatebtn><![CDATA[//a[@title='Create Scheduler']]]></ClickOnCreatebtn>
+  <JobName><![CDATA[//*[@id='CorporateJobTaskName']]]></JobName>
+  <Job><![CDATA[//*[@id='CorporateJobTaskFunction']]]></Job>
+  <Interval><![CDATA[//*[@id='CorporateJobTaskBasicInterval']]]></Interval>
+  <Status><![CDATA[//*[@id='CorporateJobTaskInactive']]]></Status>
+  <Everyday><![CDATA[.//*[@id='all']]]></Everyday>
+  <SaveSchedular><![CDATA[//a[@title='Save']]]></SaveSchedular>
+  
+  
+</Locators>

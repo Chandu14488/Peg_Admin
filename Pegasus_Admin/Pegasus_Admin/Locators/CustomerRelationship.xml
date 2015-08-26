@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  ################################ Order FulFillment ###################################
+  <CoustomerRelationTab><![CDATA[//*[@id='tabs']/li[7]/a/span]]></CoustomerRelationTab>
+  <Order><![CDATA[//*[@id='ClientCustomerRelationshipOrderPrepDays']]]></Order>
+  <ZeroPercentage><![CDATA[//*[@id='ClientCustomerRelationshipDelWindow0']]]></ZeroPercentage>
+  <OnePercentage><![CDATA[//*[@id='ClientCustomerRelationshipDelWindow1']]]></OnePercentage>
+  <EightPercentage><![CDATA[//*[@id='ClientCustomerRelationshipDelWindow2']]]></EightPercentage>
+  <FifteenPercentage><![CDATA[ClientCustomerRelationshipDelWindow3]]></FifteenPercentage>
+  <ThirtyPercentage><![CDATA[ClientCustomerRelationshipDelWindow4]]></ThirtyPercentage>
+  <DipositedDropdown><![CDATA[//*[@id='ClientCustomerRelationshipOrderDepTime']]]></DipositedDropdown>
+  <PurchasePercentage><![CDATA[//*[@id='ClientCustomerRelationshipPercentPurchase']]]></PurchasePercentage>
+  <DateTimeExplane><![CDATA[//*[@id='ClientCustomerRelationshipOrderDepTimeExplain']]]></DateTimeExplane>
+  <FulFillDropdown><![CDATA[//*[@id='ClientCustomerRelationshipFulfillmentDoneBy']]]></FulFillDropdown>
+  <RenewalsDropdown><![CDATA[//*[@id='ClientCustomerRelationshipAutomaticRenewalRecurringTrans']]]></RenewalsDropdown>
+  ################################ FulFillment House ###################################
+  <FulFillExpend><![CDATA[//*[@id='fulfillmentHousebox4img']/span]]></FulFillExpend>
+  <FulFillName><![CDATA[//*[@id='ClientCustomerRelationshipFulfillmentHouse']]]></FulFillName>
+  <FulFillDeliveryTime><![CDATA[//*[@id='ClientCustomerRelationshipFulfillmentDelTime']]]></FulFillDeliveryTime>
+  <FulFillAddress><![CDATA[//*[@id='ClientCustomerRelationshipFulfillmentAddress']]]></FulFillAddress>
+  <FulFillCity><![CDATA[//*[@id='ClientCustomerRelationshipFulfillmentCity']]]></FulFillCity>
+  <FulFillStateDropdown><![CDATA[//*[@id='ClientCustomerRelationshipFulfillmentState']]]></FulFillStateDropdown>
+  <FulFillZip><![CDATA[//*[@id='ClientCustomerRelationshipFulfillmentZip']]]></FulFillZip>
+  <FulFillPhone><![CDATA[//*[@id='ClientCustomerRelationshipPhone']]]></FulFillPhone>
+  <FulFillDecription><![CDATA[//*[@id='ClientCustomerRelationshipFulfillmentDescription']]]></FulFillDecription>
+  ################################ Shipping Service ###################################
+  <ShippingExpend><![CDATA[//*[@id='shippingServicebox4img']/span]]></ShippingExpend>
+  <ShippingName><![CDATA[//*[@id='ClientCustomerRelationshipShippingService']]]></ShippingName>
+  <ShippingDeliveryTime><![CDATA[//*[@id='ClientCustomerRelationshipShippingDelTime']]]></ShippingDeliveryTime>
+  <ShippingAddress><![CDATA[//*[@id='ClientCustomerRelationshipShippingAddress']]]></ShippingAddress>
+  <ShippingCity><![CDATA[//*[@id='ClientCustomerRelationshipShippingCity']]]></ShippingCity>
+  <ShippingStateDropdown><![CDATA[//*[@id='ClientCustomerRelationshipShippingState']]]></ShippingStateDropdown>
+  <ShippingZip><![CDATA[//*[@id='ClientCustomerRelationshipShippingZip']]]></ShippingZip>
+  ################################ Incentives ###################################
+  <IncentivesExpend><![CDATA[//*[@id='incentivesbox4img']/span]]></IncentivesExpend>
+  <IncentivesOfferedDropdown><![CDATA[//*[@id='ClientCustomerRelationshipIncentiveOffered']]]></IncentivesOfferedDropdown>
+  <IncentivesOfferedText><![CDATA[//*[@id='ClientCustomerRelationshipIncentiveType']]]></IncentivesOfferedText>
+  ################################ Sales Deposit ###################################
+  <SalesExpend><![CDATA[//*[@id='salesDepositPolicybox4img']/span]]></SalesExpend>
+  <SalesDepositDropdown><![CDATA[//*[@id='ClientCustomerRelationshipDepositRequired']]]></SalesDepositDropdown>
+  <SalesTransation><![CDATA[//*[@id='ClientCustomerRelationshipPercentCardTrans']]]></SalesTransation>
+  <SalesPercentage><![CDATA[//*[@id='ClientCustomerRelationshipPercentDep']]]></SalesPercentage>
+  <SalesShippedDropdown><![CDATA[//*[@id='ClientCustomerRelationshipBillCutomers']]]></SalesShippedDropdown>
+  <SalesDaysDropdown><![CDATA[//*[@id='ClientCustomerRelationshipBillCutomersDays']]]></SalesDaysDropdown>
+  ################################ Refund Policy ###################################
+  <RefundExpend><![CDATA[//*[@id='refundPolicybox4img']/span]]></RefundExpend>
+  <RefundSalesDropdown><![CDATA[//*[@id='ClientCustomerRelationshipRefundPolicy']]]></RefundSalesDropdown>
+  <RefundPolicyDropdown><![CDATA[//*[@id='ClientCustomerRelationshipRefundPolicyType']]]></RefundPolicyDropdown>
+  <RefundTransactionsDropdown><![CDATA[//*[@id='ClientCustomerRelationshipRefundPolicyTypeOther']]]></RefundTransactionsDropdown>
+  <RefundDaysDropdown><![CDATA[//*[@id='ClientCustomerRelationshipDepositDays']]]></RefundDaysDropdown>
+
+  <Next><![CDATA[//div[@align='center']/div[2]/a]]></Next>
+  <ReferenceTab><![CDATA[//*[@id='tabs']/li[10]/a/span]]></ReferenceTab>
+  <ReferenceName><![CDATA[//*[@id='ClientReference0ReferenceName']]]></ReferenceName>
+  <ReferenceVendor><![CDATA[//*[@id='ClientReference0AccountNr']]]></ReferenceVendor>
+  <ReferenceProduct><![CDATA[//*[@id='ClientReference0Description']]]></ReferenceProduct>
+  <ReferenceContactDropdown><![CDATA[//*[@id='ClientReference0ContactContactSalutation']]]></ReferenceContactDropdown>
+  #Mr
+  <ReferenceFirst><![CDATA[//*[@id='ClientReference0ContactContactFirstName']]]></ReferenceFirst>
+  <ReferenceMiddle><![CDATA[//*[@id='ClientReference0ContactContactMiddleName']]]></ReferenceMiddle>
+  <ReferenceLast><![CDATA[//*[@id='ClientReference0ContactContactLastName']]]></ReferenceLast>
+  <AddReferenceLink><![CDATA[//*[@id='addClientReference']]]></AddReferenceLink>
+  </Locators>
+

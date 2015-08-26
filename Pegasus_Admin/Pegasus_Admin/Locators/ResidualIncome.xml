@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   Residual Income  #######################
+  <ClickResidualIncomeTab><![CDATA[//*[@id='tabs']/li[15]/a/span]]></ClickResidualIncomeTab>
+  //###################### CLICK ON CREATE BUTTON
+  <ClickOnCreateBtn><![CDATA[//*[@id='actionbuttons']/span[2]]]></ClickOnCreateBtn>
+  <EnterAdjustmentName><![CDATA[//*[@id='RirOrgMasterRulesetRuleName']]]></EnterAdjustmentName>
+  <Description><![CDATA[//*[@id='RirOrgMasterRulesetDescription']]]></Description>
+  <AdjustmentFor><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentFor']]]></AdjustmentFor>
+  <AdjustmentType><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentType']]]></AdjustmentType>
+  <SelectProcessor><![CDATA[//*[@id='RirOrgMasterRulesetProcessor']]]></SelectProcessor>
+  //######################### CREATE RULE   ######################################
+  <TypeRule><![CDATA[//*[@id='rule_type0']]]></TypeRule>
+  <Amount><![CDATA[//*[@id='amount_field0']]]></Amount>
+  <AddRemove><![CDATA[//*[@id='RirOrgMasterRulesetCustomRule0AddOrRemoveFlag']]]></AddRemove>
+  <Remarks><![CDATA[//*[@id='RirOrgMasterRulesetCustomRule0Remarks']]]></Remarks>
+  //##########   CLICK ON SAVE
+  <ClickOnSavebtnResidual><![CDATA[//*[@id='main_container']/div[1]/div[3]/a[1]/span[2]]]></ClickOnSavebtnResidual>
+
+</Locators>

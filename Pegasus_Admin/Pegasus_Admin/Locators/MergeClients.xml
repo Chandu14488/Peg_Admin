@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <ClientTab><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClientTab>
+  //################ CREATE CLIENTS
+  <ClickOnCreatebtn><![CDATA[//*[@id='actionbuttons']/span]]></ClickOnCreatebtn>
+  <EnterCmpanyDBAName><![CDATA[//*[@id='ClientCompanyDbaName']]]></EnterCmpanyDBAName>
+  <ClickOnSavebtn><![CDATA[//*[@id='ClientCreateForm']/div[2]/div[3]/div/a[1]/span[2]]]></ClickOnSavebtn>
+
+  <ClicKOnClientTAB1><![CDATA[//*[@id='css3menu']/li[4]/a/span]]></ClicKOnClientTAB1>
+  <EnterCompanyName><![CDATA[//*[@id='gs_company_dba_name']]]></EnterCompanyName>
+
+  <ClickOnClient><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></ClickOnClient>
+  <ClickOn2Client><![CDATA[//table[@id='list1']/tbody/tr[3]/td[1]/input]]></ClickOn2Client>
+  <MergeRecodsBtn><![CDATA[//*[@id='mergeClients']/span]]></MergeRecodsBtn>
+  <ClickOnSave><![CDATA[//*[@id='merge_popup']/div[3]/div/a[1]/span[2]]]></ClickOnSave>
+  <ClickToMakePrimary><![CDATA[//*[@id='ClientMergeForm']/div[2]/div[2]/div[1]/input]]></ClickToMakePrimary>
+  //Delete Client
+  <DeleteClient><![CDATA[//*[@id='deleteclient']/span[2]]]></DeleteClient>
+
+</Locators>

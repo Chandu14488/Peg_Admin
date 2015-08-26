@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  //#######################   INTEGRATION TAB  #######################
+  
+  <MoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]]]></MoveHover>
+  <ClickOnAdmin><![CDATA[link=Admin]]></ClickOnAdmin>
+  <ClickOnMasterDataTab><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClickOnMasterDataTab>
+  <ClickOnCreate><![CDATA[//a[@title='Create New Processor']]]></ClickOnCreate>
+  
+  //######################    Create API CODES
+  <ProcessorName><![CDATA[//*[@id='MasterProcessorNewProcessorName']]]></ProcessorName>
+  <ProcessorCode><![CDATA[//*[@id='MasterProcessorProcessorCode']]]></ProcessorCode>
+
+  //#################   SAVE   
+  <SaveBtn><![CDATA[//a[@title='Save']]]></SaveBtn>
+  
+  
+  
+  
+</Locators>
+
+

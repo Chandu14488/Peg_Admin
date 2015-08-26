@@ -1,0 +1,504 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D847D947-87B8-4527-A4C4-73B45573D41F}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Pegasus_Admin</RootNamespace>
+    <AssemblyName>Pegasus_Admin</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+    <ReferencePath>$(ProgramFiles)\Common Files\microsoft shared\VSTT\$(VisualStudioVersion)\UITestExtensionPackages</ReferencePath>
+    <IsCodedUITest>False</IsCodedUITest>
+    <TestProjectType>UnitTest</TestProjectType>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Atlassian.Jira">
+      <HintPath>Selenium\Atlassian.Jira.dll</HintPath>
+    </Reference>
+    <Reference Include="LinqToExcel">
+      <HintPath>Selenium\LinqToExcel.dll</HintPath>
+    </Reference>
+    <Reference Include="log4net">
+      <HintPath>Selenium\log4net.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit-gui-runner">
+      <HintPath>Selenium\nunit-gui-runner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.core">
+      <HintPath>Selenium\nunit.core.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.core.interfaces">
+      <HintPath>Selenium\nunit.core.interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework, Version=2.6.4.14350, Culture=neutral, PublicKeyToken=96d09a1eb7f44a77, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>Selenium\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.uiexception">
+      <HintPath>Selenium\nunit.uiexception.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.uikit">
+      <HintPath>Selenium\nunit.uikit.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.util">
+      <HintPath>Selenium\nunit.util.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion">
+      <HintPath>Selenium\Remotion.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Data.Linq">
+      <HintPath>Selenium\Remotion.Data.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="Remotion.Interfaces">
+      <HintPath>Selenium\Remotion.Interfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Selenium.WebDriverBackedSelenium">
+      <HintPath>Selenium\Selenium.WebDriverBackedSelenium.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="ThoughtWorks.Selenium.Core">
+      <HintPath>Selenium\ThoughtWorks.Selenium.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver">
+      <HintPath>Selenium\WebDriver.dll</HintPath>
+    </Reference>
+    <Reference Include="WebDriver.Support">
+      <HintPath>Selenium\WebDriver.Support.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <Choose>
+    <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework, Version=10.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+      </ItemGroup>
+    </When>
+    <Otherwise>
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.UnitTestFramework" />
+      </ItemGroup>
+    </Otherwise>
+  </Choose>
+  <ItemGroup>
+    <Compile Include="Locators\LocatorReader.cs" />
+    <Compile Include="PageHelper\AddContactHelper.cs" />
+    <Compile Include="PageHelper\AddLeadsHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\AddDocumentAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\AddNotesAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\CreateAPICodesAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\CreateDepartmentHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\CreateDownloadIdsHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\CreateEquipmentAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\CreateIframeAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\CreateMerchantTypeAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\CreateOfficeGrpAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\CreateOfficeRoleAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\CreateOfficeTeamAdmin.cs" />
+    <Compile Include="PageHelper\AdminHelper\CreateOfficeUserAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\CreatePrcingPlanHelperAdmin.cs" />
+    <Compile Include="PageHelper\AdminHelper\CreateProductsHelperAdmin.cs" />
+    <Compile Include="PageHelper\AdminHelper\CreateRatesAndFeesAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\CreateShippingCarrierHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\CreateSystemSchedularHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\EditAddNotesAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\EditDepartmentHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\EditDownloadIdsHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\EditEmailAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\EditEquipmentAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\EditIframeAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\EditNewMeetingAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\EditNewTaskAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\EditPrcingPlanHelperAdmin.cs" />
+    <Compile Include="PageHelper\AdminHelper\EditProductsHelperAdmin.cs" />
+    <Compile Include="PageHelper\AdminHelper\EditShippingCarrierHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\NewMeetingAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\NewTaskAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\ResetPasswordOfficeUserAdminHelper.cs" />
+    <Compile Include="PageHelper\AdminHelper\SendEmailAdminHelper.cs" />
+    <Compile Include="PageHelper\BulkUpdateOffice.cs" />
+    <Compile Include="PageHelper\BulkUpdateOfficeOpportunitiesHelper.cs" />
+    <Compile Include="PageHelper\ClientBugsHelper.cs" />
+    <Compile Include="PageHelper\ClientsHelper.cs" />
+    <Compile Include="PageHelper\Comm\DriverHelper.cs" />
+    <Compile Include="PageHelper\Comm\DriverTestCase.cs" />
+    <Compile Include="PageHelper\Comm\ExecutionLog.cs" />
+    <Compile Include="PageHelper\Comm\XMLParse.cs" />
+    <Compile Include="PageHelper\ContactUsHelper.cs" />
+    <Compile Include="PageHelper\Corp\CreateOfficeHelper.cs" />
+    <Compile Include="PageHelper\Corp\CreateOmahaAuthcorpHelper.cs" />
+    <Compile Include="PageHelper\Corp\CreatePDFCategoriesHelper.cs" />
+    <Compile Include="PageHelper\Corp\CreateResidualIncmeAdjustmenRuleHelper.cs" />
+    <Compile Include="PageHelper\Corp\DeletePublishFileHelper.cs" />
+    <Compile Include="PageHelper\Corp\ImportAndCalculationRIHelper.cs" />
+    <Compile Include="PageHelper\Corp\LoginAsCorpHelper.cs" />
+    <Compile Include="PageHelper\Corp\OfficeFNDNumberHelper.cs" />
+    <Compile Include="PageHelper\Corp\OfficeVerifyCodesHelper.cs" />
+    <Compile Include="PageHelper\Corp\ResdiualIncmeFstDataNrthHelper.cs" />
+    <Compile Include="PageHelper\Corp\ResdiualIncmeFstDataNrthHelperRevnueShareSet.cs" />
+    <Compile Include="PageHelper\Corp\ResdiualIncmeSkipHelper.cs" />
+    <Compile Include="PageHelper\Corp\ResdiualIncmeWorldPayHelper.cs" />
+    <Compile Include="PageHelper\Corp\ResidualIncmeAdjustmentToolHelper.cs" />
+    <Compile Include="PageHelper\Corp\ResidualIncmeOfficeHelper.cs" />
+    <Compile Include="PageHelper\Corp\ResidualIncmeRevneShareHelper.cs" />
+    <Compile Include="PageHelper\CovertOppotunitiesToLeadHelper.cs" />
+    <Compile Include="PageHelper\CreateAdminProcessorHelper.cs" />
+    <Compile Include="PageHelper\CreateAgentHelper.cs" />
+    <Compile Include="PageHelper\CreateAmexRateHelper.cs" />
+    <Compile Include="PageHelper\CreateAvatarsHelper.cs" />
+    <Compile Include="PageHelper\CreateCategoryTicketsHelper.cs" />
+    <Compile Include="PageHelper\CreateDashboardHelper.cs" />
+    <Compile Include="PageHelper\CreateEmployeeCorp.cs" />
+    <Compile Include="PageHelper\CreateLanguageHelper.cs" />
+    <Compile Include="PageHelper\CreateMerchantTypeHelper.cs" />
+    <Compile Include="PageHelper\CreateOmahaAuthGripCorpHelper.cs" />
+    <Compile Include="PageHelper\CreateOmahaAuthGripHelper.cs" />
+    <Compile Include="PageHelper\CreatePDFsHelper.cs" />
+    <Compile Include="PageHelper\CreatePricingPlanHelper.cs" />
+    <Compile Include="PageHelper\CreateProcessorHelper.cs" />
+    <Compile Include="PageHelper\CreateProductsCategoryHelper.cs" />
+    <Compile Include="PageHelper\CreateReportHelper.cs" />
+    <Compile Include="PageHelper\CreateResolutionTicketHelper.cs" />
+    <Compile Include="PageHelper\CreateStatusTicketHelper.cs" />
+    <Compile Include="PageHelper\CreateTicketPriorityHelper.cs" />
+    <Compile Include="PageHelper\CreateTopicTicketsHelper.cs" />
+    <Compile Include="PageHelper\CreateVendorHelper.cs" />
+    <Compile Include="PageHelper\CustomerRelationshipHelper.cs" />
+    <Compile Include="PageHelper\DeleteOpportunitiesHelper.cs" />
+    <Compile Include="PageHelper\EditAmexRateHelper.cs" />
+    <Compile Include="PageHelper\EditEmployeeAgentHelper.cs" />
+    <Compile Include="PageHelper\EditLeadsHelper.cs" />
+    <Compile Include="PageHelper\EditOfficeHelper.cs" />
+    <Compile Include="PageHelper\EditOpportunitiesHelper.cs" />
+    <Compile Include="PageHelper\EditPartnerAgentHelper.cs" />
+    <Compile Include="PageHelper\EditPartnerAssociationHelper.cs" />
+    <Compile Include="PageHelper\EditProfileCorpHelper.cs" />
+    <Compile Include="PageHelper\EditReportHelper.cs" />
+    <Compile Include="PageHelper\EditSaleAgentHelper.cs" />
+    <Compile Include="PageHelper\EmailNotificationHelper.cs" />
+    <Compile Include="PageHelper\EmployeeAgentCodeHelper.cs" />
+    <Compile Include="PageHelper\EmployeeAgentHelper.cs" />
+    <Compile Include="PageHelper\JiraTaskHelper.cs" />
+    <Compile Include="PageHelper\LeadMarketingHelper.cs" />
+    <Compile Include="PageHelper\LeadsBusinessDetailHelper.cs" />
+    <Compile Include="PageHelper\LeadsRatesAndFeesHelper.cs" />
+    <Compile Include="PageHelper\LeadTerminalsAndEquipmentHelper.cs" />
+    <Compile Include="PageHelper\LoginHelper.cs" />
+    <Compile Include="PageHelper\MarketingHelper.cs" />
+    <Compile Include="PageHelper\MerchantNumberHelper.cs" />
+    <Compile Include="PageHelper\MergeClientHelper.cs" />
+    <Compile Include="PageHelper\NewSkin\PartnerAgentHelperNewSkin.cs" />
+    <Compile Include="PageHelper\NewSkin\SaleAgentRevenueAdjustmentHelper.cs" />
+    <Compile Include="PageHelper\OpportunitiesHelper.cs" />
+    <Compile Include="PageHelper\OwnersHelper.cs" />
+    <Compile Include="PageHelper\PaintEventArgs.cs" />
+    <Compile Include="PageHelper\PartnerAgentDetailHelper.cs" />
+    <Compile Include="PageHelper\PartnerAgnetHelper.cs" />
+    <Compile Include="PageHelper\PartnerAssociationHelper.cs" />
+    <Compile Include="PageHelper\PartnnerAssociationCodeHelper.cs" />
+    <Compile Include="PageHelper\PayoutSummaryResidualIcome1099saleAgent.cs" />
+    <Compile Include="PageHelper\PDFImportWizardHelper.cs" />
+    <Compile Include="PageHelper\ProductsHelper.cs" />
+    <Compile Include="PageHelper\RatesAndFeesHelperCorp.cs" />
+    <Compile Include="PageHelper\ResidualIcomeHelper.cs" />
+    <Compile Include="PageHelper\SaleAgentCodeHelper.cs" />
+    <Compile Include="PageHelper\SaleAgentHelper.cs" />
+    <Compile Include="PageHelper\SystemCorpHelper.cs" />
+    <Compile Include="PageHelper\TerminalsAndEquipmentHelper.cs" />
+    <Compile Include="PageHelper\TicketHelper.cs" />
+    <Compile Include="PageHelper\UpdateContactHelper.cs" />
+    <Compile Include="PageHelper\UpdateRateFeesHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Scripts\Admin\AddDocumentAdmin.cs" />
+    <Compile Include="Scripts\Admin\AddNotesAdmin.cs" />
+    <Compile Include="Scripts\Admin\AddPartnerAssociation.cs" />
+    <Compile Include="Scripts\Admin\CheckDownLoadedCSVFileFormat.cs" />
+    <Compile Include="Scripts\Admin\CheckProcessor.cs" />
+    <Compile Include="Scripts\Admin\ClientExportFileWithoutError.cs" />
+    <Compile Include="Scripts\Admin\CreateAdminProcessor.cs" />
+    <Compile Include="Scripts\Admin\CreateAPICodesIntegration.cs" />
+    <Compile Include="Scripts\Admin\CreateCategoryTickets.cs" />
+    <Compile Include="Scripts\Admin\CreateClientSectionMasterData.cs" />
+    <Compile Include="Scripts\Admin\CreateClientTabsMasterData.cs" />
+    <Compile Include="Scripts\Admin\CreateDepartmentOffice.cs" />
+    <Compile Include="Scripts\Admin\CreateDownloadIds.cs" />
+    <Compile Include="Scripts\Admin\CreateDuplicateAvatarError.cs" />
+    <Compile Include="Scripts\Admin\CreateEquipments.cs" />
+    <Compile Include="Scripts\Admin\CreateGroups.cs" />
+    <Compile Include="Scripts\Admin\CreateIframeIntegration.cs" />
+    <Compile Include="Scripts\Admin\CreateLanguage.cs" />
+    <Compile Include="Scripts\Admin\CreateLeadsSectionMasterData.cs" />
+    <Compile Include="Scripts\Admin\CreateLeadsTabsMasterData.cs" />
+    <Compile Include="Scripts\Admin\CreateMerchantTypeAdmin.cs" />
+    <Compile Include="Scripts\Admin\CreateNewTaskAdmin.cs" />
+    <Compile Include="Scripts\Admin\CreateOfficeRoles.cs" />
+    <Compile Include="Scripts\Admin\CreateOfficeTeams.cs" />
+    <Compile Include="Scripts\Admin\CreateOfficeUser.cs" />
+    <Compile Include="Scripts\Admin\CreateOmahaAuthGrip.cs" />
+    <Compile Include="Scripts\Admin\CreatePricingPlanAdmin.cs" />
+    <Compile Include="Scripts\Admin\CreatePriorityTicket.cs" />
+    <Compile Include="Scripts\Admin\CreateProcessorWithoutError.cs" />
+    <Compile Include="Scripts\Admin\CreateProductCategory.cs" />
+    <Compile Include="Scripts\Admin\CreateProducts.cs" />
+    <Compile Include="Scripts\Admin\CreateRatesAndFeesAdmin.cs" />
+    <Compile Include="Scripts\Admin\CreateResolutionTicket.cs" />
+    <Compile Include="Scripts\Admin\CreateShippingCarrier.cs" />
+    <Compile Include="Scripts\Admin\CreateStatus.cs" />
+    <Compile Include="Scripts\Admin\CreateSystemSchedular.cs" />
+    <Compile Include="Scripts\Admin\CreateTopicTickets.cs" />
+    <Compile Include="Scripts\Admin\CreateVendors.cs" />
+    <Compile Include="Scripts\Admin\DeleteVendor.cs" />
+    <Compile Include="Scripts\Admin\DevelopProductsListing.cs" />
+    <Compile Include="Scripts\Admin\EditDepartmentOffice.cs" />
+    <Compile Include="Scripts\Admin\EditDownloadIds.cs" />
+    <Compile Include="Scripts\Admin\EditEquipment.cs" />
+    <Compile Include="Scripts\Admin\EditIframeIntegration.cs" />
+    <Compile Include="Scripts\Admin\EditNewMeeting.cs" />
+    <Compile Include="Scripts\Admin\EditNewTask.cs" />
+    <Compile Include="Scripts\Admin\EditNotesAdmin.cs" />
+    <Compile Include="Scripts\Admin\EditPDFImportWizard.cs" />
+    <Compile Include="Scripts\Admin\EditPricingPlanAdmin.cs" />
+    <Compile Include="Scripts\Admin\EditProductCategories.cs" />
+    <Compile Include="Scripts\Admin\EditProducts.cs" />
+    <Compile Include="Scripts\Admin\EditShippingCarriers.cs" />
+    <Compile Include="Scripts\Admin\EmailNotification.cs" />
+    <Compile Include="Scripts\Admin\ExpandFields.cs" />
+    <Compile Include="Scripts\Admin\LeadsExportFileWithoutError.cs" />
+    <Compile Include="Scripts\Admin\NewMeetingAdmin.cs" />
+    <Compile Include="Scripts\Admin\OppExportFileWithoutError.cs" />
+    <Compile Include="Scripts\Admin\PDFImportWizard.cs" />
+    <Compile Include="Scripts\Admin\ResetPasswordOfficeUser.cs" />
+    <Compile Include="Scripts\Admin\SendEmailAdmin.cs" />
+    <Compile Include="Scripts\Admin\SendVerificationOfficeUser.cs" />
+    <Compile Include="Scripts\Admin\ViewSendEmailAdmin.cs" />
+    <Compile Include="Scripts\LoginTests\ContactUs.cs" />
+    <Compile Include="Scripts\LoginTests\ForgetPassword.cs" />
+    <Compile Include="Scripts\LoginTests\LoginAndLogout.cs" />
+    <Compile Include="Scripts\LoginTests\VerifyMyAccount.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Config\ApplicationSettings.xml" />
+    <Content Include="ExecutionLog\counter.txt" />
+    <Content Include="ExecutionLog\Error.txt" />
+    <Content Include="ExecutionLog\homeLink.txt" />
+    <Content Include="Files\index.jpg" />
+    <Content Include="Files\index2.png" />
+    <Content Include="Locators\AddContact.xml" />
+    <Content Include="Locators\AddDocumentsAdmin.xml" />
+    <Content Include="Locators\AddLeads.xml" />
+    <Content Include="Locators\AddNotesAdmin.xml" />
+    <Content Include="Locators\BulkIUpdateOffice.xml" />
+    <Content Include="Locators\BulkUpdateOpportunitiesOffice.xml" />
+    <Content Include="Locators\ClientBugs.xml" />
+    <Content Include="Locators\Clients.xml" />
+    <Content Include="Locators\ContactUs.xml" />
+    <Content Include="Locators\ConvertOpportunitiesToLed.xml" />
+    <Content Include="Locators\CreateAgent.xml" />
+    <Content Include="Locators\CreateAmexRate.xml" />
+    <Content Include="Locators\CreateAPICodesAdmin.xml" />
+    <Content Include="Locators\CreateAvatars.xml" />
+    <Content Include="Locators\CreateCategoryTickets.xml" />
+    <Content Include="Locators\CreateDashboard.xml" />
+    <Content Include="Locators\CreateDownloadIds.xml" />
+    <Content Include="Locators\CreateEmployee.xml" />
+    <Content Include="Locators\CreateEquipmentAdmin.xml" />
+    <Content Include="Locators\CreateIframeAdmin.xml" />
+    <Content Include="Locators\CreateLanguage.xml" />
+    <Content Include="Locators\CreateMerchantType.xml" />
+    <Content Include="Locators\CreateMerchantTypeAdmin.xml" />
+    <Content Include="Locators\CreateOffice.xml" />
+    <Content Include="Locators\CreateOfficeDepartment.xml" />
+    <Content Include="Locators\CreateOfficeGrpAdmin.xml" />
+    <Content Include="Locators\CreateOfficeTicket.xml" />
+    <Content Include="Locators\CreateOfficeUserAdmin.xml" />
+    <Content Include="Locators\CreateOmahaAuthGrip.xml" />
+    <Content Include="Locators\CreateOmahaAuthGripCorp.xml" />
+    <Content Include="Locators\CreatePDFCategoriesCorp.xml" />
+    <Content Include="Locators\CreatePDFs.xml" />
+    <Content Include="Locators\CreatePricingPlan.xml" />
+    <Content Include="Locators\CreatePricingPlanAdmin.xml" />
+    <Content Include="Locators\CreateProcessor.xml" />
+    <Content Include="Locators\CreateProcessorAdmin.xml" />
+    <Content Include="Locators\CreateProductAdmin.xml" />
+    <Content Include="Locators\CreateProductsCategoryAdmin.xml" />
+    <Content Include="Locators\CreateRatesAndFeesAdmin.xml" />
+    <Content Include="Locators\CreateReports.xml" />
+    <Content Include="Locators\CreateResidualIncomeAdjustmentRuleCorp.xml" />
+    <Content Include="Locators\CreateRoles.xml" />
+    <Content Include="Locators\CreateSchedularAdmin.xml" />
+    <Content Include="Locators\CreateShippingcarrier.xml" />
+    <Content Include="Locators\CreateTeamAdmin.xml" />
+    <Content Include="Locators\CreateTopicTickets.xml" />
+    <Content Include="Locators\CreateVendor.xml" />
+    <Content Include="Locators\CustomerRelationship.xml" />
+    <Content Include="Locators\DeleteOpportunities.xml" />
+    <Content Include="Locators\DeletePublishFileRI.xml" />
+    <Content Include="Locators\EditAmexRate.xml" />
+    <Content Include="Locators\EditDownloadIds.xml" />
+    <Content Include="Locators\EditEmployeeAgent.xml" />
+    <Content Include="Locators\EditEquipmentAdmin.xml" />
+    <Content Include="Locators\EditIframeAdmin.xml" />
+    <Content Include="Locators\EditLeads.xml" />
+    <Content Include="Locators\EditNewMeetingAdmin.xml" />
+    <Content Include="Locators\EditNewTaskAdmin.xml" />
+    <Content Include="Locators\EditNotesAdmin.xml" />
+    <Content Include="Locators\EditOffice.xml" />
+    <Content Include="Locators\EditOfficeDepartmentAdmin.xml" />
+    <Content Include="Locators\EditOpportunities.xml" />
+    <Content Include="Locators\EditPartnerAgent.xml" />
+    <Content Include="Locators\EditPartnerAssociation.xml" />
+    <Content Include="Locators\EditPricingPlanAdmin.xml" />
+    <Content Include="Locators\EditProductAdmin.xml" />
+    <Content Include="Locators\EditProfileCorp.xml" />
+    <Content Include="Locators\EditReports.xml" />
+    <Content Include="Locators\editSaleAgent.xml" />
+    <Content Include="Locators\EditShippingCarrier.xml" />
+    <Content Include="Locators\EmailNotification.xml" />
+    <Content Include="Locators\EmployeeAgent.xml" />
+    <Content Include="Locators\EmployeeAgentCode.xml" />
+    <Content Include="Locators\ImportAndCalculationRI.xml" />
+    <Content Include="Locators\JiraTask.xml" />
+    <Content Include="Locators\LeadBusinessDetails.xml" />
+    <Content Include="Locators\LeadMarketing.xml" />
+    <Content Include="Locators\LeadRatesAndFees.xml" />
+    <Content Include="Locators\LeadTerminalsAndEquipment.xml" />
+    <Content Include="Locators\Login.xml" />
+    <Content Include="Locators\LoginAsCorp.xml" />
+    <Content Include="Locators\Marketing.xml" />
+    <Content Include="Locators\MerchantNumber.xml" />
+    <Content Include="Locators\MergeClients.xml" />
+    <Content Include="Locators\NewMeetingAdmin.xml" />
+    <Content Include="Locators\NewTaskAdmin.xml" />
+    <Content Include="Locators\OfficeVerifyCodes.xml" />
+    <Content Include="Locators\OfficeVerifyFNDNumb.xml" />
+    <Content Include="Locators\Opportunities.xml" />
+    <Content Include="Locators\Owners.xml" />
+    <Content Include="Locators\PartnerAgent.xml" />
+    <Content Include="Locators\PartnerAgentDetail.xml" />
+    <Content Include="Locators\PartnerAgentNewSkin.xml" />
+    <Content Include="Locators\PartnerAssociation.xml" />
+    <Content Include="Locators\PartnerAssociationCode.xml" />
+    <Content Include="Locators\PDFImport.xml" />
+    <Content Include="Locators\Products.xml" />
+    <Content Include="Locators\RatesAndFeesCorp.xml" />
+    <Content Include="Locators\ResetPasswordOfficeAdmin.xml" />
+    <Content Include="Locators\ResidualIncome.xml" />
+    <Content Include="Locators\ResidualIncomeAdjustmentToolCorp.xml" />
+    <Content Include="Locators\ResidualIncomeImportFirstData.xml" />
+    <Content Include="Locators\ResidualIncomeImportSkip.xml" />
+    <Content Include="Locators\ResidualIncomeImprtFirstDataRevenueShare.xml" />
+    <Content Include="Locators\ResidualIncomeOffice.xml" />
+    <Content Include="Locators\ResidualIncomeRevenueShareCorp.xml" />
+    <Content Include="Locators\ResidualIncomeWorldPay.xml" />
+    <Content Include="Locators\SaleAgent.xml" />
+    <Content Include="Locators\SaleAgentAdjustment.xml" />
+    <Content Include="Locators\SaleAgentCode.xml" />
+    <Content Include="Locators\SendEmailAdmin.xml" />
+    <Content Include="Locators\SystemCorp.xml" />
+    <Content Include="Locators\TerminalsAndEquipment.xml" />
+    <Content Include="Locators\Ticket.xml" />
+    <Content Include="Locators\UpdateContact.xml" />
+    <Content Include="Locators\UpdateRatesAndFee.xml" />
+    <Content Include="Locators\ViewEmailAdmin.xml" />
+    <Content Include="Screenshots\150811_094935\HomeLink.png" />
+    <Content Include="Screenshots\150811_095346\HomeLink.png" />
+    <Content Include="Screenshots\150812_013312\HomeLink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Files\1.pdf" />
+    <None Include="Files\2.pdf" />
+    <None Include="Files\AgentImport.xlsx" />
+    <None Include="Files\clientsamples%282%29.csv" />
+    <None Include="Files\clientsamples.csv" />
+    <None Include="Files\contactsamples.csv" />
+    <None Include="Files\CORNERSTONEBUSINESSRESO808.csv" />
+    <None Include="Files\FDN_Samples.csv" />
+    <None Include="Files\FirstDataNorth_ResidualSamples - Small.csv" />
+    <None Include="Files\leadsamples.csv" />
+    <None Include="Files\leadslist.csv" />
+    <None Include="Files\opportunitysamples.csv" />
+    <None Include="Image\FirstDataNorth_ResidualSamples - Small.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Locators\Corp\" />
+    <Folder Include="Screenshots\150811_113921\" />
+    <Folder Include="Screenshots\150811_114222\" />
+    <Folder Include="Screenshots\150811_114536\" />
+    <Folder Include="Screenshots\150812_010108\" />
+    <Folder Include="Screenshots\150812_010603\" />
+    <Folder Include="Screenshots\150812_010738\" />
+    <Folder Include="Screenshots\150812_010851\" />
+    <Folder Include="Screenshots\150812_011054\" />
+    <Folder Include="Screenshots\150812_011145\" />
+    <Folder Include="Screenshots\150812_011301\" />
+    <Folder Include="Screenshots\150812_011447\" />
+    <Folder Include="Screenshots\150812_011535\" />
+    <Folder Include="Screenshots\150812_012447\" />
+    <Folder Include="Screenshots\150812_012845\" />
+    <Folder Include="Screenshots\150812_013736\" />
+    <Folder Include="Screenshots\150812_013906\" />
+    <Folder Include="Screenshots\150812_014145\" />
+    <Folder Include="Screenshots\150812_014359\" />
+    <Folder Include="Screenshots\150812_015216\" />
+    <Folder Include="Screenshots\150812_075102\" />
+    <Folder Include="Screenshots\150812_075224\" />
+    <Folder Include="Screenshots\150812_081857\" />
+    <Folder Include="Screenshots\150812_082046\" />
+    <Folder Include="Screenshots\150812_120708\" />
+    <Folder Include="Screenshots\150812_124719\" />
+    <Folder Include="Screenshots\150812_124908\" />
+    <Folder Include="Screenshots\150812_125437\" />
+  </ItemGroup>
+  <Choose>
+    <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
+      <ItemGroup>
+        <Reference Include="Microsoft.VisualStudio.QualityTools.CodedUITestFramework, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Common, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITest.Extension, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+        <Reference Include="Microsoft.VisualStudio.TestTools.UITesting, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+          <Private>False</Private>
+        </Reference>
+      </ItemGroup>
+    </When>
+  </Choose>
+  <Import Project="$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets" Condition="Exists('$(VSToolsPath)\TeamTest\Microsoft.TestTools.targets')" />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

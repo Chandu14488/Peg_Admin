@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   Contact tab #######################
+  <ClickLeadTab><![CDATA[//*[@id='css3menu']/li[3]/a]]></ClickLeadTab>
+  <EnterCompanyName><![CDATA[//*[@id='gs_company_name']]]></EnterCompanyName>
+  <ClickOnCompany><![CDATA[//*[@id='63052']/td[16]/a]]></ClickOnCompany>
+  //#######################   MARKETING #######################
+  <ClickMarketingTab><![CDATA[//*[@id='tabs']/li[7]/a/span]]></ClickMarketingTab>
+  //##################### MERCHANT ACCOUNT NUMBER   ##################################
+  <MercantDetail><![CDATA[//*[@id='LeadMarketingDetailPrevProcName']]]></MercantDetail>
+  <ReasonNotChosoing><![CDATA[//*[@id='LeadMarketingDetailRejectReason']]]></ReasonNotChosoing>
+  <MethodOfProceesing><![CDATA[//*[@id='LeadMarketingDetailRejectProcessor1']]]></MethodOfProceesing>
+  <DidYouHearAboutUs><![CDATA[//*[@id='LeadMarketingDetailHowHeard']]]></DidYouHearAboutUs>
+  <TransactionDevice><![CDATA[//*[@id='LeadMarketingDetailTransDev']]]></TransactionDevice>
+  <TransactinNumber><![CDATA[//*[@id='LeadMarketingDetailTransDevNum']]]></TransactinNumber>
+  <ContractExpire><![CDATA[//*[@id='LeadMarketingDetailContractExpMonth']]]></ContractExpire>
+  <ContactExpireYear><![CDATA[//*[@id='LeadMarketingDetailContractExpYear']]]></ContactExpireYear>
+  <StateMentOfFile><![CDATA[//*[@id='LeadMarketingDetailStatOnFile']]]></StateMentOfFile>
+  <SentCamp><![CDATA[//*[@id='LeadMarketingDetailSentCamp']]]></SentCamp>
+  <SentPostcard><![CDATA[//*[@id='LeadMarketingDetailSentPost']]]></SentPostcard>
+  <ConstumerMainInteresst><![CDATA[//*[@id='LeadMarketingDetailServiceChk']]]></ConstumerMainInteresst>
+
+
+</Locators>

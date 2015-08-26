@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   Contact tab #######################
+  <ClickLeadTab><![CDATA[//*[@id='css3menu']/li[3]/a]]></ClickLeadTab>
+  <EnterCompanyName><![CDATA[//*[@id='gs_company_name']]]></EnterCompanyName>
+  <ClickOnCompany><![CDATA[//table[@id='list1']/tbody/tr[2]/td[16]/a]]></ClickOnCompany>
+  //###############  CLICK ON COMPANIES DETAILS   ########################
+  <ClickOnCompanyDetails><![CDATA[//*[@id='tabs']/li[3]/a/span]]></ClickOnCompanyDetails>
+  <SelectTimeZone><![CDATA[//*[@id='LeadZTimezoneId']]]></SelectTimeZone>
+  //####### MORE COMPANY DETAILS
+  <MoreCompanyDetailsExpndBtn><![CDATA[//*[@id='compnyimg']/span]]></MoreCompanyDetailsExpndBtn>
+  <TotalLocation><![CDATA[//*[@id='LeadCompanyDetailTotalLoc']]]></TotalLocation>
+  //######### BUSINESS ENVIRONMENT
+  <StoreFrntCheckbox><![CDATA[//*[@id='LeadCompanyDetailIsStorefront']]]></StoreFrntCheckbox>
+  <DoorToDoor><![CDATA[//*[@id='LeadCompanyDetailIsTradeShow']]]></DoorToDoor>
+  <Catalogue><![CDATA[//*[@id='LeadCompanyDetailAdCatalog']]]></Catalogue>
+  <InternetEmail><![CDATA[//*[@id='LeadCompanyDetailAdInternet']]]></InternetEmail>
+  <NewsPaperMagzine><![CDATA[//*[@id='LeadCompanyDetailAdNewspaper']]]></NewsPaperMagzine>
+  //########################     SITE SURVEY   ################################
+  <ClickOnExpandBtn><![CDATA[//*[@id='sitesurvayimg']/span]]></ClickOnExpandBtn>
+  <SelectMerchantLocation><![CDATA[//*[@id='LeadCompanyDetailMerchLoc']]]></SelectMerchantLocation>
+  <IfOther><![CDATA[//*[@id='LeadCompanyDetailMerchOther']]]></IfOther>
+  <SquareFootage><![CDATA[//*[@id='LeadCompanyDetailSqFoot']]]></SquareFootage>
+  <AreaZoned><![CDATA[//*[@id='LeadCompanyDetailAreaZoned']]]></AreaZoned>
+  <Window><![CDATA[//*[@id='LeadCompanyDetailNameDisplayedLocationWindow']]]></Window>
+  <MerchantOccupies><![CDATA[//*[@id='LeadCompanyDetailOccupyLocation']]]></MerchantOccupies>
+  <Other><![CDATA[//*[@id='LeadCompanyDetailOccupyLocationOther']]]></Other>
+  <NoOfFloor><![CDATA[//*[@id='LeadCompanyDetailCountFloors']]]></NoOfFloor>
+  <RemainingFloorOccuoied><![CDATA[//*[@id='LeadCompanyDetailOtherFloorsExplain']]]></RemainingFloorOccuoied>
+  <DoesamountMerchantSalves><![CDATA[//*[@id='LeadCompanyDetailConsistentBus']]]></DoesamountMerchantSalves>
+  <MerchantOwnLeages><![CDATA[//*[@id='LeadCompanyDetailTheMerchant']]]></MerchantOwnLeages>
+  <IfApplicableleaser><![CDATA[//*[@id='LeadCompanyDetailLeasor']]]></IfApplicableleaser>
+  <OtherComment><![CDATA[//*[@id='LeadCompanyDetailOtherComments']]]></OtherComment>
+  <NumberOfEmployees><![CDATA[//*[@id='LeadCompanyDetailCountEmployees']]]></NumberOfEmployees>
+  <NumberofRegisters><![CDATA[//*[@id='LeadCompanyDetailNoRegistersTerminals']]]></NumberofRegisters>
+  //################### CLICK ON SAVE BUTTON   ##################
+  <SaveButtonEditLead><![CDATA[//*[@id='main_container']/div[1]/div[3]/div/a[1]/span[2]]]></SaveButtonEditLead>
+
+</Locators>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   TerminalAndEquipment  #######################
+  <MoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]]]></MoveHover>
+  <ClickOnAdmin><![CDATA[link=Admin]]></ClickOnAdmin>
+  <ClickOnEquipmentTab><![CDATA[//*[@id='css3menu']/li[10]/a]]></ClickOnEquipmentTab>
+  <ClickOnCreate><![CDATA[//a[@title='Create New Vendor']]]></ClickOnCreate>
+  //######################    EQUIPMENT CREATE
+  <Type><![CDATA[//*[@id='VendorType']]]></Type>
+  <Name><![CDATA[//*[@id='VendorName']]]></Name>
+  <DBAName><![CDATA[//*[@id='VendorDba']]]></DBAName>
+  <Website><![CDATA[//*[@id='VendorWebsite']]]></Website>
+  <LinkedURL><![CDATA[//*[@id='VendorLinkedinUrl']]]></LinkedURL>
+  <TwitterURL><![CDATA[//*[@id='VendorTwitterUrl']]]></TwitterURL>
+  //###################    CONTACT URL
+  <Salutation><![CDATA[//*[@id='VendorSalutation']]]></Salutation>
+  <FirstName><![CDATA[//*[@id='VendorFirstName']]]></FirstName>
+  <LastName><![CDATA[//*[@id='VendorLastName']]]></LastName>
+  <eAddessType><![CDATA[//*[@id='VendorElectronicAddress0ElectronicContentType']]]></eAddessType>
+  <EAddressLabel><![CDATA[//*[@id='VendorElectronicAddress0ElectronicContentLabel']]]></EAddressLabel>
+  <eAddress><![CDATA[//*[@id='VendorElectronicAddress0ElectronicContent']]]></eAddress>
+  <PhoneType><![CDATA[//*[@id='VendorPhone0PhoneType']]]></PhoneType>
+  <PhoneNumber><![CDATA[//*[@id='VendorPhone0PhoneFormat']]]></PhoneNumber>
+  <ZipCodeVendor><![CDATA[//*[@id='VendorAddress0PostalCode']]]></ZipCodeVendor>
+  //################   CLICK ON SAVE
+  <SaveBtn><![CDATA[//button[@title='Save']]]></SaveBtn>
+  <EditSaveVendorBtn><![CDATA[//*[@id='VendorEditForm']/div[2]/div[6]/div/a[1]]]></EditSaveVendorBtn>
+  <!--SEARCH VENDOR-->
+  <EnterVendorName><![CDATA[//*[@id='gs_name']]]></EnterVendorName>
+  <SechFirstName><![CDATA[//*[@id='gs_first_name']]]></SechFirstName>
+  <SearchLastName><![CDATA[//*[@id='gs_last_name']]]></SearchLastName>
+  <ClickOnEditVendor><![CDATA[//a[@title='Edit Vendor']]]></ClickOnEditVendor>
+  <ClickOnDelete><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/span[2]/a]]></ClickOnDelete>
+  <!--CLONE-->
+  <ClickOnVender><![CDATA[//table[@id='list1']/tbody/tr[2]/td[5]/a]]></ClickOnVender>
+  <Copy><![CDATA[//a[@title='Copy']]]></Copy>
+  <DeleteClone><![CDATA[//a[@title='Delete']]]></DeleteClone>
+  <!--BULK UPDATE-->
+  <SelectChkBox><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></SelectChkBox>
+  <ClickOnBulkUpdate><![CDATA[//span[text()='Bulk Update']]]></ClickOnBulkUpdate>
+  <VendorTypeSelect><![CDATA[link=Change Type]]></VendorTypeSelect>
+  <SelectVenderType><![CDATA[//*[@id='VendorTypeUpdateType']]]></SelectVenderType>
+  <ClickUpdateVT><![CDATA[//*[@id='VendorTypeUpdateIndexForm']/table/tbody/tr/td[3]/a]]></ClickUpdateVT>
+  <ChangeStatusBU><![CDATA[link=Change Status]]></ChangeStatusBU>
+  <SelectStatusType><![CDATA[//*[@id='VendorActiveUpdateActive']]]></SelectStatusType>#1
+  <UpdateStatus><![CDATA[//*[@id='VendorActiveUpdateIndexForm']/div[2]/table/tbody/tr/td[3]/a/span]]></UpdateStatus>
+  
+  
+  
+
+</Locators>

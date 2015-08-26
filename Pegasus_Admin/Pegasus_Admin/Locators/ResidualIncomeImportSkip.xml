@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+//###################  LOGIN WITH CROP    ############################
+  <EnterUsername><![CDATA[//*[@id='UserUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserPasswordHash']]]></EnterPassword>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButtojn>
+
+
+  //#######################   Residual Income  #######################
+  <ClickResidualIncomeTab><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClickResidualIncomeTab>
+  <ClickOnImport><![CDATA[//*[@id='css3menu']/li[4]/div/div[1]/ul/li/a]]></ClickOnImport> 
+  
+  //  ############################  IMPORT
+  <ClickOnImportNew><![CDATA[//*[@id='actionbuttons']/span]]></ClickOnImportNew>
+  <ProcessorType><![CDATA[//*[@id='ImportIndexProcessor']]]></ProcessorType>
+  <ReportingPeriod><![CDATA[//*[@id='ImportIndexReportingMonth']]]></ReportingPeriod>
+  <ReportingYear><![CDATA[//*[@id='ImportIndexReportingYear']]]></ReportingYear>
+  <FileDate><![CDATA[//*[@id='ImportIndexFileDate']]]></FileDate>
+  <SelectBrowseCSVFile><![CDATA[//*[@id='ImportIndexCsvFile']]]></SelectBrowseCSVFile>
+  <ClickOnImportBtn><![CDATA[//*[@id='main_container']/div[2]/div[3]/a[1]/span[2]]]></ClickOnImportBtn>
+  
+  //########################### SET FILTER  
+  <SelectFiletReportingPeriod><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[1]/select]]></SelectFiletReportingPeriod>
+  <SelectProcessorFiler><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[3]/select]]></SelectProcessorFiler>
+  <FilterFileFormat><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[4]/select]]></FilterFileFormat>
+  <FileName><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[5]/input]]></FileName>
+  <SelectStatus><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[6]/select]]></SelectStatus>
+  <ClickOnCalculation><![CDATA[//*[@id='related_positions_table']/tbody/tr[2]/td[9]/a[1]/img]]></ClickOnCalculation>
+
+
+  //########    SKIP  
+  <ClickOnSkip><![CDATA[link=Skip this step]]></ClickOnSkip>
+  <ClickOnREnvenueAdjmnt><![CDATA[//*[@id='main_container']/div[2]/div[3]/div[3]/div[3]/div/div/ul/li[4]/h3/a]]></ClickOnREnvenueAdjmnt>
+  <ClickTodelRuleB><![CDATA[//*[@id='left']/div[2]/span[4]/a/span]]></ClickTodelRuleB>
+  
+  //Create Rule
+  <EnterRuleName><![CDATA[//*[@id='RirPayoutRulesetRulesetName']]]></EnterRuleName>
+  <SelectOfficeSel><![CDATA[//*[@id='RirPayoutRulesetOrganization0OrgId']]]></SelectOfficeSel>
+  <SelectRuleType><![CDATA[//*[@id='rule_type0']]]></SelectRuleType>
+  <EnterAmount><![CDATA[//*[@id='amount_field0']]]></EnterAmount>
+  <SelectAddRemove><![CDATA[//*[@id='RirPayoutRulesetCustomRule0CalcType']]]></SelectAddRemove>
+  <ClickToSaveRule><![CDATA[//*[@id='RirPayoutRulesetCreateRulesetForm']/div[2]/div[3]/a[1]/span[1]]]></ClickToSaveRule>
+  
+  //Calculate Payout
+  <CalculatePayout><![CDATA[//*[@id='main_container']/div[3]/div[3]/div[5]/div[3]/div/div/ul/li[4]/h3/a]]></CalculatePayout>
+  
+  //Publish Payout
+  <PublishPayout><![CDATA[//*[@id='main_container']/div[2]/div[3]/div[7]/div[3]/div/div/ul/li[4]/h3/a]]></PublishPayout>
+  
+  //###############  Office payout 
+  <ViewOfficePayout><![CDATA[//table[@id='related_positions_table']/tbody/tr[2]/td[9]/a[3]/span]]></ViewOfficePayout>
+  
+  
+  //########    VERIFY TEXT
+  <Verify500><![CDATA[//*[@id='3133348']/td[12]]]></Verify500>
+  <Verify850><![CDATA[//*[@id='3133349']/td[12]]]></Verify850>
+  <Verify400><![CDATA[//*[@id='3133350']/td[12]]]></Verify400>
+  <Verify750><![CDATA[//*[@id='3133351']/td[12]]]></Verify750>
+  <Verify300><![CDATA[//*[@id='3133352']/td[12]]]></Verify300>
+ 
+  
+</Locators>
+
+

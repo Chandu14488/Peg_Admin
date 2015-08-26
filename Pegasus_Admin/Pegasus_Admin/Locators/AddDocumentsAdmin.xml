@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  //#######################   ADMIN CORPORATE   #######################
+  
+  <MoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]]]></MoveHover>
+  <ClickOnAdmin><![CDATA[link=Admin]]></ClickOnAdmin>
+  <ClickOnCorpTab><![CDATA[//*[@id='css3menu']/li[2]/a]]></ClickOnCorpTab>
+  <ClickOnAddDocument><![CDATA[//*[@id='adddocument1']/span[1]]]></ClickOnAddDocument>
+  
+  //######################    ADD DOCUMENT
+  
+  <Name><![CDATA[//*[@id='DocumentName']]]></Name>
+  <ClickToUpload><![CDATA[//*[@id='DocumentFile']]]></ClickToUpload>
+  <Description><![CDATA[//*[@id='DocumentDescription']]]></Description>
+
+  
+
+  //################   CLICK ON SAVE
+   <ClickOnSave><![CDATA[//button[@title='Save']]]></ClickOnSave>
+  
+    
+    <Products><![CDATA[//*[@id='menu']/li/a/span[contains(text(),'Products')]]]></Products>
+  
+    <ProSubmenu><![CDATA[//*[@id='menu']/li/ul/li/a[contains(text(),'Products')]]]></ProSubmenu>
+    <Create><![CDATA[]]></Create>
+    <ProName><![CDATA[//*[@id='ProductName']]]></ProName>
+    <ProCate><![CDATA[//*[@id='ProductCategoryId']]]></ProCate>
+    <ProView><![CDATA[//*[@id='ProductCanCollapse']]]></ProView>
+    <ProStatus><![CDATA[//*[@id='ProductStatus']]]></ProStatus>
+    <ProSave><![CDATA[//input[@value='Save']]]></ProSave>
+
+    <SearchName><![CDATA[//*[@id='gs_productname']]]></SearchName>
+    <SearchCate><![CDATA[//*[@id='gs_catname']]]></SearchCate>
+    <SearchStatus><![CDATA[//*[@id='gs_status']]]></SearchStatus>
+    <SearchView><![CDATA[//*[@id='gs_can_collapse']]]></SearchView>
+
+  <CheckAll><![CDATA[//*[@id='cb_list1']]]></CheckAll>
+  <BulkUpdate><![CDATA[//div[contains(@class,'active-bar')]/div/button]]></BulkUpdate>
+  <BulkStatus><![CDATA[//div[@title='Bulk Update']/ul/li/a[contains(text(),'Status')]]]></BulkStatus>
+  <SelectStatus><![CDATA[//*[@id='ProductStatusUpdateStatus']]]></SelectStatus>
+  
+  <BulkCate><![CDATA[//div[@title='Bulk Update']/ul/li/a[contains(text(),'Change Category')]]]></BulkCate>
+  <SelectCategory><![CDATA[//*[@id='ProductCategoryUpdateCategory']]]></SelectCategory>
+  
+  <UpdateStatus><![CDATA[//*[@id='change_status']/div/div/div/a/button]]></UpdateStatus>
+  <UpdateCate><![CDATA[//*[@id='change_category']/div/div/div/a/button]]></UpdateCate>
+  <Clone><![CDATA[//a[contains(@class,'clone')]]]></Clone>
+  <Delete><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[@title='Delete Product']]]></Delete>
+
+  <ProcessTable><![CDATA[//table[@id='list1']/tbody/tr]]></ProcessTable>
+  <Bussiness><![CDATA[//ul[@class='nav nav-pills custom-tabs']/li/a[contains(text(),'Business Details')]]]></Bussiness>
+  <ProcessDropdown><![CDATA[//*[@id='ClientDetailProcessor']]]></ProcessDropdown>
+
+  <PartnerAsso><![CDATA[//div[contains(text(),'Partner Association Name')]]]></PartnerAsso>
+  <AdvanceFilter><![CDATA[//*[@id='layout_disp']/span]]></AdvanceFilter>
+  <PartnerAgent><![CDATA[//*[@id='hide_cols']/option[contains(text(),'Partner Association Name')]]]></PartnerAgent>
+  <Add><![CDATA[//*[@id='btn-add']/span]]></Add>
+  <AddPartner><![CDATA[//*[@id='display_cols']/option[contains(text(),'Partner Association Name')]]]></AddPartner>
+  <Apply><![CDATA[//*[@id='fbox_list1_search']/button]]></Apply>
+  <AssoDrop><![CDATA[//*[@id='gs_association']]]></AssoDrop>
+
+  <CompanyDetailsTab><![CDATA[//ul[@class='nav nav-pills custom-tabs']/li/a[contains(text(),'Company Details')]]]></CompanyDetailsTab>
+  <CompanyDetails><![CDATA[//div[@id='tab-2']/div/div/h5[contains(text(),'Company Details')]]]></CompanyDetails>
+  <DescriptionText><![CDATA[//div[@id='tab-2']/div/div/h5[contains(text(),'Description')]]]></DescriptionText>
+  <MoreDetails><![CDATA[//div[@id='tab-2']/div/div/h5[contains(text(),'More Company Details')]]]></MoreDetails>
+  <SiteSurvay><![CDATA[//div[@id='tab-2']/div/div/h5[contains(text(),'Site Survey')]]]></SiteSurvay>
+
+  <AvatarName><![CDATA[//*[@id='CorporateAvatarName']]]></AvatarName>
+  <AvatarType><![CDATA[//*[@id='CorporateAvatarCorpUserTypeId']]]></AvatarType>
+  <AvatarStatus><![CDATA[//*[@id='CorporateAvatarInactive']]]></AvatarStatus>
+
+  <ProcessName><![CDATA[//*[@id='CorporateMasterProcessorNewProcessorName']]]></ProcessName>
+  <ProcessCode><![CDATA[//*[@id='CorporateMasterProcessorProcessorCode']]]></ProcessCode>
+  <ProcessSave><![CDATA[//a[@title='Save']]]></ProcessSave>
+  <ProceNameFilter><![CDATA[//*[@id='gs_processor_name']]]></ProceNameFilter>
+</Locators>
+
+

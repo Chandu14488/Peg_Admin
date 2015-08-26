@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <!-- LOGIN WITH CROP  -->
+  <EnterUsername><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButtojn>
+  <!--   MASTER TAB  -->
+  <ClickMasterTab><![CDATA[//*[@id='css3menu']/li[7]/a]]></ClickMasterTab>
+  <ClickOnCreate><![CDATA[//*[@id='buttons']/span[2]]]></ClickOnCreate>
+  <!-- CREATE A PROCESSOR   -->
+  <MerchantType><![CDATA[//*[@id='CorporateMasterMerchantTypeMerchantType']]]></MerchantType>
+  <ClickOnSaveBtn><![CDATA[//*[@id='main_container']/div[1]/div[2]/a[1]/span[2]]]></ClickOnSaveBtn>
+  <ClickOnPushOffice><![CDATA[//a[@title='Push to Offices']/span[2]]]></ClickOnPushOffice>
+  <!-- LOGOUT-->
+  <WelcomeMoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]/div]]></WelcomeMoveHover>
+  <ClickOnWelcomeBack><![CDATA[//*[@id='user_header_info']/table/tbody/tr/td[2]/div[2]/a[2]]]></ClickOnWelcomeBack>
+  <!--LOGIN WITH OFFICE -->
+  <EnterUsernameOff><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsernameOff>
+  <EnterPasswordOff><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPasswordOff>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButtojn>
+  <!--Become office-->
+  <ClickOnAdmin><![CDATA[//*[@id='user_header_info']/table/tbody/tr/td[2]/div[2]/a[1]]]></ClickOnAdmin>
+
+  <ClickOnMaterOff><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClickOnMaterOff>
+  
+  <!--EDIT AND DELETE MERCHENT TYPE -->
+  <SearchMerchnatType><![CDATA[//*[@id='gs_merchant_type']]]></SearchMerchnatType>
+  <EditMerchnatType><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/span/a[1]/span/img]]></EditMerchnatType>
+  <DeleteMerchnatType><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/span/a[2]]]></DeleteMerchnatType>
+  <ClickOnSaveEdit><![CDATA[//a[@title='Save']]]></ClickOnSaveEdit>
+  
+  <!--  MERCHANT TABS CORP        -->
+  <MerchantTab><![CDATA[//a[@href='/selenium_corp/merchants']]]></MerchantTab>
+  <ClickOnMerchnat><![CDATA[//table[@id='list1']/tbody/tr[2]/td[5]/a]]></ClickOnMerchnat>
+  <ClickCompanyDetails><![CDATA[//*[@id='tabs']/li[2]/a/span]]></ClickCompanyDetails>
+  <MoreCompanyDetails><![CDATA[//*[@id='deliveryoptionboximg']]]></MoreCompanyDetails>
+  <SiteSurvey><![CDATA[//*[@id='sitesurveyboximg']]]></SiteSurvey>
+  <AddressContacts><![CDATA[//*[@id='tabs']/li[3]/a/span]]></AddressContacts>
+  <BusinessDetails><![CDATA[//*[@id='tabs']/li[4]/a/span]]></BusinessDetails>
+  <RateAndFees><![CDATA[//*[@id='tabs']/li[5]/a/span]]></RateAndFees>
+  <CustomerRelationShip><![CDATA[//*[@id='tabs']/li[6]/a/span]]></CustomerRelationShip>
+  <TerminalsAndEquipments><![CDATA[//*[@id='tabs']/li[7]/a/span]]></TerminalsAndEquipments>
+  <ElectronicCheckService><![CDATA[//*[@id='checkServices5boximg']]]></ElectronicCheckService>
+  <StoreVariable><![CDATA[//*[@id='storeVariables5boximg']]]></StoreVariable>
+  <GateWayInformation><![CDATA[//*[@id='gatewayboximg']]]></GateWayInformation>
+  <SoftWareInformation><![CDATA[//*[@id='softwareboximg']]]></SoftWareInformation>
+  <TerminalShippingInformation><![CDATA[//*[@id='terminalshipboximg']]]></TerminalShippingInformation>
+  <Owners><![CDATA[//*[@id='tabs']/li[8]/a/span]]></Owners>
+  <Reference><![CDATA[//*[@id='tabs']/li[9]/a/span]]></Reference>
+  <MerchnatNumber><![CDATA[//*[@id='tabs']/li[10]/a/span]]></MerchnatNumber>
+  <Marketing><![CDATA[//*[@id='tabs']/li[11]/a/span]]></Marketing>
+  
+  <!-- MASTER DATA USER LIMIT   -->
+  <ClickOnEditUserLimt><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]/span[1]/a[1]]]></ClickOnEditUserLimt>
+  <EmployeeLimit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[5]/input]]></EmployeeLimit>
+  <Sale1099Agent><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/input]]></Sale1099Agent>
+  <ClientUser><![CDATA[//table[@id='list1']/tbody/tr[2]/td[7]/input]]></ClientUser>
+  <PartnerUser><![CDATA[//table[@id='list1']/tbody/tr[2]/td[8]/input]]></PartnerUser>
+  <ClickSave><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]/span[2]/a[1]]]></ClickSave>
+  
+</Locators>

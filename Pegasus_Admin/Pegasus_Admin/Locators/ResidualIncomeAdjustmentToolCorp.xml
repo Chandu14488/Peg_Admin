@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  //###################  LOGIN WITH CROP    ############################
+  <EnterUsername><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButtojn>
+
+
+  //#######################   Residual Income  #######################
+  <ClickResidualIncomeTab><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClickResidualIncomeTab>
+  <ClickOnImport><![CDATA[//*[@id='css3menu']/li[4]/div/div[1]/ul/li/a]]></ClickOnImport> 
+  
+  //  ############################  Master Adjuset Rule
+  //FOR A
+  <ClickOnA><![CDATA[//*[@id='68']/td[2]/a[1]/img]]></ClickOnA>
+  <ClickSelectAll><![CDATA[//*[@id='RirPayoutMasterRulesetGlobal']]]></ClickSelectAll>
+  <RuleTYpe><![CDATA[//*[@id='rule_type0']]]></RuleTYpe>
+  <Amount><![CDATA[//*[@id='amount_field0']]]></Amount>
+ 
+  //For B
+  <ClickOnB><![CDATA[//*[@id='69']/td[2]/a[1]/img]]></ClickOnB>
+  <Selenium><![CDATA[//*[@id='RirPayoutMasterRulesetOrganization0OrgId']]]></Selenium>
+  
+  //For C
+  <ClcikOnC><![CDATA[//*[@id='70']/td[2]/a[1]/img]]></ClcikOnC>
+  <SelectSel><![CDATA[//*[@id='RirPayoutMasterRulesetOrganization1OrgId']]]></SelectSel>
+  
+  //For D
+  <ClickOnD><![CDATA[//*[@id='71']/td[2]/a[1]/img]]></ClickOnD>
+  <SelectProcessorType><![CDATA[//*[@id='ResidualMasterProcessor']]]></SelectProcessorType>
+  
+  
+  <ClickOnE><![CDATA[//*[@id='72']/td[2]/a[1]/img]]></ClickOnE>
+  <ClickOnF><![CDATA[//*[@id='73']/td[2]/a[1]/img]]></ClickOnF>
+  //################################   SAVE
+  <ClickOnSaveBtn><![CDATA[//*[@id='ResidualMasterCreateForm']/div[5]/div/a[1]/span[1]]]></ClickOnSaveBtn>
+  
+  //Add 
+  <AddAmount><![CDATA[//*[@id='RirPayoutMasterRulesetCustomRule0CalcType']]]></AddAmount>
+  
+  
+  
+  
+</Locators>
+
+

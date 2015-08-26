@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   Contact tab #######################
+  <ClickReportTab><![CDATA[//*[@id='css3menu']/li[10]/a]]></ClickReportTab>
+  //Create A deshboard
+  <Name><![CDATA[//*[@id='DashboardName']]]></Name>
+  <SetthisDeshboardAsMyHomepage><![CDATA[//*[@id='DashboardDefault']]]></SetthisDeshboardAsMyHomepage>
+  <TestReortAlex><![CDATA[//*[@id='rep_103']]]></TestReortAlex>
+  <TestReportConvertClient><![CDATA[//*[@id='rep_100']]]></TestReportConvertClient>
+  <TestReportActivityTotal><![CDATA[//*[@id='rep_99']]]></TestReportActivityTotal>
+  <Next><![CDATA[//*[@id='createdashboardForm']/div[2]/div[3]/a[1]/span[2]]]></Next>
+  <ClickOnSavebutton><![CDATA[//*[@id='main_container']/div[1]/div[3]/a[1]/span[2]]]></ClickOnSavebutton>
+
+
+</Locators>

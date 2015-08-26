@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  //###################  LOGIN WITH CROP    ############################
+  <EnterUsername><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButtojn>
+
+//####################  OFFICE TAB
+ <ClickOnOfficeTab><![CDATA[//*[@id='css3menu']/li[3]/a]]></ClickOnOfficeTab>
+  <EnterSelenium><![CDATA[//*[@id='gs_name']]]></EnterSelenium>
+  <ClickOnSeleniumOffice><![CDATA[//*[@id='169']/td[2]/a[1]/span/img]]></ClickOnSeleniumOffice>
+  <ClickOnCancel><![CDATA[//*[@id='OrganizationEditForm']/div[2]/div[2]/a[2]/span[1]]]></ClickOnCancel>
+  <ClickOnSel><![CDATA[//*[@id='175']/td[2]/a[1]/span/img]]></ClickOnSel>
+  <ClickOnTesterSel><![CDATA[//*[@id='176']/td[2]/a[1]/span/img]]></ClickOnTesterSel>
+  
+  //Verify text
+  <VerifySelText><![CDATA[//*[@id='Organization1AgentNumber']]]></VerifySelText>
+  //Verify Numbers
+  <FNDAgentNumber><![CDATA[//*[@id='OrganizationFdnAgentNumber']]]></FNDAgentNumber>
+  
+</Locators>
+
+

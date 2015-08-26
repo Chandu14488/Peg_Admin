@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   Contact tab #######################
+  <ClickLeadTab><![CDATA[//*[@id='css3menu']/li[3]/a]]></ClickLeadTab>
+  <EnterCompanyName><![CDATA[//*[@id='gs_company_name']]]></EnterCompanyName>
+  <ClickOnCompany><![CDATA[//*[@id='63052']/td[16]/a]]></ClickOnCompany>
+  //################################  BUSINESS DETAILS   ##########################################
+  <ClickOnBusinessDetailsTab><![CDATA[//*[@id='tabs']/li[4]/a/span]]></ClickOnBusinessDetailsTab>
+  <EditMerchantType><![CDATA[//*[@id='LeadBusinessDetailIndustry']]]></EditMerchantType>
+  <Processor><![CDATA[//*[@id='LeadBusinessDetailProcessor']]]></Processor>
+  <FrontEnd><![CDATA[//*[@id='LeadBusinessDetailFrontEnd']]]></FrontEnd>
+  <MCAnnualVol><![CDATA[//*[@id='LeadBusinessDetailAnnualSales']]]></MCAnnualVol>
+  <TotalAnualVol><![CDATA[//*[@id='LeadBusinessDetailTotalSales']]]></TotalAnualVol>
+  <MaxTicket><![CDATA[//*[@id='LeadBusinessDetailMaxTicket']]]></MaxTicket>
+  <OccasionalHigherTicket><![CDATA[//*[@id='LeadBusinessDetailHighTicket']]]></OccasionalHigherTicket>
+  <DiscoverAnualVol><![CDATA[//*[@id='LeadBusinessDetailDiscVolume']]]></DiscoverAnualVol>
+  <MethodOfAcceptingCard><![CDATA[//*[@id='LeadBusinessDetailCardAcceptMethod']]]></MethodOfAcceptingCard>
+  <MonthlyCardProcessingVol><![CDATA[//*[@id='LeadBusinessDetailMonthlyCardVol']]]></MonthlyCardProcessingVol>
+  <AvgAmericanExpressTicket><![CDATA[//*[@id='LeadBusinessDetailAvgAmexTicket']]]></AvgAmericanExpressTicket>
+  //################################ PERCENTAGE PROCESSING  #############################################
+  <AddClients>
+    <ProcessingExpndBtn><![CDATA[//*[@id='processingPercentagesbox2img']/span]]></ProcessingExpndBtn>
+    <VerifyPercentagePrcessing><![CDATA[//*[@id='tabs-2']/div[2]/div[1]/div/span]]></VerifyPercentagePrcessing>
+    <SwipeKeyIn><![CDATA[//*[@id='LeadBusinessDetailPercentSwiped']]]></SwipeKeyIn>
+    <SwipeMO><![CDATA[//*[@id='LeadBusinessDetailPercentHandEntered']]]></SwipeMO>
+    <SwipeTo><![CDATA[//*[@id='LeadBusinessDetailPercentMoto']]]></SwipeTo>
+    <SwipeInternet><![CDATA[//*[@id='LeadBusinessDetailPercentInternet']]]></SwipeInternet>
+    <TotalSaleBusinesToBusiness><![CDATA[//*[@id='LeadBusinessDetailPercentTotalB2b']]]></TotalSaleBusinesToBusiness>
+    <BusinessToConsumer><![CDATA[//*[@id='LeadBusinessDetailPercentTotalB2c']]]></BusinessToConsumer>
+    <BankCardsaleBusinessToBusines><![CDATA[//*[@id='LeadBusinessDetailPercentBancardB2b']]]></BankCardsaleBusinessToBusines>
+    <BankCrdBusinessToConsumer><![CDATA[//*[@id='LeadBusinessDetailPercentBancardB2c']]]></BankCrdBusinessToConsumer>
+    <AmericanExpres1.percentSwipied><![CDATA[//*[@id='LeadBusinessDetailPercentAmexOnePointSwiped']]]></AmericanExpres1.percentSwipied>
+    <AmericanExpresskEYWRD><![CDATA[//*[@id='LeadBusinessDetailPercentAmexOnePointKeyed']]]></AmericanExpresskEYWRD>
+  </AddClients>
+  //######################### BUSINESS BANLKING ACCOUNT    ##############################################
+  <ClickOnBuisinessBankingExpndBtn><![CDATA[//*[@id='businessSeasonalitybox2img']/span]]></ClickOnBuisinessBankingExpndBtn>
+  <IsBusinessSeasonal><![CDATA[//*[@id='LeadBusinessDetailSeasonalBus']]]></IsBusinessSeasonal>
+  <SeasonStart><![CDATA[//*[@id='LeadBusinessDetailSeasonStart']]]></SeasonStart>
+  <SeasonEnd><![CDATA[//*[@id='LeadBusinessDetailSeasonEnd']]]></SeasonEnd>
+  //#################################### BUSINESS LENGTH     ##################################################
+  <BusinessLenghtExpandBtn><![CDATA[//*[@id='businessLengthDatabox2img']/span]]></BusinessLenghtExpandBtn>
+  <BusinessMmStartdate><![CDATA[//*[@id='LeadBusinessDetailBusOpenMonth']]]></BusinessMmStartdate>
+  <BusinessYearDate><![CDATA[//*[@id='LeadBusinessDetailBusOpenYear']]]></BusinessYearDate>
+  <YearInBusiness><![CDATA[//*[@id='LeadBusinessDetailBusYrs']]]></YearInBusiness>
+  //########################  BUSINESS BANKING DETAIL   ################################################
+  <BusinessBankingDetailExpandBtn><![CDATA[//*[@id='businessBankingAccountbox2img']/span]]></BusinessBankingDetailExpandBtn>
+  <BankSingerTitle><![CDATA[//*[@id='LeadBankAccountBankSignerTitle']]]></BankSingerTitle>
+  <BankVerificationAttached><![CDATA[//*[@id='LeadBankAccountImprintCheck']]]></BankVerificationAttached>
+  <FinancilInstitutionBBA><![CDATA[//*[@id='LeadBankAccountReferenceName']]]></FinancilInstitutionBBA>
+  <AccountType><![CDATA[//*[@id='LeadBankAccount0AccountType']]]></AccountType>
+  <DDAAccountType><![CDATA[//*[@id='LeadBankAccount0DdaAccountType']]]></DDAAccountType>
+  <BBAAddressLine1><![CDATA[//*[@id='LeadBankAccountAddressLine1']]]></BBAAddressLine1>
+  <BBAAddreessline2><![CDATA[//*[@id='LeadBankAccount0AddressLine2']]]></BBAAddreessline2>
+  <BBBACITY><![CDATA[//*[@id='LeadBankAccountCity']]]></BBBACITY>
+  <BBBAState><![CDATA[//*[@id='LeadBankAccountState']]]></BBBAState>
+  <BBAContactName><![CDATA[//*[@id='LeadBankAccountContactName']]]></BBAContactName>
+  <BBAContactPhone><![CDATA[//*[@id='LeadBankAccountContactPhone']]]></BBAContactPhone>
+  <BBAAccountNumber><![CDATA[//*[@id='LeadBankAccountAccountNr']]]></BBAAccountNumber>
+  <BBAMontlyBilling><![CDATA[//*[@id='LeadBankAccount0BankMonthlyBilling']]]></BBAMontlyBilling>
+  <SavebtnBD><![CDATA[//*[@id='LeadEditForm']/div[3]/div/a[1]/span[2]]]></SavebtnBD>
+
+
+</Locators>

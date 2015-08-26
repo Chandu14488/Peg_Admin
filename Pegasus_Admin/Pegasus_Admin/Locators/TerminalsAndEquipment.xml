@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   TerminalAndEquipment  #######################
+  <ClickTerminalAndEquipmentTab><![CDATA[//*[@id='tabs']/li[8]/a/span]]></ClickTerminalAndEquipmentTab>
+  <Processor><![CDATA[//*[@id='EquipmentProcessor']]]></Processor>
+  <TypeTAE><![CDATA[//*[@id='EquipmentType']]]></TypeTAE>
+  <AddEquipmentBtn><![CDATA[//*[@id='ClientEditForm']/div[2]/div/table/tbody/tr/td[6]/a/span[2]]]></AddEquipmentBtn>
+  <ClickEquipment><![CDATA[//*[@id='popupContent']/table/tbody/tr/td[1]/a]]></ClickEquipment>
+  <EnterEquipNmae><![CDATA[//*[@id='EquipmentName']]]></EnterEquipNmae>
+  <ClickEquipSeach><![CDATA[//*[@id='searchButton']/span[2]]]></ClickEquipSeach>
+  <ClickMGTAKMINI><![CDATA[//*[@id='lis-0']/a]]></ClickMGTAKMINI>
+  //########################   CHECK READER   ########################################
+  <Version><![CDATA[//*[@id='ClientTerminal3Version']]]></Version>
+  <ConnectionType><![CDATA[//*[@id='ClientTerminal3ConnectionType']]]></ConnectionType>
+  <FrontEnd><![CDATA[//*[@id='ClientTerminal3FrontEnd']]]></FrontEnd>
+  <OwnerShipType><![CDATA[//*[@id='ClientTerminal3FrontEnd']]]></OwnerShipType>
+  <AcquistationType><![CDATA[//*[@id='ClientTerminal3AcquisitionType']]]></AcquistationType>
+  <SerialNumber><![CDATA[//*[@id='ClientTerminal3SerialNo']]]></SerialNumber>
+  //#####################  Equipment Option  #####################################
+  <ClickOnExpandBtnEquipmentOptn><![CDATA[//*[@id='equipment0Options5boximg']/span]]></ClickOnExpandBtnEquipmentOptn>
+  <MerchantTranniedBy><![CDATA[//*[@id='ClientTerminal0MexMerchantTrainedBy']]]></MerchantTranniedBy>
+  <TXPIntegration><![CDATA[//*[@id='ClientTerminal0MexTxpIntegrationBy']]]></TXPIntegration>
+  <ThirdPartyProcessorUsed><![CDATA[//*[@id='ClientTerminal0ThirdPartyProcessorUsed']]]></ThirdPartyProcessorUsed>
+  <IfOther><![CDATA[//*[@id='ClientTerminal0ThirdPartyProcessorOther']]]></IfOther>
+  <WireLessNetwork><![CDATA[//*[@id='ClientTerminal0WirelessNetwork']]]></WireLessNetwork>
+  <ClickLastFourDigit><![CDATA[//*[@id='ClientTerminal0Last4Digits']]]></ClickLastFourDigit>
+  <PBXCode><![CDATA[//*[@id='ClientTerminal0PbxCode']]]></PBXCode>
+  <CashBack><![CDATA[//*[@id='ClientTerminal0CashBack']]]></CashBack>
+  <Servers><![CDATA[//*[@id='ClientTerminal0Servers']]]></Servers>
+  <BarTab><![CDATA[//*[@id='ClientTerminal0BarTab']]]></BarTab>
+  <FastWay><![CDATA[//*[@id='ClientTerminal0Fastway']]]></FastWay>
+  <BothRecipientSignatureLine><![CDATA[//*[@id='ClientTerminal0BothReceipNoSignLine']]]></BothRecipientSignatureLine>
+  <BothRecipientNoSignatureLine><![CDATA[//*[@id='ClientTerminal0BothReceipSignLine']]]></BothRecipientNoSignatureLine>
+  <All><![CDATA[//*[@id='ClientTerminal0PwdAll']]]></All>
+  <Void><![CDATA[//*[@id='ClientTerminal0PwdVoid']]]></Void>
+  <Other><![CDATA[//*[@id='ClientTerminal0PwdOther']]]></Other>
+  <DebitCashbackMaxAmount><![CDATA[//*[@id='ClientTerminal0DebitCashBackMaxAmount']]]></DebitCashbackMaxAmount>
+  <PaymentForEquipmentwilbe><![CDATA[//*[@id='ClientTerminal0PaymentEquipment']]]></PaymentForEquipmentwilbe>
+  <SpecialInstruction><![CDATA[//*[@id='ClientTerminal0SpecialInstructions']]]></SpecialInstruction>
+  //################################# EQUIPMENT FEATURES   ##############################################
+  <ClickOnEquipmentFeaturesTab><![CDATA[//*[@id='equipmentOptions0boximg']/span]]></ClickOnEquipmentFeaturesTab>
+  <SelectPinBasedDebit><![CDATA[//*[@id='ClientTerminal0MexTerPinBasedDebit']]]></SelectPinBasedDebit>
+  <SelectAmex><![CDATA[//*[@id='ClientTerminal0MexAmex']]]></SelectAmex>
+  <EBTServices><![CDATA[//*[@id='ClientTerminal0MexEbtService']]]></EBTServices>
+  <EnterEBTNFS><![CDATA[//*[@id='ClientTerminal0MexEbtFnsorfcs']]]></EnterEBTNFS>
+  <MultiMerchant><![CDATA[//*[@id='ClientTerminal0MexMultiMerchant']]]></MultiMerchant>
+  <ParentMid><![CDATA[//*[@id='ClientTerminal0MexParentId']]]></ParentMid>
+  <SelectAVS><![CDATA[//*[@id='ClientTerminal0MexTerAvs']]]></SelectAVS>
+  <corpPruch><![CDATA[//*[@id='ClientTerminal0MexCorpOrPurchCard']]]></corpPruch>
+  <VerificationCode><![CDATA[//*[@id='ClientTerminal0MexVerificationCode']]]></VerificationCode>
+  <PartialAuth><![CDATA[//*[@id='ClientTerminal0MexPartialAuth']]]></PartialAuth>
+  <SelectAutoClose><![CDATA[//*[@id='ClientTerminal0MexAutoClose']]]></SelectAutoClose>
+  <SelectInvoice><![CDATA[//*[@id='ClientTerminal0MexInvoice']]]></SelectInvoice>
+  <ECommerece><![CDATA[//*[@id='ClientTerminal0MexEcommerce']]]></ECommerece>
+  <AutoCloseTime><![CDATA[//*[@id='ClientTerminal0MexAutoCloseTime']]]></AutoCloseTime>
+  <ConnectionMethod><![CDATA[//*[@id='ClientTerminal0MexConnectionMethod']]]></ConnectionMethod>
+  <StoreMethod><![CDATA[//*[@id='ClientTerminal0MexStoreForward']]]></StoreMethod>
+  <DialPreFix><![CDATA[//*[@id='ClientTerminal0MexDialPrefix']]]></DialPreFix>
+  <MemorySize><![CDATA[//*[@id='ClientTerminal0MexMemorySize']]]></MemorySize>
+  <EMVCapabilities><![CDATA[//*[@id='ClientTerminal0MexEmvCapability']]]></EMVCapabilities>
+  <TipsOfTimeSale><![CDATA[//*[@id='ClientTerminal0MexTipAtTimeOfSale']]]></TipsOfTimeSale>
+  <TipCalculator><![CDATA[//*[@id='ClientTerminal0MexTipCalculator']]]></TipCalculator>
+  //################################ TERMINAL Variable   ######################################
+  <TerminalVariable><![CDATA[//*[@id='terminal0Variables5boximg']/span]]></TerminalVariable>
+  <SelectProviderCode><![CDATA[//*[@id='ClientTerminal0ProvCode']]]></SelectProviderCode>
+  <SelectApplicationCode><![CDATA[//*[@id='ClientTerminal0AppCode']]]></SelectApplicationCode>
+  //########################### STORE VARIABLE  ###############################################
+  <ClickExpendBtnStoreVariable><![CDATA[//*[@id='store0Variables5boximg']/span]]></ClickExpendBtnStoreVariable>
+  <CallWatingTerminalLine><![CDATA[//*[@id='ClientTerminal0CallWait']]]></CallWatingTerminalLine>
+  <NumberDailedForOutSideLine><![CDATA[//*[@id='ClientTerminal0DialNine']]]></NumberDailedForOutSideLine>
+  <RollOverLines><![CDATA[//*[@id='ClientTerminal0RollOver']]]></RollOverLines>
+  <ToneOrRotary><![CDATA[//*[@id='ClientTerminal0ToneRotary']]]></ToneOrRotary>
+  <ProcessorToTrainMerchant><![CDATA[//*[@id='ClientTerminal0NpcTrain']]]></ProcessorToTrainMerchant>
+  <ProcessorTotErminal><![CDATA[//*[@id='ClientTerminal0NpcReprogram']]]></ProcessorTotErminal>
+
+
+</Locators>

@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   TerminalAndEquipment  #######################
+  <ClickOwnerTab><![CDATA[//*[@id='tabs']/li[11]/a/span]]></ClickOwnerTab>
+  //##################### MERCHANT ACCOUNT NUMBER   ##################################
+  <VMCMerchantID><![CDATA[//*[@id='ClientMerchantNumberMerchID']]]></VMCMerchantID>
+  <DinersId><![CDATA[//*[@id='ClientMerchantNumberDinersID']]]></DinersId>
+  <AMEXMerchantID><![CDATA[//*[@id='ClientMerchantNumberAmexID']]]></AMEXMerchantID>
+  <DiscoverMerchantId><![CDATA[//*[@id='ClientMerchantNumberDiscID']]]></DiscoverMerchantId>
+  <EBTID><![CDATA[//*[@id='ClientMerchantNumberEbtID']]]></EBTID>
+  <PNSNumber><![CDATA[//*[@id='ClientMerchantNumberPnsID']]]></PNSNumber>
+  <ByPassNumber><![CDATA[//*[@id='ClientMerchantNumberBuypassNum']]]></ByPassNumber>
+  <NashVilliMID><![CDATA[//*[@id='ClientMerchantNumberNashMID']]]></NashVilliMID>
+  <VitalNumberTerminal1><![CDATA[//*[@id='ClientMerchantNumberVitalNum']]]></VitalNumberTerminal1>
+  <VitualNumberTerminal2><![CDATA[//*[@id='ClientMerchantNumberVitalNum2']]]></VitualNumberTerminal2>
+  <DateWireId><![CDATA[//*[@id='ClientMerchantNumberDataWireID']]]></DateWireId>
+  <DebitId><![CDATA[//*[@id='ClientMerchantNumberDebitID']]]></DebitId>
+  <CheckId><![CDATA[//*[@id='ClientMerchantNumberCheckID']]]></CheckId>
+  //###########################   CORPORATE  MOBILE  ##############################
+  <ClickCoprateMobileOnExpandBtn><![CDATA[//*[@id='cocardmobilebox8img']/span]]></ClickCoprateMobileOnExpandBtn>
+  <EnterUsername><![CDATA[//*[@id='ClientMerchantNumberCocardMobileUsername']]]></EnterUsername>
+  <Password><![CDATA[//*[@id='ClientMerchantNumberCocardMobilePassword']]]></Password>
+  //################################# ETC GATEWAY    ###################################
+  <ClickOnETCExpandVbtn><![CDATA[//*[@id='eftgatewaybox8img']/span]]></ClickOnETCExpandVbtn>
+  <EnterUsernameETC><![CDATA[//*[@id='ClientMerchantNumberCocardMobileUsername']]]></EnterUsernameETC>
+  <PasswordETC><![CDATA[//*[@id='ClientMerchantNumberCocardMobilePassword']]]></PasswordETC>
+  //########################### NET CONNECT  ##################################
+  <NetConnectExpanfBtn><![CDATA[//*[@id='netconnectbox8img']/span]]></NetConnectExpanfBtn>
+  <SerialNumber><![CDATA[//*[@id='ClientMerchantNumberPcSerial']]]></SerialNumber>
+  <UsernameNETCONNECT><![CDATA[//*[@id='ClientMerchantNumberNetUser']]]></UsernameNETCONNECT>
+  <PasswordNETCONNECT><![CDATA[//*[@id='ClientMerchantNumberNetPass']]]></PasswordNETCONNECT>
+  <CompanyName><![CDATA[//*[@id='ClientMerchantNumberPcCompany']]]></CompanyName>
+  <Street><![CDATA[//*[@id='ClientMerchantNumberPcStreet']]]></Street>
+  <City><![CDATA[//*[@id='ClientMerchantNumberPcCity']]]></City>
+  <STATE><![CDATA[//*[@id='ClientMerchantNumberPcState']]]></STATE>
+  <ZipCode><![CDATA[//*[@id='ClientMerchantNumberPcZip']]]></ZipCode>
+  //########################### CHECK SERVICES EXPAND BUTTON  #######################################
+  <ClicKOnCheckServicreAdvanceBtn><![CDATA[//*[@id='checkservicesbox8img']/span]]></ClicKOnCheckServicreAdvanceBtn>
+  <SelectCheckServices><![CDATA[//*[@id='ClientMerchantNumberCheckServ']]]></SelectCheckServices>
+  <SPSTIDSITE><![CDATA[//*[@id='ClientMerchantNumberSiteID']]]></SPSTIDSITE>
+  //######################### ACCOUNT EXCEPTION  ###################################################
+  <ClickOnAccountExceptionExpndBtn><![CDATA[//*[@id='accountexceptionbox8img']/span]]></ClickOnAccountExceptionExpndBtn>
+  <NCPDeclineApplication><![CDATA[//*[@id='ClientMerchantNumberDateDeclined']]]></NCPDeclineApplication>
+  <ReasonDecile><![CDATA[//*[@id='ClientMerchantNumberDeclineReason']]]></ReasonDecile>
+  <NameOfCatogaryExcluded><![CDATA[//*[@id='ClientMerchantNumberCatExclude']]]></NameOfCatogaryExcluded>
+  <EquipmentOrSoftware><![CDATA[//*[@id='ClientMerchantNumberNotSupport']]]></EquipmentOrSoftware>
+  <Network><![CDATA[//*[@id='ClientMerchantNumberNotNetwork']]]></Network>
+  <Reason><![CDATA[//*[@id='ClientMerchantNumberNotReason']]]></Reason>
+
+
+</Locators>

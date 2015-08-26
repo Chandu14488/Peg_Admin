@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+//###################  LOGIN WITH CROP    ############################
+  <EnterUsername><![CDATA[//*[@id='UserUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserPasswordHash']]]></EnterPassword>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButtojn>
+
+
+  //#######################   Residual Income  #######################
+  <ClickResidualIncomeTab><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClickResidualIncomeTab>
+  <ClickOnImport><![CDATA[//*[@id='css3menu']/li[4]/div/div[1]/ul/li/a]]></ClickOnImport> 
+  
+  //  ############################  IMPORT
+  <ClickOnImportNew><![CDATA[//*[@id='actionbuttons']/span]]></ClickOnImportNew>
+  <ProcessorType><![CDATA[//*[@id='ImportIndexProcessor']]]></ProcessorType>
+  <ReportingPeriod><![CDATA[//*[@id='ImportIndexReportingMonth']]]></ReportingPeriod>
+  <ReportingYear><![CDATA[//*[@id='ImportIndexReportingYear']]]></ReportingYear>
+  <FileDate><![CDATA[//*[@id='ImportIndexFileDate']]]></FileDate>
+  <SeldectDate28><![CDATA[//a[text()='28']]]></SeldectDate28>
+  <SelectBrowseCSVFile><![CDATA[//*[@id='ImportIndexCsvFile']]]></SelectBrowseCSVFile>
+  <ClickOnImportBtn><![CDATA[//*[@id='main_container']/div[2]/div[3]/a[1]/span[2]]]></ClickOnImportBtn>
+  <ClickOnPublishPayout><![CDATA[//a[@title='Publish Payouts']]]></ClickOnPublishPayout>
+  <ClickOnViewReportIcon><![CDATA[//*[@id='related_positions_table']/tbody/tr[2]/td[9]/a[3]/span]]></ClickOnViewReportIcon>
+  <FNDPeriod><![CDATA[//*[@id='FdnFilePeriod']]]></FNDPeriod>
+  <SelectFND><![CDATA[//*[@id='FdnFileProcessor']]]></SelectFND>
+  <!--REPORTS-->
+  <ClickToViewReport><![CDATA[//*[@id='related_positions_table']/tbody/tr[2]/td[9]/a[4]/span]]></ClickToViewReport>
+  //########################### SET FILTER  
+  <SelectFiletReportingPeriod><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[1]/select]]></SelectFiletReportingPeriod>
+  <SelectProcessorFiler><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[3]/select]]></SelectProcessorFiler>
+  <FilterFileFormat><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[4]/select]]></FilterFileFormat>
+  <FileName><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[5]/input]]></FileName>
+  <SelectStatus><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[6]/select]]></SelectStatus>
+  <ClickOnCalculation><![CDATA[//table[@id='related_positions_table']/tbody/tr[2]/td[9]/a[1]]]></ClickOnCalculation>
+
+  //Calculation wizard
+  <ClickOnStep1><![CDATA[//*[@id='main_container']/div[2]/div[2]/div[1]/div[3]/div/div/ul/li[4]/h3/a ]]></ClickOnStep1>
+  <EnterRevenuePercentage><![CDATA[//*[@id='text1']]]></EnterRevenuePercentage>
+  <ClickOnApplyCheckBox><![CDATA[//*[@id='ResidualFileRevenueOrgrevenueshare']]]></ClickOnApplyCheckBox>
+  <ClickOnCalucationSaveBtn><![CDATA[//*[@id='ResidualFileRevenueRevenueForm']/div[2]/div[3]/a[1]/span[1]]]></ClickOnCalucationSaveBtn>
+
+  //Revenue OverRide
+  <ClickOnRevenueAdjustment><![CDATA[//*[@id='main_container']/div[3]/div[3]/div[3]/div[3]/div/div/ul/li[4]/h3/a]]></ClickOnRevenueAdjustment>
+  <EnterRuleSet><![CDATA[//*[@id='RirPayoutRulesetRulesetName']]]></EnterRuleSet>
+  <ClickOnSavebtn><![CDATA[//*[@id='RirPayoutRulesetCreateRulesetForm']/div[2]/div[3]/a[1]/span[1]]]></ClickOnSavebtn>
+
+  //Calculate Payout
+  <CalculatePayout><![CDATA[//*[@id='main_container']/div[3]/div[3]/div[5]/div[3]/div/div/ul/li[4]/h3/a]]></CalculatePayout>
+
+  //Publish Payout
+  <PublishPayout><![CDATA[//*[@id='main_container']/div[2]/div[3]/div[7]/div[3]/div/div/ul/li[4]/h3/a]]></PublishPayout>
+
+  //###############  Office payout
+  <ViewOfficePayout><![CDATA[//table[@id='related_positions_table']/tbody/tr[2]/td[9]/a[3]]]></ViewOfficePayout>
+
+
+  
+  //#############    
+  <SeleniumOffive25><![CDATA[//div[@id='enable']/div/table/tbody/tr[1]/td[3]/input]]></SeleniumOffive25>
+  <Sel10><![CDATA[//div[@id='enable']/div/table/tbody/tr[2]/td[3]/input]]></Sel10>
+  
+//Click on Skip step 2 calculation wizard
+   <SkipStep2><![CDATA[//*[@id='main_container']/div[3]/div[4]/div[3]/div/a/strong]]></SkipStep2>
+  
+  //Send Report to Office
+  <ClcikOnViewReport><![CDATA[//*[@id='main_container']/div[2]/div[4]/div[5]/div/div[3]/a/strong]]></ClcikOnViewReport>
+  <ClickOnSelOffice><![CDATA[//div[@id='left']/div[2]/input[2]]]></ClickOnSelOffice>
+  <ClickOnSend><![CDATA[//*[@id='bulk']/div[3]/a/span[1]]]></ClickOnSend>
+  
+  //Residual icome Email This Report
+  <ClickOnEmailIcone><![CDATA[//*[@id='right']/div[1]/table/tbody/tr/td[4]/a/img]]></ClickOnEmailIcone>
+  <ClickOnSend1><![CDATA[//*[@id='EmailComposeForm']/div[3]/div/div/a[1]/span[2]]]></ClickOnSend1>
+
+  <SelectYr><![CDATA[//*[@id='ImportIndexReportingYear']]]></SelectYr>
+  
+  <!--VIEW OFFICE PAYOUT PRINT-->
+  <ClickOnViewOfficePayout><![CDATA[//*[@id='main_container']/div[2]/div[4]/div[5]/div/div[2]/a/strong]]></ClickOnViewOfficePayout>
+  <ClickOnPrint><![CDATA[//*[@id='print']/span/span]]></ClickOnPrint>
+  
+  <!--EXPORT AS CSV AND EXPORT AS EXCEL-->
+  <ClickOnExport><![CDATA[//*[@id='exportactions']/span[1]]]></ClickOnExport>
+  <ClickExportAsCSV><![CDATA[//div[@class='moreactions']/ul/li[1]/a]]></ClickExportAsCSV>
+  <ClickExportExcel><![CDATA[//div[@class='moreactions']/ul/li[2]/a]]></ClickExportExcel>
+  
+  <!--VIEW REPORTS-->
+  <ClickOnViewReportsLink><![CDATA[//*[@id='main_container']/div[2]/div[4]/div[5]/div/div[3]/a/strong]]></ClickOnViewReportsLink>
+  <PDF><![CDATA[//*[@id='right']/div[1]/table/tbody/tr/td[3]/a/img]]></PDF>
+  <CSV><![CDATA[//*[@id='right']/div[1]/table/tbody/tr/td[1]/a/img]]></CSV>
+  <Excel><![CDATA[//*[@id='right']/div[1]/table/tbody/tr/td[2]/a/img]]></Excel>
+  
+  <!--REPORTS-->
+  <ReportingPeriodReport><![CDATA[//*[@id='reporting_period']]]></ReportingPeriodReport>
+  <FileDate1><![CDATA[//*[@id='file_date']]]></FileDate1>
+  <Search><![CDATA[//*[@id='main_container']/div[2]/div[1]/div[1]/div[10]/div/a/span[2]]]></Search>
+  <MassEmailSelectAll><![CDATA[//*[@id='sendtoAll']]]></MassEmailSelectAll>
+  <MailPDF><![CDATA[//*[@id='attachtypePdf']]]></MailPDF>
+  <EmailExcel><![CDATA[//*[@id='attachtypeExls']]]></EmailExcel>
+  <EmailCSV><![CDATA[//*[@id='attachtypeCsv']]]></EmailCSV>
+  <SendEmailOff><![CDATA[//*[@id='bulk']/div[3]/a/span[2]]]></SendEmailOff>
+  <SelectSrchProcesor><![CDATA[//*[@id='processor']]]></SelectSrchProcesor>
+  
+  <!--SELECTED OFFICE-->
+  <SelectedOffice><![CDATA[//*[@id='sendtoSelected']]]></SelectedOffice>
+  <PdfSelectedOff><![CDATA[//*[@id='attachtypePdf']]]></PdfSelectedOff>
+  <SelectedOfficeOffice><![CDATA[//*[@id='175']]]></SelectedOfficeOffice>
+  
+  <!--RESIDUAL INCOME RECALCULATE-->
+  <ClickOnSkipRecal1><![CDATA[//*[@id='main_container']/div[2]/div[3]/div[1]/div/a/strong]]></ClickOnSkipRecal1>
+  <ClickSkipStp2Recal><![CDATA[//*[@id='main_container']/div[2]/div[4]/div[3]/div/a/strong]]></ClickSkipStp2Recal>
+  <ClickRecalculate><![CDATA[//*[@id='main_container']/div[2]/div[4]/div[5]/div/div[1]/a/strong]]></ClickRecalculate>
+  <ClickOnShareCancel><![CDATA[//*[@id='ResidualFileRevenueRevenueForm']/div[2]/div[3]/a[2]/span[1]]]></ClickOnShareCancel>
+  
+  <!--RESIDUAL ICON CALCULATION FROM OFFICE-->
+  <ClickMouseOver><![CDATA[//*[@id='user_header_info']]]></ClickMouseOver>
+  <ClickOnLinkLogout><![CDATA[link=Logout]]></ClickOnLinkLogout>
+  <ClickonResidualIncome><![CDATA[link=Residual Income]]></ClickonResidualIncome>
+  <SelectReportingPeriodOff><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[1]/select]]></SelectReportingPeriodOff>#July 2015
+  <SelectFiileFromtOff><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[4]/select]]></SelectFiileFromtOff>#First Data North
+  <SelectStatusoff><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[5]/select]]></SelectStatusoff>#New
+  <ClickOnCalculationoFF><![CDATA[//a[@title='Calculation Wizard']]]></ClickOnCalculationoFF>
+  <ClickOnAgentLookUp><![CDATA[//a[@title='Agent Lookup']]]></ClickOnAgentLookUp>
+  <ClickCalculateAdjustment><![CDATA[//a[@title='Calculate Adjustments']]]></ClickCalculateAdjustment>
+  <AgentPayoutCalculations><![CDATA[//a[text()='Agent payout calculations']]]></AgentPayoutCalculations>
+  <ClickPublishOff><![CDATA[//a[@title='Publish']]]></ClickPublishOff>
+  <ClickToViewPayout><![CDATA[//a[@title='View Payouts']]]></ClickToViewPayout>
+  <ClickOnReports><![CDATA[link=View Reports]]></ClickOnReports>
+  <SelectReprtingPrdOff><![CDATA[//*[@id='FdnFileReportingPeriod']]]></SelectReprtingPrdOff>#2015-07-01
+  <SelectFileDate><![CDATA[//*[@id='FdnFileFileDate']]]></SelectFileDate>
+  <SelectProcessor><![CDATA[//*[@id='FdnFileProcessor']]]></SelectProcessor>#First Data North
+  <ClickOnShowPayout><![CDATA[//*[@id='showpayouts']]]></ClickOnShowPayout>
+  <VerifyJuly><![CDATA[//*[@id='1760427']/td[8]]]></VerifyJuly>
+
+
+</Locators>
+
+

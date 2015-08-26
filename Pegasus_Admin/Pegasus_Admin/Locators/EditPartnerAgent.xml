@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   Agent Tab #######################
+  <ClickAgentTab><![CDATA[//*[@id='css3menu']/li[8]/a/span]]></ClickAgentTab>
+  <ClickOnPartnerAgent><![CDATA[//*[@id='css3menu']/li[8]/div/div/ul/li[4]/a]]></ClickOnPartnerAgent>
+  <NamePartnerAgent><![CDATA[//*[@id='gs_contactNm']]]></NamePartnerAgent>
+  <ClickOnAgent><![CDATA[//*[@id='721']/td[6]/a]]></ClickOnAgent>
+  <ClickOnEdit><![CDATA[//*[@id='main_container']/div[4]/div[1]/div/a/span[2]]]></ClickOnEdit>
+  //####### CREATE PARTENER AGENT
+  <SelectSalutation><![CDATA[//*[@id='PartnerAgentSalutation']]]></SelectSalutation>
+  <FirstNAME><![CDATA[//*[@id='PartnerAgentFirstName']]]></FirstNAME>
+  <LastName><![CDATA[//*[@id='PartnerAgentLastName']]]></LastName>
+  <BirthDay><![CDATA[//*[@id='PartnerAgentBirthdate']]]></BirthDay>
+  <DBAName><![CDATA[//*[@id='PartnerAgentDba']]]></DBAName>
+  <LinkedInUrl><![CDATA[//*[@id='PartnerAgentLinkedinUrl']]]></LinkedInUrl>
+  <FaceBookUrl><![CDATA[//*[@id='PartnerAgentFacebookUrl']]]></FaceBookUrl>
+  <TwitterURL><![CDATA[//*[@id='PartnerAgentTwitterUrl']]]></TwitterURL>
+  <SelectLanguage><![CDATA[//*[@id='PartnerAgentLanguage']]]></SelectLanguage>
+  //############## CONTACT INFORMTAION
+  <eAddressType><![CDATA[//*[@id='PartnerAgentElectronicAddress0ElectronicContentType']]]></eAddressType>
+  <eAddressLebel><![CDATA[//*[@id='PartnerAgentElectronicAddress0ElectronicContentLabel']]]></eAddressLebel>
+  <eAddress><![CDATA[//*[@id='PartnerAgentElectronicAddress0ElectronicContent']]]></eAddress>
+  // ################## PHONE
+  <SelectPhoneType><![CDATA[//*[@id='PartnerAgentPhone0PhoneType']]]></SelectPhoneType>
+  <PhoneNumber><![CDATA[//*[@id='PartnerAgentPhone0PhoneFormat']]]></PhoneNumber>
+  //#################### ADDRESS
+  <AddressType><![CDATA[//*[@id='PartnerAgentAddress0Type']]]></AddressType>
+  <AddressLine1><![CDATA[//*[@id='PartnerAgentAddress0AddressLine1']]]></AddressLine1>
+  <City><![CDATA[//*[@id='PartnerAgentAddress0City']]]></City>
+  <State><![CDATA[//*[@id='PartnerAgentAddress0State']]]></State>
+  <PostalCode><![CDATA[//*[@id='PartnerAgentAddress0PostalCode']]]></PostalCode>
+  //################### CREATE USER ACCOUNT FOR THIS PARTNER AGENT
+  <ClickONcheckBox><![CDATA[//*[@id='UserCreateUser']]]></ClickONcheckBox>
+  <UserName><![CDATA[//*[@id='UserUserName']]]></UserName>
+  <ClickOnAvatar><![CDATA[//*[@id='1101']]]></ClickOnAvatar>
+  //######################  CLICK ON SAVE BUTTON
+  <SaveAGENTbtn><![CDATA[//*[@id='PartnerAgentAgentEditForm']/div[2]/div[8]/div/a[1]/span[2]]]></SaveAGENTbtn>
+
+
+</Locators>

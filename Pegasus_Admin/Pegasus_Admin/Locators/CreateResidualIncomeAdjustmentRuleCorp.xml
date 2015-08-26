@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  //###################  LOGIN WITH CROP    ############################
+  <EnterUsername><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButtojn>
+
+
+  //#######################   Residual Income  #######################
+  <ClickOnResidualIncome><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClickOnResidualIncome>
+  <ClickOnCreateBtn><![CDATA[//*[@id='actionbuttons']/span[1]]]></ClickOnCreateBtn>
+  <ProcessorType><![CDATA[//*[@id='ResidualMasterProcessor']]]></ProcessorType>
+  <EnterRuleSetName><![CDATA[//*[@id='RirPayoutMasterRulesetRulesetName']]]></EnterRuleSetName>
+  
+  //#############  CREATE RULE SET
+  <SelectRuleType><![CDATA[//*[@id='rule_type0']]]></SelectRuleType>
+  <Amount><![CDATA[//*[@id='amount_field0']]]></Amount>
+  <AddRemove><![CDATA[//*[@id='RirPayoutMasterRulesetCustomRule0CalcType']]]></AddRemove>
+  
+  //Click on Save button
+  <ClickOnSaveBtn><![CDATA[//*[@id='ResidualMasterCreateForm']/div[2]/div[3]/a[1]/span[1]]]></ClickOnSaveBtn>
+  
+  
+  
+  
+</Locators>
+
+

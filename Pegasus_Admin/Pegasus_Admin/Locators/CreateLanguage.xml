@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <WelcomeMoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]/div]]></WelcomeMoveHover>
+  <ClickOnAdmin><![CDATA[//*[@id='user_header_info']/table/tbody/tr/td[2]/div[2]/a[1]]]></ClickOnAdmin>
+  <ClickOnMasterData><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClickOnMasterData>
+  <ClickOnCreateBtn><![CDATA[//a[@title='Add New Language']]]></ClickOnCreateBtn>
+  <EnterName><![CDATA[//*[@id='OrganizationLanguageName']]]></EnterName>
+  <ClickSave><![CDATA[//*[@id='OrganizationLanguageLanguagesForm']/div/div/div/a[@title='Save']]]></ClickSave>
+  <ClickOnEditLanguage><![CDATA[//table[@id='list1']/tbody/tr[2]/td/span/a[1]]]></ClickOnEditLanguage>
+  <EnterLanguage><![CDATA[//table[@id='list1']/tbody/tr[2]/td/input[@name='name']]]></EnterLanguage>
+  <ClickOnSaveBtn><![CDATA[//table[@id='list1']/tbody/tr[2]/td/span[2]/a[1]]]></ClickOnSaveBtn>
+  <ClickOnDelLang><![CDATA[//table[@id='list1']/tbody/tr[2]/td/span/a[2]]]></ClickOnDelLang>
+  <!--LANGUAGE CORP-->
+  <ClickOnMasterTabCorp><![CDATA[//*[@id='css3menu']/li[7]/a]]></ClickOnMasterTabCorp>
+  <LanguagesCorp><![CDATA[//a[@href='/selenium_corp/languages']]]></LanguagesCorp>
+  <CreateNewLang><![CDATA[//a[@title='Add New Language']]]></CreateNewLang>
+  <CorpLanguage><![CDATA[//*[@id='CorporateLanguageName']]]></CorpLanguage>
+  <SaveLang><![CDATA[//a[@title='Save']]]></SaveLang>
+  <SearchLang><![CDATA[//*[@id='gs_name']]]></SearchLang>
+  <ClickOnEditCorpLang><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/span/a[1]]]></ClickOnEditCorpLang>
+  <ClickOnDeleteCorpLang><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/span/a[2]]]></ClickOnDeleteCorpLang>
+  <SaveEditLanguage><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/span[2]/a[1]]]></SaveEditLanguage>
+  <DeleteLangRowBtn><![CDATA[//*[@id='dData']/span]]></DeleteLangRowBtn>
+  <EditKLanguageText><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/input]]></EditKLanguageText>
+  <PushToOfficeLang><![CDATA[//a[@title='Push to Offices']]]></PushToOfficeLang>
+  <SearchLanguageOffice><![CDATA[//*[@id='gs_name']]]></SearchLanguageOffice>
+  <!--Search Langauge-->
+  <EnterLanguageToSeacrh><![CDATA[//*[@id='gs_name']]]></EnterLanguageToSeacrh>
+
+  <ContactTab><![CDATA[//*[@id='css3menu']/li[5]/a]]></ContactTab>
+  <SelectLanguage><![CDATA[//*[@id='ContactLanguage']]]></SelectLanguage>
+  <ClickToRedirectMainSite><![CDATA[//*[@id='user_header_info']/table/tbody/tr/td[2]/div[2]/a[text()='Admin']]]></ClickToRedirectMainSite>
+  <ClickOnClientTab><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClickOnClientTab>
+  <ClickOnOwner><![CDATA[//*[@id='ClientCreateForm']/div[3]/div/div[1]/ul/li[7]/a]]></ClickOnOwner>
+  <OwnerLanguage><![CDATA[//*[@id='ClientOwner0ContactContactLanguage']]]></OwnerLanguage>
+  
+</Locators>

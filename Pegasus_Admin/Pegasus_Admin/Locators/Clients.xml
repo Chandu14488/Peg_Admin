@@ -1,0 +1,368 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <TopMenu>
+    <Clients><![CDATA[link=Clients]]></Clients>
+  </TopMenu>
+
+  <FirstClientNameLink><![CDATA[//table[contains(@class, 'ui-jqgrid-btable')]/tbody/tr[2]//td[contains(@aria-describedby, 'list1_company_dba_name')]/a]]></FirstClientNameLink>
+
+  <Info>
+    <AddNote><![CDATA[//span[@class='ui-button-text' and contains(text(), 'Add Note')]]]></AddNote>
+    <NoteWindow>
+      <NoteName><![CDATA[//input[contains(@id, 'NoteName')]]]></NoteName>
+      <NoteDesc><![CDATA[//textarea[contains(@id, 'NoteDescription')]]]></NoteDesc>
+      <A1099SaleDesc><![CDATA[//body[@class='cke_show_borders']/br]]></A1099SaleDesc>
+    </NoteWindow>
+    <ComposeEmail>
+      <ToField><![CDATA[//input[contains(@id, 'EmailToAddrs')]]]></ToField>
+      <EmailSubject><![CDATA[//input[contains(@id, 'EmailName')]]]></EmailSubject>
+      <High><![CDATA[//input[contains(@id, 'EmailImportance1')]]]></High>
+      <Low><![CDATA[//input[contains(@id, 'EmailImportance0')]]]></Low>
+      <SourceIcon><![CDATA[//span[contains(@class, 'cke_icon')]]]></SourceIcon>
+      <EmailBody><![CDATA[//textarea[contains(@class, 'cke_source cke_enable_context_menu')]]]></EmailBody>
+      <Send><![CDATA[//a[@class='saveemails ui-button ui-widget ui-state-default ui-button-text-icon-primary ui-corner-left']/span[2]]]></Send>
+    </ComposeEmail>
+    <CreateTask>
+      <Subject><![CDATA[//*[@id='TaskName']]]></Subject>
+      <StartDate><![CDATA[//*[@id='TaskStartDate']]]></StartDate>
+      <DatePickerNext><![CDATA[//a[contains(@class, 'ui-datepicker-next')]]]></DatePickerNext>
+      <DueDate><![CDATA[//*[@id='TaskDueDate']]]></DueDate>
+      <Save><![CDATA[//*[@id='main_container']/div/div[3]/a[1]/span[2]]]></Save>
+    </CreateTask>
+  </Info>
+  <AddClients>
+    <Header><![CDATA[//*[@id='main_container']/div[3]/div/div[2]/h2]]></Header>
+    <Create><![CDATA[//*[@id='actionbuttons']/span]]></Create>
+    <CompanyDBAName><![CDATA[//*[@id='ClientCompanyDbaName']]]></CompanyDBAName>
+    <CompanyLegalName><![CDATA[//*[@id='ClientCompanyLegalName']]]></CompanyLegalName>
+    <CompanyPresident><![CDATA[//*[@id='ClientCompanyDetailPresident']]]></CompanyPresident>
+    <CompanyCFO><![CDATA[//*[@id='ClientCompanyDetailCompCFO']]]></CompanyCFO>
+    <OwnershipType><![CDATA[//*[@id='ClientCompanyDetailOwnershipType']]]></OwnershipType>
+    <TaxClassification><![CDATA[//*[@id='ClientCompanyDetailTaxClassification']]]></TaxClassification>
+    <SSNFederalTaxID><![CDATA[//*[@id='ClientCompanyDetailTaxID']]]></SSNFederalTaxID>
+    <TimeZone><![CDATA[//*[@id='ClientZTimezoneId']]]></TimeZone>
+    <StateIncorporated><![CDATA[//*[@id='ClientCompanyDetailProprietorshipState']]]></StateIncorporated>
+    <CorporationType><![CDATA[//*[@id='ClientCompanyDetailCorptype']]]></CorporationType>
+    //##############  ADDRESS LOGO     ##########################
+    <AddressLine1><![CDATA[//*[@id='ClientAddress0AddressLine1']]]></AddressLine1>
+    <AddressLine2><![CDATA[//*[@id='ClientAddress0AddressLine2']]]></AddressLine2>
+    <Country><![CDATA[//*[@id='ClientAddress0County']]]></Country>
+    <City><![CDATA[//*[@id='ClientAddress0City']]]></City>
+    <State><![CDATA[//*[@id='ClientAddress0State']]]></State>
+    <Countrydd><![CDATA[//*[@id='ClientAddress0Country']]]></Countrydd>
+    <ZipCode><![CDATA[//*[@id='ClientAddress0PostalCode']]]></ZipCode>
+    <DoNotSolicit><![CDATA[//*[@id='ClientAddress0DoNotSolicit']]]></DoNotSolicit>
+    <Current><![CDATA[//*[@id='ClientAddress0Current']]]></Current>
+    <AddRemark1><![CDATA[//*[@id='address_add_link_0']]]></AddRemark1>
+    <AddRemarkDescription><![CDATA[//*[@id='ClientAddress0Description']]]></AddRemarkDescription>
+    <CloseRemark1><![CDATA[//*[@id='address_close_link_0']]]></CloseRemark1>
+    //###################   MAILING ADDRESS   #############################
+    <AddressLine1Mailinadd><![CDATA[//*[@id='ClientAddress1AddressLine1']]]></AddressLine1Mailinadd>
+    <AddressLine2MailAdd><![CDATA[//*[@id='ClientAddress1AddressLine2']]]></AddressLine2MailAdd>
+    <CountryMailingAdd><![CDATA[//*[@id='ClientAddress1County']]]></CountryMailingAdd>
+    <CityMailingAdd><![CDATA[//*[@id='ClientAddress1City']]]></CityMailingAdd>
+    <StateMailingAdd><![CDATA[//*[@id='ClientAddress1State']]]></StateMailingAdd>
+    <CountryMailingAdd><![CDATA[//*[@id='ClientAddress1Country']]]></CountryMailingAdd>
+    <ZipCodeMailingAdd><![CDATA[//*[@id='ClientAddress1PostalCode']]]></ZipCodeMailingAdd>
+    <DoNotSolicitMailingAdd><![CDATA[//*[@id='ClientAddress1DoNotSolicit']]]></DoNotSolicitMailingAdd>
+    <CurrentChkBoxMailingAddress><![CDATA[//*[@id='ClientAddress1Current']]]></CurrentChkBoxMailingAddress>
+    <AddRemarkMailingAddress><![CDATA[//*[@id='address_add_link_1']]]></AddRemarkMailingAddress>
+    <AddRemarkDescriptionMailingAddress><![CDATA[//*[@id='ClientAddress1Description']]]></AddRemarkDescriptionMailingAddress>
+    <CloseRemarkMailingAddress><![CDATA[//*[@id='address_close_link_1']]]></CloseRemarkMailingAddress>
+    //########################### CONTACTS   ###############################################
+    <salutation><![CDATA[//*[@id='ClientContactDetails0Salutation']]]></salutation>
+    <FirstName><![CDATA[//*[@id='ClientContactDetails0FirstName']]]></FirstName>
+    <MiddleName><![CDATA[//*[@id='ClientContactDetails0MiddleName']]]></MiddleName>
+    <LastName><![CDATA[//*[@id='ClientContactDetails0LastName']]]></LastName>
+    <LanguageContact><![CDATA[//*[@id='ClientContactAddress0Type']]]></LanguageContact>
+    <Phonetype><![CDATA[//*[@id='ClientContactPhone0PhoneType']]]></Phonetype>
+    <ContactCountry><![CDATA[//*[@id='ClientContactPhone0PhoneCountryCode']]]></ContactCountry>
+    <PhoneNumber><![CDATA[//*[@id='ClientContactPhone0PhoneFormat']]]></PhoneNumber>
+    <AddPhonelink><![CDATA[//*[@id='contactbox']/div/div[5]/a]]></AddPhonelink>
+    <AddPhoneType><![CDATA[//*[@id='ClientContactPhoneTabs0_3']/div[1]/div/select[1]]]></AddPhoneType>
+    <AddPhoneCountry><![CDATA[//*[@id='ClientContactPhoneTabs0_3']/div[1]/div/select[2]]]></AddPhoneCountry>
+    <AddContactPhoneNumber><![CDATA[//*[@id='ClientContactPhone3ContactContactPhonePhoneFormat']]]></AddContactPhoneNumber>
+    <AddPhoneNumberPrimaryRadioBtn><![CDATA[]]></AddPhoneNumberPrimaryRadioBtn>
+    <DonotCall><![CDATA[//*[@id='ClientContactPhoneTabs0_3']/div[3]/div/input[2]]]></DonotCall>
+    <ClickCloseicon><![CDATA[//*[@id='ClientContactPhoneTabs0_3']/div[3]/span/a]]></ClickCloseicon>
+    <ContactEmailType><![CDATA[//*[@id='ClientContactElectronicAddress0ElectronicContentType']]]></ContactEmailType>
+    <ContacteAddressLabel><![CDATA[//*[@id='ClientContactElectronicAddress0ElectronicContentLabel']]]></ContacteAddressLabel>
+    <ContactEaddress><![CDATA[//*[@id='ClientContactElectronicAddress0ElectronicContent']]]></ContactEaddress>
+    <ContactAddressType><![CDATA[//*[contains(@id, 'ClientContactAddress0Type') and contains(@class, 'valid')]]]></ContactAddressType>
+    <ContactSelectState><![CDATA[//*[@id='ClientContactAddress0State']]]></ContactSelectState>
+    <ContactSelectCountry><![CDATA[//*[@id='ClientContactAddress0Country']]]></ContactSelectCountry>
+    <ContactZipCode><![CDATA[//*[@id='ClientContactAddress0PostalCode']]]></ContactZipCode>
+    //############################   DESCRIPTION  ##############################################
+    <DescriptionExpandbutton><![CDATA[//*[@id='descriptionboximg']/span]]></DescriptionExpandbutton>
+    <EnterDescription><![CDATA[//*[@id='ckeditor_text']]]></EnterDescription>
+    //################################# MORE COMPANY DETAIL  #####################################
+    <CompanyDetailExpandbtn><![CDATA[//*[@id='deliveryoptionboximg']/span]]></CompanyDetailExpandbtn>
+    <CompanyDetailMultipleLocationYes><![CDATA[//*[@id='ClientCompanyDetailMultiLoc1']]]></CompanyDetailMultipleLocationYes>
+    <TotalOfLocation><![CDATA[//*[@id='ClientCompanyDetailTotalLoc']]]></TotalOfLocation>
+    <DeliveryOptionMail><![CDATA[//*[@id='ClientCompanyDetailMailFax']]]></DeliveryOptionMail>
+    <DeliveryStatement><![CDATA[//*[@id='ClientCompanyDetailDelStateTo']]]></DeliveryStatement>
+    <DeliverBy><![CDATA[//*[@id='ClientCompanyDetailDelStateBy']]]></DeliverBy>
+    <BusinessEnvironmemntstorefront><![CDATA[//*[@id='ClientCompanyDetailIsStorefront']]]></BusinessEnvironmemntstorefront>
+    <BusinessEnrnmntTradeshow><![CDATA[//*[@id='ClientCompanyDetailIsTradeShow']]]></BusinessEnrnmntTradeshow>
+    <AdvertisingMethodCatalogue><![CDATA[//*[@id='ClientCompanyDetailAdCatalog']]]></AdvertisingMethodCatalogue>
+    <AdvertisingMethodInternetEmail><![CDATA[//*[@id='ClientCompanyDetailAdInternet']]]></AdvertisingMethodInternetEmail>
+    <OwnerShipLegalEntity><![CDATA[//*[@id='ClientCompanyDetailOwnerLegalEntityChange']]]></OwnerShipLegalEntity>
+    <CorporateHeadquater><![CDATA[//*[@id='ClientCompanyDetailIsHeadquarter']]]></CorporateHeadquater>
+    //################################ SITE SURVEY     ################################################
+    <SiteSurveyExpandbtn><![CDATA[//*[@id='sitesurveyboximg']/span]]></SiteSurveyExpandbtn>
+    <MerchantLocation><![CDATA[//*[@id='ClientCompanyDetailMerchLoc']]]></MerchantLocation>
+    <SquareFootage><![CDATA[//*[@id='ClientCompanyDetailSqFoot']]]></SquareFootage>
+    <AreaZoned><![CDATA[//*[@id='ClientCompanyDetailAreaZoned']]]></AreaZoned>
+    <Window><![CDATA[//*[@id='ClientCompanyDetailNameDisplayedLocationWindow']]]></Window>
+    <MerchantOccupies><![CDATA[//*[@id='ClientCompanyDetailOccupyLocation']]]></MerchantOccupies>
+    <Other><![CDATA[//*[@id='ClientCompanyDetailOccupyLocationOther']]]></Other>
+    <NoOfFloor><![CDATA[//*[@id='ClientCompanyDetailCountFloors']]]></NoOfFloor>
+    <RemainingFloorOccuoied><![CDATA[//*[@id='ClientCompanyDetailOtherFloorsExplain']]]></RemainingFloorOccuoied>
+    <DoesamountMerchantSalves><![CDATA[//*[@id='ClientCompanyDetailConsistentBus']]]></DoesamountMerchantSalves>
+    <MerchantOwnLeages><![CDATA[//*[@id='ClientCompanyDetailTheMerchant']]]></MerchantOwnLeages>
+    <IfApplicableleaser><![CDATA[//*[@id='ClientCompanyDetailLeasor']]]></IfApplicableleaser>
+    <OtherComment><![CDATA[//*[@id='ClientCompanyDetailOtherComments']]]></OtherComment>
+    <NumberOfEmployees><![CDATA[//*[@id='ClientCompanyDetailCountEmployees']]]></NumberOfEmployees>
+    <NumberofRegisters><![CDATA[//*[@id='ClientCompanyDetailNoRegistersTerminals']]]></NumberofRegisters>
+    <GoodsSErvivesCharged><![CDATA[//*[@id='ClientCompanyDetailServicesChargedToCreditcard']]]></GoodsSErvivesCharged>
+    <DoesBusinessAppearRepresentive><![CDATA[//*[@id='ClientCompanyDetailBusinessAppear']]]></DoesBusinessAppearRepresentive>
+    //############################## BUSINESS details   #################################################
+    <clickBussinessDeatailsTab><![CDATA[//*[@id='ClientCreateForm']/div[3]/div/div[1]/ul/li[3]/a]]></clickBussinessDeatailsTab>
+    <MerchantAccountData><![CDATA[//*[@id='tabs-2']/div[1]/div[1]/div/span]]></MerchantAccountData>
+    <MerchantType><![CDATA[//*[@id='ClientBusinessDetailIndustry']]]></MerchantType>
+    <Processor><![CDATA[//*[contains(@id, 'ClientRatesFeeProcessor') and contains(@class, 'normal')]]]></Processor>
+    <CardTypeRequested><![CDATA[//*[@id='ClientBusinessDetailCardTypeRequest']]]></CardTypeRequested>
+    <FrontEnd><![CDATA[//*[@id='ClientBusinessDetailFrontEnd']]]></FrontEnd>
+    <MCCSICCode><![CDATA[//*[@id='ClientBusinessDetailSicCode']]]></MCCSICCode>
+    <TotalAnnualVolume><![CDATA[//*[@id='ClientBusinessDetailTotalSales']]]></TotalAnnualVolume>
+    <MaxTicket><![CDATA[//*[@id='ClientBusinessDetailMaxTicket']]]></MaxTicket>
+    <ProductDescription><![CDATA[//*[@id='ClientBusinessDetailGoodsSold']]]></ProductDescription>
+    <MethodOfSAcceptingCard><![CDATA[//*[@id='ClientBusinessDetailCardAcceptMethod']]]></MethodOfSAcceptingCard>
+    <montlyCardProcessingVoume><![CDATA[//*[@id='ClientBusinessDetailMonthlyCardVol']]]></montlyCardProcessingVoume>
+    <AveragemericanExpressTicket><![CDATA[//*[@id='ClientBusinessDetailAvgAmexTicket']]]></AveragemericanExpressTicket>
+    <SubBusinessType><![CDATA[//*[@id='ClientBusinessDetailSubBusinessType']]]></SubBusinessType>
+    <CloseNPCExistingMID><![CDATA[//*[@id='ClientBusinessDetailCloseNpcMid']]]></CloseNPCExistingMID>
+    <AdditionalLocation><![CDATA[//*[@id='ClientBusinessDetailAddlLocation']]]></AdditionalLocation>
+    <ProcessorChange><![CDATA[//*[@id='ClientBusinessDetailProcessorChange']]]></ProcessorChange>
+    //################################ PERCENTAGE PROCESSING  #############################################
+    <VerifyPercentagePrcessing><![CDATA[//*[@id='tabs-2']/div[2]/div[1]/div/span]]></VerifyPercentagePrcessing>
+    <SwipeKeyIn><![CDATA[//*[@id='ClientBusinessDetailPercentSwiped']]]></SwipeKeyIn>
+    <SwipeMO><![CDATA[//*[@id='ClientBusinessDetailPercentHandEntered']]]></SwipeMO>
+    <SwipeTo><![CDATA[//*[@id='ClientBusinessDetailPercentMoto']]]></SwipeTo>
+    <SwipeInternet><![CDATA[//*[@id='ClientBusinessDetailPercentInternet']]]></SwipeInternet>
+    <TotalSaleBusinesToBusiness><![CDATA[//*[@id='ClientBusinessDetailPercentTotalB2b']]]></TotalSaleBusinesToBusiness>
+    <BusinessToConsumer><![CDATA[//*[@id='ClientBusinessDetailPercentTotalB2c']]]></BusinessToConsumer>
+    <BankCardsaleBusinessToBusines><![CDATA[//*[@id='ClientBusinessDetailPercentBancardB2b']]]></BankCardsaleBusinessToBusines>
+    <BankCrdBusinessToConsumer><![CDATA[//*[@id='ClientBusinessDetailPercentBancardB2c']]]></BankCrdBusinessToConsumer>
+    <AmericanExpres1.percentSwipied><![CDATA[//*[@id='ClientBusinessDetailPercentBancardB2c']]]></AmericanExpres1.percentSwipied>
+    <AmericanExpresskEYWRD><![CDATA[//*[@id='ClientBusinessDetailPercentAmexOnePointKeyed']]]></AmericanExpresskEYWRD>
+    //################################## BUSINESS SEASONABILITY  ###########################################
+    <VerifyTitle><![CDATA[//*[@id='tabs-2']/div[3]/div[1]/div/span]]></VerifyTitle>
+    <ClickBusinesSeasonabiltyExpandbtn><![CDATA[//*[@id='businessSeasonalitybox2img']/span]]></ClickBusinesSeasonabiltyExpandbtn>
+    <IsBusinessSeasonal><![CDATA[//*[@id='ClientBusinessDetailSeasonalBus']]]></IsBusinessSeasonal>
+    <SeasonStart><![CDATA[//*[@id='ClientBusinessDetailSeasonStart']]]></SeasonStart>
+    <SeasonEnd><![CDATA[//*[@id='ClientBusinessDetailSeasonEnd']]]></SeasonEnd>
+    //###################  Business Length Data   #############################################
+    <VerifyTiltleBusinesLengthData><![CDATA[//*[@id='tabs-2']/div[4]/div[1]/div/span]]></VerifyTiltleBusinesLengthData>
+    <BusinesLengthDataExpandBtn><![CDATA[//*[@id='businessLengthDatabox2img']/span]]></BusinesLengthDataExpandBtn>
+    <BusinessStartDate><![CDATA[//*[@id='ClientBusinessDetailBusOpenDate']]]></BusinessStartDate>
+    <BusinessStartdteClickNxt><![CDATA[//*[@id='ui-datepicker-div']/div/a[2]/span]]></BusinessStartdteClickNxt>
+    <SelectStartDate><![CDATA[//*[@id='ui-datepicker-div']/table/tbody/tr[4]/td[6]/a]]></SelectStartDate>
+    <BusinessIyear><![CDATA[//*[@id='ClientBusinessDetailBusYrs']]]></BusinessIyear>
+    //######################### Card Types Accepted #############################################
+    <VerifyTitleCardTypeAccpted><![CDATA[//*[@id='tabs-2']/div[5]/div[1]/div/span]]></VerifyTitleCardTypeAccpted>
+    <CardTypeExpectedExpandBtn><![CDATA[//*[@id='businessLengthDatabox2img']/span]]></CardTypeExpectedExpandBtn>
+    <MCCreditTransaction><![CDATA[//*[@id='ClientBusinessDetailMcCreditTransactions']]]></MCCreditTransaction>
+    <VisaCreditTransaction><![CDATA[//*[@id='ClientBusinessDetailVisaCreditTransactions']]]></VisaCreditTransaction>
+    <Amex><![CDATA[//*[@id='ClientBusinessDetailAmexCreditTransactions']]]></Amex>
+    //############################# BUSINESS BANKING ACCOUNT  ##############################################
+    <VerifyTiytleBusinessBankingAccount><![CDATA[//*[@id='tabs-2']/div[6]/div[1]/div/span]]></VerifyTiytleBusinessBankingAccount>
+    <BankSignerTitle><![CDATA[//*[@id='ClientBankAccount0BankSignerTitle']]]></BankSignerTitle>
+    <BankVerificationAttaced><![CDATA[//*[@id='ClientBankAccount0ImprintCheck']]]></BankVerificationAttaced>
+    //############################# RATES AND FESS   #####################################
+    <ClickOnrateAndFeesTab><![CDATA[//*[@id='ClientCreateForm']/div[3]/div/div[1]/ul/li[4]/a]]></ClickOnrateAndFeesTab>
+    <Processor><![CDATA[//select[@id='ClientRatesFeeProcessor']]]></Processor>
+    <MerchantType><![CDATA[//select[@id='ClientRatesFeeIndustry']]]></MerchantType>
+    <DiscountFrequency><![CDATA[//*[@id='ClientRatesFeePayDiscFreq']]]></DiscountFrequency>
+    //####################### CUSTOMER RELATIONSHIP ###########################################
+    <ClickOnCustomerRelationshipTab><![CDATA[//*[@id='ClientCreateForm']/div[3]/div/div[1]/ul/li[5]/a]]></ClickOnCustomerRelationshipTab>
+    <NumberOfDaysToprepareShipment><![CDATA[//*[@id='ClientCustomerRelationshipOrderPrepDays']]]></NumberOfDaysToprepareShipment>
+    <WhoPerformProductFullFillment><![CDATA[//*[@id='ClientCustomerRelationshipFulfillmentDoneBy']]]></WhoPerformProductFullFillment>
+    <DoesAnCardHolder><![CDATA[//*[@id='ClientCustomerRelationshipAutomaticRenewalRecurringTrans']]]></DoesAnCardHolder>
+    //####################### TERMINAL EQUIPMENT  ############################################
+    <ClickOnTerminalAndEquipmentTab><![CDATA[//*[@id='ClientCreateForm']/div[3]/div/div[1]/ul/li[6]/a]]></ClickOnTerminalAndEquipmentTab>
+    <TQProcessor><![CDATA[//*[@id='EquipmentProcessor']]]></TQProcessor>
+    <TQType><![CDATA[//*[@id='EquipmentType']]]></TQType>
+    <ClickOnAddEquipmentBtn><![CDATA[//*[@id='tabs-5']/table/tbody/tr/td[6]/a/span[2]]]></ClickOnAddEquipmentBtn>
+    <ClickONCloseBtn><![CDATA[//html/body/div[9]/div[1]/a/span]]></ClickONCloseBtn>
+    //################################## OWNER  #########################################################
+    <ClickOnOwners><![CDATA[//*[@id='ClientCreateForm']/div[3]/div/div[1]/ul/li[7]/a]]></ClickOnOwners>
+    <Salutation><![CDATA[//*[@id='ClientOwner0ContactContactSalutation']]]></Salutation>
+    <FirstName><![CDATA[//*[@id='ClientOwner0ContactContactFirstName']]]></FirstName>
+    <Language><![CDATA[//*[@id='ClientOwner0ContactContactLanguage']]]></Language>
+    <OwnerShipPercent><![CDATA[//*[@id='ClientOwner0OwnershipPercent']]]></OwnerShipPercent>
+    //################################## References  #########################################################
+    <ClickOnReferenceTab><![CDATA[//*[@id='ClientCreateForm']/div[3]/div/div[1]/ul/li[8]/a]]></ClickOnReferenceTab>
+    <RefrenceName><![CDATA[//*[@id='ClientReference0ReferenceName']]]></RefrenceName>
+    <Description><![CDATA[//*[@id='ClientReference0Description']]]></Description>
+    <RefrenceSalutation><![CDATA[//*[@id='ClientReferenceDetails0Salutation']]]></RefrenceSalutation>
+    <REfFirstName><![CDATA[//*[@id='ClientReferenceDetails0FirstName']]]></REfFirstName>
+    <RefPhoneNumber><![CDATA[//*[@id='ClientReferencePhone0PhoneFormat']]]></RefPhoneNumber>
+    //########################### MERCHENT NUMBER ###################################################
+    <ClickOnMerchantNumber><![CDATA[//*[@id='ClientCreateForm']/div[3]/div/div[1]/ul/li[9]/a]]></ClickOnMerchantNumber>
+    <VmcMerchentID><![CDATA[//*[@id='ClientMerchantNumberMerchID']]]></VmcMerchentID>
+    <BuyPassNumber><![CDATA[//*[@id='ClientMerchantNumberBuypassNum']]]></BuyPassNumber>
+    <DebitId><![CDATA[//*[@id='ClientMerchantNumberDebitID']]]></DebitId>
+    <CheckId><![CDATA[//*[@id='ClientMerchantNumberCheckID']]]></CheckId>
+    //##########################################  MARKETING #################################################
+    <ClickOnMarketing><![CDATA[//*[@id='ClientCreateForm']/div[3]/div/div[1]/ul/li[10]/a]]></ClickOnMarketing>
+    <DidMerchantChooseOffice><![CDATA[//*[@id='ClientMarketingDetailPrevProcName']]]></DidMerchantChooseOffice>
+    //###############################    PRODUCTS      #####################################################
+    <ClickOnProductsTab><![CDATA[//*[@id='ClientCreateForm']/div[3]/div/div[1]/ul/li[11]/a]]></ClickOnProductsTab>
+    <clickRicksCheckbox><![CDATA[//*[@id='ProductDetail1ApplyProduct']]]></clickRicksCheckbox>
+    <Anything><![CDATA[//*[@id='ProductCustomField317Value']]]></Anything>
+    <TextBox><![CDATA[//*[@id='ProductCustomField316Value']]]></TextBox>
+    <TRS80CheckBox><![CDATA[//*[@id='ProductDetail2ApplyProduct']]]></TRS80CheckBox>
+    <AlexField><![CDATA[//*[@id='ProductCustomField315Value']]]></AlexField>
+    //############################    CLICK ON SAVE BUTTON   ###########################################
+    <ClickOnSaveBtn><![CDATA[//*[@id='ClientCreateForm']/div[2]/div[3]/div/a[1]/span[2]]]></ClickOnSaveBtn>
+  </AddClients>
+  //##################################  NEW TASK LINK   ######################################
+  <NewTaskLink><![CDATA[//*[@id='main_container']/div[1]/div[2]/div/div[2]/div[2]/div/div/div/div[2]/span/a[3]/span[2]]]></NewTaskLink>
+  <NTSubject><![CDATA[//*[@id='TaskName']]]></NTSubject>
+  <NTStrtDatePicker><![CDATA[//*[@id='TaskStartDate']]]></NTStrtDatePicker>
+  <NTDatesTRTPickerNxtbtn><![CDATA[//*[@id='ui-datepicker-div']/div/a[2]/span]]></NTDatesTRTPickerNxtbtn>
+  <NTsTRTSelectDate><![CDATA[//*[@id='ui-datepicker-div']/table/tbody/tr[5]/td[3]/a]]></NTsTRTSelectDate>
+  <NTDueDatePicker><![CDATA[//*[@id='TaskDueDate']]]></NTDueDatePicker>
+  <NTDueDateNxtbtn><![CDATA[//*[@id='ui-datepicker-div']/div/a[2]/span]]></NTDueDateNxtbtn>
+  <NTDueDate2nxtBTn><![CDATA[//*[@id='ui-datepicker-div']/div/a[2]/span]]></NTDueDate2nxtBTn>
+  <NtdueDateSelect><![CDATA[//*[@id='ui-datepicker-div']/table/tbody/tr[5]/td[5]/a]]></NtdueDateSelect>
+  <ClickOnReminderChckbbox><![CDATA[//*[@id='TaskCreateForm']/div[2]/div[1]/div[3]/div[3]/div/input]]></ClickOnReminderChckbbox>
+  <EnterDescriptionNT><![CDATA[//html/body]]></EnterDescriptionNT>
+  //##################################  NEW MEETING    ######################################
+  <MeetingLink><![CDATA[//*[@id='main_container']/div[1]/div[2]/div/div[2]/div[2]/div/div/div/div[2]/span/a[4]/span[2]]]></MeetingLink>
+  <MeetingSubject><![CDATA[//*[@id='MeetingName']]]></MeetingSubject>
+  <MeetingLocation><![CDATA[//*[@id='MeetingLocation']]]></MeetingLocation>
+  <StartDateMeting><![CDATA[//*[@id='MeetingStartDate']]]></StartDateMeting>
+  <EndMeetingDate><![CDATA[//*[@id='MeetingEndDate']]]></EndMeetingDate>
+  <saveNewDocument><![CDATA[//*[@id='main_container']/div/div[3]/a[1]/span[2]]]></saveNewDocument>
+  //########################### LOG A CALL    #####################################
+  <LogAcallLink><![CDATA[//*[@id='addcall1']/span[2]]]></LogAcallLink>
+  <EnterName><![CDATA[//*[@id='CallCallNewFromName']]]></EnterName>
+  <EnterName2><![CDATA[//*[@id='CallCallNewToName']]]></EnterName2>
+  <FromNumber><![CDATA[//*[@id='CallCallNewFrom']]]></FromNumber>
+  <ToNumber><![CDATA[//*[@id='CallCallNewTo']]]></ToNumber>
+  <CallDate><![CDATA[//*[@id='CallCallDate']]]></CallDate>
+  <EnterDescription><![CDATA[//*[@id='CallDescription']]]></EnterDescription>
+  <LCALLClickOnsaveBtn><![CDATA[//*[@id='savecall']/span[2]]]></LCALLClickOnsaveBtn>
+  //####################### CLIENT HISTORY  ###############################
+  <ClickOnClientHisrtyLink><![CDATA[//*[@id='main_container']/div[1]/div[2]/div/div[2]/div[2]/div/div/div/div[2]/span/a[7]/span[2]]]></ClickOnClientHisrtyLink>
+  <ActivityType><![CDATA[//*[@id='gs_activity_type']]]></ActivityType>
+  <DocumentSubject><![CDATA[//*[@id='gs_name']]]></DocumentSubject>
+  <ClientStatus><![CDATA[//*[@id='gs_client_status']]]></ClientStatus>
+  <CreatedBy><![CDATA[//*[@id='gs_createdby']]]></CreatedBy>
+  //#################################### CLONE   ####################################
+  <ClickOnCloneLink><![CDATA[//*[@id='cloneclient']/span[2]]]></ClickOnCloneLink>
+  <ClickOCloneCloseIcon><![CDATA[//html/body/div[10]/div[1]/a/span]]></ClickOCloneCloseIcon>
+  <ClickOnNotes><![CDATA[//*[contains(@id, 'ClientActivities') and contains(@value, 'notes')]]]></ClickOnNotes>
+  <ClickOnMettings><![CDATA[//*[contains(@id, 'ClientActivities') and contains(@value, 'meetings')]]]></ClickOnMettings>
+  <ClickOnSaveBtn><![CDATA[xpath=(//a[@id='savedocument']/span[2])[2]]]></ClickOnSaveBtn>
+  //########################### ADD DOCUMENT   #################################################
+  <ClickOnAddDocumentLink><![CDATA[//*[@id='adddocument1']/span[2]]]></ClickOnAddDocumentLink>
+  <DocName><![CDATA[//*[@id='DocumentName']]]></DocName>
+  <DocDescription><![CDATA[//*[@id='DocumentDescription']]]></DocDescription>
+  <ClickSavebtn><![CDATA[//*[@id='dialog_documents']/div/div/div[2]/div/a[1]]]></ClickSavebtn>
+  //##############################  COMPANY DETAILS  ########################################
+  <CompanyDetailTab><![CDATA[//*[@id='tabs']/li[3]/a/span]]></CompanyDetailTab>
+  <StateIncorporateEdit><![CDATA[//*[@id='ClientCompanyDetailProprietorshipState']]]></StateIncorporateEdit>
+  <CorporateEdit><![CDATA[//*[@id='ClientCompanyDetailCorptype']]]></CorporateEdit>
+  <EditTimEZone><![CDATA[//*[@id='ClientZTimezoneId']]]></EditTimEZone>
+  <ExemptPayee><![CDATA[//*[@id='ClientCompanyDetailExemptPayee']]]></ExemptPayee>
+  //################################  DESCRIPTION  #############################################
+  <clickOnExpandBtn><![CDATA[//*[@id='descriptionboximg']/span]]></clickOnExpandBtn>
+  <CompnyDetailEnterDescription><![CDATA[]]></CompnyDetailEnterDescription>
+  //################################## MORE COMPANY DETAILS   ##########################
+  <MoreCmpyDetlExpandBtn><![CDATA[//*[@id='moredetailsboximg']/span]]></MoreCmpyDetlExpandBtn>
+  //################################## MORE COMPANY DETAILS   ##########################
+  <SiteSurvey><![CDATA[//*[@id='sitesurveyboximg']/span]]></SiteSurvey>
+  //########################## CLICK ON SAVE BUTTON    ##########################
+  <ClickOnsaveBtn><![CDATA[//*[@id='main_container']/div[1]/div[3]/div/a[1]/span[2]]]></ClickOnsaveBtn>
+  //##############################  Addresses/ Contacts   ###############################
+  <ClickOnAddressesContactstab><![CDATA[//*[@id='tabs']/li[4]/a/span]]></ClickOnAddressesContactstab>
+  <SelectCountryMailing><![CDATA[//*[@id='ClientAddress1Country']]]></SelectCountryMailing>
+  //######  CONTACT  ####
+  <ContactEditSalutation><![CDATA[//*[@id='ClientContact0ContactContactSalutation']]]></ContactEditSalutation>
+  <EditFirstName><![CDATA[//*[@id='ClientContact0ContactContactFirstName']]]></EditFirstName>
+  <LastNameEdit><![CDATA[//*[@id='ClientContact0ContactContactLastName']]]></LastNameEdit>
+  <EditSelectPhnetype><![CDATA[//*[@id='ClientContact0ContactContactPhone0PhoneType']]]></EditSelectPhnetype>
+  <EditCountryCode><![CDATA[//*[@id='ClientContact0ContactContactPhone0PhoneCountryCode']]]></EditCountryCode>
+  <EditPhoneNumber><![CDATA[//*[@id='ClientContact0ContactContactPhone0PhoneFormat']]]></EditPhoneNumber>
+  <EditPrimaryChkBox><![CDATA[//*[@id='ClientContactPhDelTab_0_0']/div[3]/div/input[1]]]></EditPrimaryChkBox>
+  <EditEAddressRtpe><![CDATA[//*[@id='ClientContact0ContactContactElectronicAddress0ElectronicContentType']]]></EditEAddressRtpe>
+  <EaDDRESSlEBAL><![CDATA[//*[@id='ClientContact0ContactContactElectronicAddress0ElectronicContentLabel']]]></EaDDRESSlEBAL>
+  <eAddress><![CDATA[//*[@id='ClientContact0ContactContactElectronicAddress0ElectronicContent']]]></eAddress>
+  <OptedEditType><![CDATA[//*[@id='ClientContact0ContactContactElectronicAddress0OptOut']]]></OptedEditType>
+  <AddresssContactLang><![CDATA[//*[@id='ClientContact0ContactContactLanguage']]]></AddresssContactLang>
+  //################################  BUSINESS DETAILS    ##########################################
+  <ClickOnBusinessDetailsTab><![CDATA[//*[@id='tabs']/li[5]/a/span]]></ClickOnBusinessDetailsTab>
+  <EditMerchantType><![CDATA[//*[@id='ClientBusinessDetailIndustry']]]></EditMerchantType>
+  <ProcessorEDIT><![CDATA[//*[@id='ClientBusinessDetailProcessor']]]></ProcessorEDIT>
+  <CardTypeRequestEdit><![CDATA[//*[@id='ClientBusinessDetailCardTypeRequest']]]></CardTypeRequestEdit>
+  //#####   CARD TYPE  ACCEPETED
+  <McCreditCardBT><![CDATA[//*[@id='ClientBusinessDetailMcCreditTransactions']']]]></McCreditCardBT>
+  <VisaCreditTransaction><![CDATA[//*[@id='ClientBusinessDetailVisaCreditTransactions']]]></VisaCreditTransaction>
+  <DiscoverNetworknONpIN><![CDATA[//*[@id='ClientBusinessDetailDiscNetworkNonPinDebitTransactions']]]></DiscoverNetworknONpIN>
+  //########################  BUSINESS BANKING DETAIL   ################################################
+  <BusinessBankingDetailExpandBtn><![CDATA[//*[@id='businessBankingAccountbox2img']/span]]></BusinessBankingDetailExpandBtn>
+  <BankSingerTitle><![CDATA[//*[@id='ClientBankAccount0BankSignerTitle']]]></BankSingerTitle>
+  <BankVerificationAttached><![CDATA[//*[@id='ClientBankAccount0ImprintCheck']]]></BankVerificationAttached>
+  <FinancilInstitutionBBA><![CDATA[//*[@id='ClientBankAccount0ReferenceName']]]></FinancilInstitutionBBA>
+  <AccountType><![CDATA[//*[@id='ClientBankAccount0AccountType']]]></AccountType>
+  <DDAAccountType><![CDATA[//*[@id='ClientBankAccount0DdaAccountType']]]></DDAAccountType>
+  <BBAAddressLine1><![CDATA[//*[@id='ClientBankAccount0AddressLine1']]]></BBAAddressLine1>
+  <BBAAddreessline2><![CDATA[//*[@id='ClientBankAccount0AddressLine2']]]></BBAAddreessline2>
+  <BBACity><![CDATA[//*[@id='ClientBankAccount0City']]]></BBACity>
+  <BBBAState><![CDATA[//*[@id='ClientBankAccount0State']]]></BBBAState>
+  <BBAContactName><![CDATA[//*[@id='ClientBankAccount0ContactName']]]></BBAContactName>
+  <BBAContactPhone><![CDATA[//*[@id='ClientBankAccount0ContactPhone']]]></BBAContactPhone>
+  <BBAAccountNumber><![CDATA[//*[@id='ClientBankAccount0AccountNr']]]></BBAAccountNumber>
+  <BBAMontlyBilling><![CDATA[//*[@id='ClientBankAccount0BankMonthlyBilling']]]></BBAMontlyBilling>
+  <BBADepositeTimeFrame><![CDATA[//*[@id='ClientBankAccount0DepositTimeFrame']]]></BBADepositeTimeFrame>
+  //######################### COMPLIANCE INFORMATION    #####################################################
+  <ClickOnExpandBtnComplianInfrmation><![CDATA[//*[@id='compliancebox2img']/span]]></ClickOnExpandBtnComplianInfrmation>
+  <ThirdPartyGateway><![CDATA[//*[@id='ClientBusinessDetailThirdPartySoftwareGateway']]]></ThirdPartyGateway>
+  <PaymentCardInfoCheckBox><![CDATA[//*[@id='ClientBusinessDetailIndustrySecurityStandards']]]></PaymentCardInfoCheckBox>
+  <LastCertificationDate><![CDATA[//*[@id='ClientBusinessDetailSecurityAsesorCertificateDate']]]></LastCertificationDate>
+  <DoyouStoreCardHolderData><![CDATA[//*[@id='ClientBusinessDetailStoreCardholderPaper']]]></DoyouStoreCardHolderData>
+  <DoYouStoreCardHolderElectronic><![CDATA[//*[@id='ClientBusinessDetailStoreCardholderElectronic']]]></DoYouStoreCardHolderElectronic>
+  <MerchantDataVenderAccess><![CDATA[//*[@id='ClientBusinessDetailVendorAccess']]]></MerchantDataVenderAccess>
+  <ThirdPartySoftwareAddress><![CDATA[//*[@id='ClientBusinessDetailThirdPartySoftwareAddress']]]></ThirdPartySoftwareAddress>
+  <ThirdPartySoftwareContactInformation><![CDATA[//*[@id='ClientBusinessDetailThirdPartySoftwareContactInformation']]]></ThirdPartySoftwareContactInformation>
+
+  <upload><![CDATA[//*[@id='DocumentFiles']]]></upload>
+  <ClickOnClientTab><![CDATA[//*[@id='css3menu']/li[4]/a/span]]></ClickOnClientTab>
+  <SelectClientAddCountry><![CDATA[//*[@id='ClientAddress0Country']]]></SelectClientAddCountry>
+  <MailingAddCntry><![CDATA[//*[@id='ClientAddress1Country']]]></MailingAddCntry>
+  <BusinessCountry><![CDATA[//*[@id='ClientBankAccount0Country']]]></BusinessCountry>
+  
+  <!-- 1099 SALE AGENT CREATE CLIENT    -->
+  <ClientTAB><![CDATA[//a[@title='Clients']]]></ClientTAB>
+
+  <Import><![CDATA[//*[@id='main_container']/div[3]/div/div[3]/div[3]/a[2]/span]]></Import>
+  <BrowseFile><![CDATA[//*[@id='ClientCsvFile']]]></BrowseFile>
+  <ClickOnImport><![CDATA[//*[@id='importform']/a/span]]></ClickOnImport>
+  <LeadTab><![CDATA[//*[@id='css3menu']/li[3]/a]]></LeadTab>
+  <LeadCSVFile><![CDATA[//*[@id='vcard_file']]]></LeadCSVFile>
+  <ClickMerge><![CDATA[//*[@id='LeadMergeForm']/div[2]/div[5]/div[6]/div/a[1]/span[1]]]></ClickMerge>
+  <LeadImportBtn><![CDATA[//*[@id='importform']/input[2]]]></LeadImportBtn>
+  <OppoutunitiesTab><![CDATA[//a[@title='Opportunities']]]></OppoutunitiesTab>
+  <MeregeOpportunities><![CDATA[//*[@id='OpportunityMergeForm']/div[2]/div[5]/div[6]/div/a[1]/span[1]]]></MeregeOpportunities>
+  <SearchAddClient><![CDATA[//*[@id='gs_company_dba_name']]]></SearchAddClient>
+  <EditClient><![CDATA[//table[@id='list1']/tbody/tr[2]/td[10]/span/a[1]]]></EditClient>
+  <EditSave><![CDATA[//*[@id='main_container']/div[1]/div[3]/div/a[1]/span[1]]]></EditSave>
+  
+  
+  
+</Locators>
+

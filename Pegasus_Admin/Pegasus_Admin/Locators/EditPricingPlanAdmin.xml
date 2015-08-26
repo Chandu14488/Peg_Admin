@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  //#######################   Master Data TAB  #######################
+  
+  <MoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]]]></MoveHover>
+  <ClickOnAdmin><![CDATA[link=Admin]]></ClickOnAdmin>
+  <ClickOnPricingPlanTab><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClickOnPricingPlanTab>
+  <ClickOnCreate><![CDATA[//a[@title='Create New Pricing Plan']]]></ClickOnCreate>
+  
+  //######################    Create API CODES
+  <PricingPlan><![CDATA[//*[@id='MasterPricingPlanName']]]></PricingPlan>
+  <Processor><![CDATA[//*[@id='MasterPricingPlanProcessorId']]]></Processor>
+
+  //#################   SAVE   
+  <SaveBtn><![CDATA[//a[@title='Save']]]></SaveBtn>
+  
+  //###############   EDIT 
+  
+  <Search><![CDATA[//*[@id='gs_name']]]></Search>
+  <EditIcn><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[@title='Edit Pricing Plan']]]></EditIcn>
+
+  <!--Create Tabs Master Data-->
+  <ClickOnMasterData><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClickOnMasterData>
+  <ClickOnTabsLink><![CDATA[link=Tabs]]></ClickOnTabsLink>
+  <SelectLeadDropDown><![CDATA[//*[@id='loadmoduletabs']]]></SelectLeadDropDown>
+  <ClickCreateBtn><![CDATA[//a[@title='Add New Section']]]></ClickCreateBtn>
+  <ClickCreateBtn1><![CDATA[//a[@title='Add New Tab']]]></ClickCreateBtn1>
+  <EnterName><![CDATA[//*[@id='MetaTabNameName']]]></EnterName>
+  <ClickSaveBtn><![CDATA[//*[@id='dialog_tab']/div/div/div[3]/button[1]]]></ClickSaveBtn>
+  <ClickOnLeadsTab><![CDATA[//*[@id='css3menu']/li[3]/a]]></ClickOnLeadsTab>
+  <ClickOnAnyLead><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[contains(@href,'view')]]]></ClickOnAnyLead>
+  <ClickOnClientTab><![CDATA[//*[@id='css3menu']/li[4]/a/span]]></ClickOnClientTab>
+  <ClickOnAnyClient><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[contains(@href,'view')]]]></ClickOnAnyClient>
+  
+  <!-- Create Section Master Data   -->
+  <ClickOnCreateBtn><![CDATA[//*[@id='main_container']/div[1]/div[1]/div[3]/a/span[1]]]></ClickOnCreateBtn>
+  <SelectTabName><![CDATA[//*[@id='MetaSectionNameTabId']]]></SelectTabName>
+  <EnterSectionName><![CDATA[//*[@id='MetaSectionNameName']]]></EnterSectionName>
+  <SaveSecBtn><![CDATA[//*[@id='MetaSectionNameOfficeSectionManagementForm']/div/div/div[3]/button[1]]]></SaveSecBtn>
+  <ClickOnCompanyDetails><![CDATA[//a[text()='Company Details']]]></ClickOnCompanyDetails>
+  
+  
+  
+  
+  
+  
+  
+</Locators>
+
+

@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  <!--Agent Tab -->  
+  <ClickAgentTab><![CDATA[//*[@id='css3menu']/li[8]/a/span]]></ClickAgentTab>
+  <ClickOnPartnerAgent><![CDATA[//*[@id='css3menu']/li[8]/div/div/ul/li[4]/a]]></ClickOnPartnerAgent>
+  <NamePartnerAgent><![CDATA[//*[@id='gs_contactNm']]]></NamePartnerAgent>
+  <ClickOnAgent><![CDATA[//*[@id='721']/td[6]/a]]></ClickOnAgent>
+
+   <!--  AGENT CODES AND REVENUE SHARES   -->  
+  <clickOnAddANewAgentCode><![CDATA[//*[@id='actionbuttons']/span[2]]]></clickOnAddANewAgentCode>
+  <EnterSaleCode><![CDATA[//*[@id='PartnerAgentCodesShareAgentCode']]]></EnterSaleCode>
+  <EnterRevenueShare><![CDATA[//*[@id='PartnerAgentCodesShareRevenueShare']]]></EnterRevenueShare>
+  <ClickOnSaveBtn><![CDATA[//*[@id='SalesCode']/div[4]/div/a[1]/span[2]]]></ClickOnSaveBtn>
+  //#########################  ADJUSTMENT REVENUE   #######################
+  <ClickOnCreateRvnueAdjstmntBtn><![CDATA[//*[@id='main_container']/div[4]/div[6]/div/div[1]/div[2]/a/span]]></ClickOnCreateRvnueAdjstmntBtn>
+  <EnterAdjustmentName><![CDATA[//*[@id='RirOrgMasterRulesetRuleName']]]></EnterAdjustmentName>
+  <Description><![CDATA[//*[@id='RirOrgMasterRulesetDescription']]]></Description>
+  <AdjustmentTYpe><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentType']]]></AdjustmentTYpe>
+  <SelectProcessor><![CDATA[//*[@id='RirOrgMasterRulesetProcessor']]]></SelectProcessor>
+  //################################# CREATE RULES   ########################################
+  <SelectType><![CDATA[//*[@id='rule_type0']]]></SelectType>
+  <Amount><![CDATA[//*[@id='amount_field0']]]></Amount>
+  <SelectAddRemove><![CDATA[//*[@id='RirOrgMasterRulesetCustomRule0AddOrRemoveFlag']]]></SelectAddRemove>
+  <Remark><![CDATA[//*[@id='RirOrgMasterRulesetCustomRule0Remarks']]]></Remark>
+  //######################  CLICK ON SAVE BUTTON
+  <SaveDetailsBUtton><![CDATA[//*[@id='main_container']/div[3]/div/a[1]/span[2]]]></SaveDetailsBUtton>
+  <!--Search By Email-->
+  <EmailSearch><![CDATA[//*[@id='gs_electronic_content']]]></EmailSearch>
+  <ClickOnEmplyeeSrchAgent><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/a]]></ClickOnEmplyeeSrchAgent>
+  <ClickRAdiustmntBtn><![CDATA[//*[@id='adjustactions']/span[2]]]></ClickRAdiustmntBtn>
+  <SalesAgent><![CDATA[//*[@id='ui-active-menuitem']]]></SalesAgent>
+  
+  <!--    1099 SALE AGENT RESIDUAL INCOME  PAYOUT SUMMARY -->
+  <ResidualIncometab><![CDATA[//a[@title='Residual Income']]]></ResidualIncometab>
+  <PayoutSummary><![CDATA[//a[@title='Payouts Summary']]]></PayoutSummary>
+  <ClickOnPayout><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></ClickOnPayout>
+  <ClickOnFileDate><![CDATA[//*[@id='file_date']]]></ClickOnFileDate>#All
+  <Processor><![CDATA[//*[@id='processor']]]></Processor>
+  <FileFormat><![CDATA[//*[@id='file_format']]]></FileFormat>#ALL
+  <ClickSearch><![CDATA[//*[@id='main_container']/div[2]/div/div[1]/div[6]/a/span[1]]]></ClickSearch>
+  <ClickExport><![CDATA[//*[@id='exportactions']/span[1]]]></ClickExport>
+  <ClickOnExportCSV><![CDATA[//div[@class='moreactions']/ul/li[1]/a]]></ClickOnExportCSV>
+  <ClickOnExportExcel><![CDATA[//div[@class='moreactions']/ul/li[2]/a]]></ClickOnExportExcel>
+  <!--REPORT -->
+  <ReportPDF><![CDATA[//a[@title='Report in PDF Format']]]></ReportPDF>
+  <ReportExcel><![CDATA[//*[@id='right']/div[1]/table/tbody/tr/td[2]/a/img]]></ReportExcel>
+  <ReportCSV><![CDATA[//*[@id='right']/div[1]/table/tbody/tr/td[1]/a/img]]></ReportCSV>
+  <ReportPrint><![CDATA[//a[@title='Print this Report']]]></ReportPrint>
+  <ActivityTab><![CDATA[//a[@title='Activities']]]></ActivityTab>
+  <ToAddress><![CDATA[//*[@id='EmailToAddrs']]]></ToAddress>
+  <EnterSubject><![CDATA[//*[@id='EmailName']]]></EnterSubject>
+  <RelatedTo><![CDATA[//*[@id='MeetingParentType']]]></RelatedTo>
+  <ClickClientDisplayItem><![CDATA[//*[@id='assignParent']/span[1]]]></ClickClientDisplayItem>
+  <EnterId><![CDATA[//*[@id='ClientId']]]></EnterId>
+  <ClickSearchMeeting><![CDATA[//*[@id='searchButton']/span[1]]]></ClickSearchMeeting>
+  <ClickOnClient><![CDATA[//*[@id='popupContent']/table/tbody/tr/td[2]/a]]></ClickOnClient>
+  
+</Locators>

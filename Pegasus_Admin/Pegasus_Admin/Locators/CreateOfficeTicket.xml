@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+-<loginClient>
+<![CDATA[//*[@id='UserLoginUserName']]]>
+</loginClient>
+
+
+-<PasswordClientUser>
+<![CDATA[//*[@id='UserLoginPasswordHash']]]>
+</PasswordClientUser>
+
+
+-<LoginButton>
+<![CDATA[//*[@id='UserLoginLoginForm']/div[3]/div/div[3]/button]]>
+</LoginButton>
+
+
+  <TicketTab><![CDATA[//*[@id='css3menu']/li[7]/a/span]]></TicketTab>
+  <TicketCreateButton><![CDATA[//*[@id='actionbuttons']/span/span]]></TicketCreateButton>
+  <Subject><![CDATA[//*[@id='TicketName']]]></Subject>
+  <ClickSelectClientIcon><![CDATA[//*[@id='assignrecord']/span[1]]]></ClickSelectClientIcon>
+  <EnterClientId><![CDATA[//*[@id='ClientId']]]></EnterClientId>
+  <ClickSearch><![CDATA[//*[@id='searchButton']/span[2]]]></ClickSearch>
+  <ClickOnClient><![CDATA[//table[@class='static']/tbody/tr[1]/td[2]/a]]></ClickOnClient>
+  <SelectStatus><![CDATA[//*[@id='TicketStatus']]]></SelectStatus>
+  <ClickOnSubmit><![CDATA[//div[@class='ui-buttonset']/a[@title='Submit Ticket']]]></ClickOnSubmit>
+  
+  <ClickOnCancel><![CDATA[//*[@id='main_container']/div/div[3]/a[3]/span[1]]]></ClickOnCancel>
+  
+  <ClickOnDraft><![CDATA[//*[@id='drafts']/span[1]]]></ClickOnDraft>
+
+  <AssignedClient><![CDATA[//a[@id='assignrecord']]]></AssignedClient>
+  
+  <!--DELETE-->
+  <SubjectSearch><![CDATA[//*[@id='gs_name']]]></SubjectSearch>
+  <ClickOnCheckBox><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></ClickOnCheckBox>
+  <ClickOnDel><![CDATA[.//*[@id='deleteticket']/span[1]]]></ClickOnDel>
+  
+  <!--HOME-->
+  <ClickOnHomeTab><![CDATA[//*[@id='css3menu']/li[1]/a]]></ClickOnHomeTab>
+  
+  <!--EDIT AND DELETE-->
+  <ClickToEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[10]/a]]></ClickToEdit>
+  <TicketMoveHover><![CDATA[//div[@class='menu_templ']/ul/li[7]]]></TicketMoveHover>
+  
+  <!--   CREATE CLIENT USER TICKETS   -->
+  <EnterSubject><![CDATA[]]></EnterSubject>
+  <EnterHtmlText><![CDATA[//html/body]]></EnterHtmlText>
+  <TicketTabClientUser><![CDATA[//*[@id='css3menu']/li[3]/a]]></TicketTabClientUser>
+  <ClickOnTicketLink><![CDATA[//a[@href='/selenium_corp/selenium_office/tickets/tickets_list']]]></ClickOnTicketLink>
+  <ClickOnEditClient><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]/span/a/span/img]]></ClickOnEditClient>
+  <ClickSubmit><![CDATA[//*[@id='main_container']/div/div[3]/a[1]/span[1]]]></ClickSubmit>
+  
+  <!--DELETE CLINT USER TICKET-->
+  <ClickOnCUCheckbox><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></ClickOnCUCheckbox>
+  <ClickOnDelete><![CDATA[//*[@id='deleteticket']/span[1]]]></ClickOnDelete>
+ 
+  <!--   CLIENT USER DRAFT  -->
+  <ClickOnDElRecycleBin><![CDATA[//table[@id='list1']/tbody/tr[2]/td[6]/span/a[1]]]></ClickOnDElRecycleBin>
+  
+  <!-- 1099 SALE AGENT  -->
+  <SaleAgent1099TicketTab><![CDATA[//a[@title='Tickets']]]></SaleAgent1099TicketTab>
+  <Submit1099saleAgentTicket><![CDATA[//*[@id='main_container']/div/div[3]/a[1]/span[2]]]></Submit1099saleAgentTicket>
+  <TicketCreateBtn><![CDATA[//a[@title='Create Ticket']]]></TicketCreateBtn>
+  <SubjectSrch><![CDATA[//*[@id='gs_name']]]></SubjectSrch>
+  <SubjectClickTicket><![CDATA[//table[@id='list1']/tbody/tr[2]/td[20]/a]]></SubjectClickTicket>
+  <SubmitTicketBtn><![CDATA[//div[@id='main_container']/div/div[3]/a[1]]]></SubmitTicketBtn>
+  <SelectClientTicket><![CDATA[//*[@id='assignrecord']/span[1]]]></SelectClientTicket>
+  <ClickOn1099SATicket><![CDATA[//table[@id='list1']/tbody/tr[2]/td[@aria-describedby='list1_name']/a]]></ClickOn1099SATicket>
+  
+</Locators>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  //#######################   Agent Tab #######################
+  <ClickAgentTab><![CDATA[//*[@id='css3menu']/li[8]/a/span]]></ClickAgentTab>
+  <ClickOnEmployees><![CDATA[//*[@id='css3menu']/li[8]/div/div/ul/li[2]/a]]></ClickOnEmployees>
+  <EnterSaleAgentName><![CDATA[//*[@id='gs_contactNm']]]></EnterSaleAgentName>
+  <SelectStatus><![CDATA[//*[@id='gs_active']]]></SelectStatus>
+  <ClickOnaCreateSaleBtn><![CDATA[//*[@id='425']/td[6]/a]]></ClickOnaCreateSaleBtn>
+  <ClickOnEditSaleAgentBtn><![CDATA[//*[@id='main_container']/div[3]/div[1]/div/a/span[2]]]></ClickOnEditSaleAgentBtn>
+  //####### CREATE PARTENER AGENT
+  <SelectSalutation><![CDATA[//*[@id='EmployeeSalutation']]]></SelectSalutation>
+  <FirstNAME><![CDATA[//*[@id='EmployeeFirstName']]]></FirstNAME>
+  <LastName><![CDATA[//*[@id='EmployeeLastName']]]></LastName>
+  <BirthDay><![CDATA[//*[@id='EmployeeBirthday']]]></BirthDay>
+  //############## CONTACT INFORMTAION
+  <eAddressType><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContentType']]]></eAddressType>
+  <eAddressLebel><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContentLabel']]]></eAddressLebel>
+  <eAddress><![CDATA[//*[@id='EmployeeElectronicAddress0ElectronicContent']]]></eAddress>
+  // ################## PHONE
+  <SelectPhoneType><![CDATA[//*[@id='EmployeePhone0PhoneType']]]></SelectPhoneType>
+  <PhoneNumber><![CDATA[//*[@id='EmployeePhone0PhoneFormat']]]></PhoneNumber>
+  //#################### ADDRESS
+  <AddressType><![CDATA[//*[@id='EmployeeAddress0Type']]]></AddressType>
+  <AddressLine1><![CDATA[//*[@id='EmployeeAddress0AddressLine1']]]></AddressLine1>
+  <City><![CDATA[//*[@id='EmployeeAddress0City']]]></City>
+  <State><![CDATA[//*[@id='EmployeeAddress0State']]]></State>
+  <PostalCode><![CDATA[//*[@id='EmployeeAddress0PostalCode']]]></PostalCode>
+  //###################### Department Role Team
+  <ClickOnDeppartmentTeam><![CDATA[//*[@id='deptboximg']]]></ClickOnDeppartmentTeam>
+  <SelectDepartment><![CDATA[//*[@id='EmployeeOrgDeptId']]]></SelectDepartment>
+  <SelectRole><![CDATA[//*[@id='EmployeeOrgRoleId']]]></SelectRole>
+  <PrimaryTeam><![CDATA[//*[@id='EmployeeOrgHierarchyId']]]></PrimaryTeam>
+  //################### CREATE USER ACCOUNT FOR THIS PARTNER AGENT
+  <ClickONcheckBox><![CDATA[//input[@id='UserCreateUser']]]></ClickONcheckBox>
+  <UserName><![CDATA[//*[@id='UserUserName']]]></UserName>
+  <ClickOnSAvatarBtn><![CDATA[//*[@id='1097']]]></ClickOnSAvatarBtn>
+  //######################  CLICK ON SAVE BUTTON
+  <SaveAGENTbtn><![CDATA[//*[@id='EmployeeEditSalesUserForm']/div[3]/a[1]/span[2]]]></SaveAGENTbtn>
+
+
+</Locators>

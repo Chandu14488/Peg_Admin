@@ -1,0 +1,15 @@
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\TestOrigen_Automation\CSharp\Peg_New\pegqa\TestAutomationProject\PegasusTests\PageHelper\Comm\DriverHelper.cs:line 247
+   at PegasusTests.PageHelper.TicketHelper.ClickElement(String XmlNode) in d:\TestOrigen_Automation\CSharp\Peg_New\pegqa\TestAutomationProject\PegasusTests\PageHelper\TicketHelper.cs:line 146
+   at PegasusTests.Scripts.ClientsTests.HomeLink.homeLink() in d:\TestOrigen_Automation\CSharp\Peg_New\pegqa\TestAutomationProject\PegasusTests\Scripts\ClientsTests\HomeLink.cs:line 50
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\TestOrigen_Automation\CSharp\Peg_New\pegqa\TestAutomationProject\PegasusTests\PageHelper\Comm\DriverHelper.cs:line 247
+   at PegasusTests.PageHelper.TicketHelper.ClickElement(String XmlNode) in d:\TestOrigen_Automation\CSharp\Peg_New\pegqa\TestAutomationProject\PegasusTests\PageHelper\TicketHelper.cs:line 146
+   at PegasusTests.Scripts.ClientsTests.HomeLink.homeLink() in d:\TestOrigen_Automation\CSharp\Peg_New\pegqa\TestAutomationProject\PegasusTests\Scripts\ClientsTests\HomeLink.cs:line 50
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.HandleFail(String assertionName, String message, Object[] parameters)
+   at Microsoft.VisualStudio.TestTools.UnitTesting.Assert.IsTrue(Boolean condition)
+   at PegasusTests.PageHelper.Comm.DriverHelper.Click(String locator) in d:\TestOrigen_Automation\CSharp\Peg_New\pegqa\TestAutomationProject\PegasusTests\PageHelper\Comm\DriverHelper.cs:line 247
+   at PegasusTests.PageHelper.TicketHelper.ClickElement(String XmlNode) in d:\TestOrigen_Automation\CSharp\Peg_New\pegqa\TestAutomationProject\PegasusTests\PageHelper\TicketHelper.cs:line 146
+   at PegasusTests.Scripts.ClientsTests.HomeLink.homeLink() in d:\TestOrigen_Automation\CSharp\Peg_New\pegqa\TestAutomationProject\PegasusTests\Scripts\ClientsTests\HomeLink.cs:line 50

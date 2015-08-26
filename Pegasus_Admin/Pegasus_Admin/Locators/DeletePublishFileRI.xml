@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //###################  LOGIN WITH CROP    ############################
+  <EnterUsername><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <ClickOnLoginButton><![CDATA[//*[@id='UserLoginLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButton>
+  //#######################   Residual Income  #######################
+  <ClickResidualIncomeTab><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClickResidualIncomeTab>
+  <ClickOnImport><![CDATA[//*[@id='css3menu']/li[4]/div/div[1]/ul/li/a]]></ClickOnImport>
+  //  ############################  IMPORT
+  <ClickOnImportNew><![CDATA[//*[@id='actionbuttons']/span]]></ClickOnImportNew>
+  <ProcessorType><![CDATA[//*[@id='ImportIndexProcessor']]]></ProcessorType>
+  <ReportingPeriod><![CDATA[//*[@id='ImportIndexReportingMonth']]]></ReportingPeriod>
+  <ReportingYear><![CDATA[//*[@id='ImportIndexReportingYear']]]></ReportingYear>
+  <FileDate><![CDATA[//*[@id='ImportIndexFileDate']]]></FileDate>
+  <ClickDate><![CDATA[//a[text()="28"]]]></ClickDate>
+  <SelectBrowseCSVFile><![CDATA[//*[@id='ImportIndexCsvFile']]]></SelectBrowseCSVFile>
+  <ClickOnImportBtn><![CDATA[//*[@id='main_container']/div[2]/div[3]/a[1]/span[2]]]></ClickOnImportBtn>
+  //########################### SET FILTER
+  <SelectFiletReportingPeriod><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[1]/select]]></SelectFiletReportingPeriod>
+  <SelectProcessorFiler><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[3]/select]]></SelectProcessorFiler>
+  <FilterFileFormat><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[4]/select]]></FilterFileFormat>
+  <FileName><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[5]/input]]></FileName>
+  <SelectStatus><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[6]/select]]></SelectStatus>
+  <ClickOnCalculation><![CDATA[//*[@id='related_positions_table']/tbody/tr[2]/td[9]/a[4]/span]]></ClickOnCalculation>
+  
+
+</Locators>

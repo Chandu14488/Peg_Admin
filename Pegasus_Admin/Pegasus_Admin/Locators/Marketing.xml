@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   MARKETING #######################
+  <ClickMarketingTab><![CDATA[//*[@id='tabs']/li[12]/a/span]]></ClickMarketingTab>
+  //##################### MERCHANT ACCOUNT NUMBER   ##################################
+  <MercantDetail><![CDATA[//*[@id='ClientMarketingDetailPrevProcName']]]></MercantDetail>
+  <ReasonNotChosoing><![CDATA[//*[@id='ClientMarketingDetailRejectReason']]]></ReasonNotChosoing>
+  <MethodOfProceesing><![CDATA[//*[@id='ClientMarketingDetailRejectProcessor1']]]></MethodOfProceesing>
+  <DidYouHearAboutUs><![CDATA[//*[@id='ClientMarketingDetailHowHeard']]]></DidYouHearAboutUs>
+  <TransactionDevice><![CDATA[//*[@id='ClientMarketingDetailTransDev']]]></TransactionDevice>
+  <TransactinNumber><![CDATA[//*[@id='ClientMarketingDetailTransDevNum']]]></TransactinNumber>
+  <ContractExpire><![CDATA[//*[@id='ClientMarketingDetailContractExpMonth']]]></ContractExpire>
+  <ContactExpireYear><![CDATA[//*[@id='ClientMarketingDetailContractExpYear']]]></ContactExpireYear>
+  <StateMentOfFile><![CDATA[//*[@id='ClientMarketingDetailStatOnFile']]]></StateMentOfFile>
+  <SentCamp><![CDATA[//*[@id='ClientMarketingDetailSentCamp']]]></SentCamp>
+  <SentPostcard><![CDATA[//*[@id='ClientMarketingDetailSentPost']]]></SentPostcard>
+  <ConstumerMainInteresst><![CDATA[//*[@id='ClientMarketingDetailServiceChk']]]></ConstumerMainInteresst>
+
+
+</Locators>

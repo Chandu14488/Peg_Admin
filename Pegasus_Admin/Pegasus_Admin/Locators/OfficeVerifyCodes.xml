@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  //###################  LOGIN WITH CROP    ############################
+  <EnterUsername><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButtojn>
+
+//####################  OFFICE TAB
+ <ClickOnOfficeTab><![CDATA[//*[@id='css3menu']/li[3]/a]]></ClickOnOfficeTab>
+  <EnterSelenium><![CDATA[//*[@id='gs_name']]]></EnterSelenium>
+  <ClickOnSeleniumOffice><![CDATA[//*[@id='169']/td[3]/a]]></ClickOnSeleniumOffice>
+  <ClickOnBackLink><![CDATA[//*[@id='main_container']/div[1]/div[3]/a[4]/span[1]]]></ClickOnBackLink>
+  <ClickOnSel><![CDATA[//*[@id='175']/td[3]/a]]></ClickOnSel>
+  <ClickOnTesterSel><![CDATA[//*[@id='176']/td[3]/a]]></ClickOnTesterSel>
+  
+  
+  //Verify codes
+  <VerifySeleniumCode><![CDATA[//*[@id='169']/td[4]]]></VerifySeleniumCode>
+  <VerifySelCode><![CDATA[//*[@id='175']/td[4]]]></VerifySelCode>
+  <VerifyTesterSelCode><![CDATA[//*[@id='176']/td[4]]]></VerifyTesterSelCode>
+  
+  
+</Locators>
+
+

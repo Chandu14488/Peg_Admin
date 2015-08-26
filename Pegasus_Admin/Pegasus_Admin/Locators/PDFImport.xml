@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  //#######################   TerminalAndEquipment  #######################
+  
+  <MoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]]]></MoveHover>
+  <ClickOnAdmin><![CDATA[link=Admin]]></ClickOnAdmin>
+  <ClickOnPDFTemplates><![CDATA[//*[@id='css3menu']/li[6]/a]]></ClickOnPDFTemplates>
+  <ClickOnPDFImportWizard><![CDATA[link=PDF Import Wizard]]></ClickOnPDFImportWizard>
+  
+  //######################    EQUIPMENT CREATE
+  <ClickOnClickHereLink><![CDATA[//a[contains(text(),'Click Here')]]]></ClickOnClickHereLink>
+  <ClickOnCloseIcon><![CDATA[//*[@id='instructionsdiv']/div[2]/div/div[1]/button]]></ClickOnCloseIcon>
+  <ChooseModule><![CDATA[//*[@id='PdfTemplateModule']]]></ChooseModule>
+  <SelectFile><![CDATA[//*[@id='PdfTemplatePdfFile']]]></SelectFile>
+  <ClickOnClientRadioBtn><![CDATA[//*[@id='MetaTableId1756']]]></ClickOnClientRadioBtn>
+
+  //################   CLICK ON SAVE 
+ <ClickOnImport><![CDATA[//input[@value='Import']]]></ClickOnImport>
+  <ClickOnNext><![CDATA[//button[@title='Next']]]></ClickOnNext>
+  <SelectCategory><![CDATA[//*[@id='PdfTemplatePdfCategoryId']]]></SelectCategory>
+  <ClickOnSaveBtn><![CDATA[//*[@id='saveForm']]]></ClickOnSaveBtn>
+  
+  //Edit PDF Import
+  <ClickOnEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[@title='Edit PDF Template']]]></ClickOnEdit>
+  <EnterName><![CDATA[//*[@id='PdfTemplateName']]]></EnterName>
+  <EnterDescription><![CDATA[//*[@id='PdfTemplateDescription']]]></EnterDescription>
+  <ClickEditSave><![CDATA[//button[@title='Save']]]></ClickEditSave>
+  
+  //Make Inactive
+  <ClickOnMakeInactiveBtn><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[@title='Make Inactive']]]></ClickOnMakeInactiveBtn>
+  
+  <!--CREATE PDF TEMPLATE PACKAGING -->
+  <ClickOnPDFPackage><![CDATA[//*[@id='ui_buttonspackage']]]></ClickOnPDFPackage>
+  <EnterPDFName><![CDATA[//*[@id='PdfTemplateName']]]></EnterPDFName>
+  <SelectModule><![CDATA[//*[@id='PdfTemplateZModuleId']]]></SelectModule>#20
+  <SelectPDFTemplate><![CDATA[//*[@id='PdfTemplatePdfTemplateId']]]></SelectPDFTemplate>#6031
+  <SelectCatory><![CDATA[//*[@id='PdfTemplatePdfCategoryId']]]></SelectCatory>#290
+  <DisplayeInTabs><![CDATA[//*[@id='PdfTemplateTabLink']]]></DisplayeInTabs>
+  <CanShare><![CDATA[//*[@id='PdfTemplateShareLink']]]></CanShare>
+  <CanEmail><![CDATA[//*[@id='PdfTemplateEmailLink']]]></CanEmail>
+  <ClickOnSave><![CDATA[//span[text()='Save']]]></ClickOnSave>
+  <!--CLONE PDF TEMPLATE-->
+  <EnterPDFNameToSrch><![CDATA[//*[@id='gs_name']]]></EnterPDFNameToSrch>
+  <ClickOnPDFToClone><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[contains(text(),'New PDF')]]]></ClickOnPDFToClone>
+  <ClickOnCloneBtn><![CDATA[//span[text()='Clone']]]></ClickOnCloneBtn>
+
+
+
+
+</Locators>
+
+

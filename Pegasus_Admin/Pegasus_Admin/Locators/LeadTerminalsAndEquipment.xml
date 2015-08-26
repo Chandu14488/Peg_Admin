@@ -1,0 +1,83 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   Contact tab #######################
+  <ClickLeadTab><![CDATA[//*[@id='css3menu']/li[3]/a]]></ClickLeadTab>
+  <EnterCompanyName><![CDATA[//*[@id='gs_company_name']]]></EnterCompanyName>
+  <ClickOnCompany><![CDATA[//*[@id='63052']/td[15]/a]]></ClickOnCompany>
+  //#######################   TerminalAndEquipment  #######################
+  <ClickTerminalAndEquipmentTab><![CDATA[//*[@id='tabs']/li[6]/a/span]]></ClickTerminalAndEquipmentTab>
+  <Processor><![CDATA[//*[@id='EquipmentProcessor']]]></Processor>
+  <TypeTAE><![CDATA[//*[@id='EquipmentType']]]></TypeTAE>
+  <AddEquipmentBtn><![CDATA[//*[@id='LeadEditForm']/div[2]/div/table/tbody/tr/td[6]/a/span[2]]]></AddEquipmentBtn>
+  <ClickEquipment><![CDATA[//*[@id='popupContent']/table/tbody/tr/td[1]/a]]></ClickEquipment>
+  <EnterEquipNmae><![CDATA[//*[@id='EquipmentName']]]></EnterEquipNmae>
+  <ClickEquipSeach><![CDATA[//*[@id='searchButton']/span[2]]]></ClickEquipSeach>
+  <ClickMGTAKMINI><![CDATA[//*[@id='lis-0']/a]]></ClickMGTAKMINI>
+  //########################   CHECK READER   ########################################
+  <Version><![CDATA[//*[@id='LeadTerminal3Version']]]></Version>
+  <ConnectionType><![CDATA[//*[@id='LeadTerminal3ConnectionType']]]></ConnectionType>
+  <FrontEnd><![CDATA[//*[@id='LeadTerminal3FrontEnd']]]></FrontEnd>
+  <OwnerShipType><![CDATA[//*[@id='LeadTerminal3FrontEnd']]]></OwnerShipType>
+  <AcquistationType><![CDATA[//*[@id='LeadTerminal3AcquisitionType']]]></AcquistationType>
+  <SerialNumber><![CDATA[//*[@id='LeadTerminal3SerialNo']]]></SerialNumber>
+  //#####################  Equipment Option  #####################################
+  <ClickOnExpandBtnEquipmentOptn><![CDATA[//*[@id='equipment0Options5boximg']/span]]></ClickOnExpandBtnEquipmentOptn>
+  <MerchantTranniedBy><![CDATA[//*[@id='LeadTerminal0MexMerchantTrainedBy']]]></MerchantTranniedBy>
+  <TXPIntegration><![CDATA[//*[@id='LeadTerminal0MexTxpIntegrationBy']]]></TXPIntegration>
+  <ThirdPartyProcessorUsed><![CDATA[//*[@id='LeadTerminal0ThirdPartyProcessorUsed']]]></ThirdPartyProcessorUsed>
+  <IfOther><![CDATA[//*[@id='LeadTerminal0ThirdPartyProcessorOther']]]></IfOther>
+  <WireLessNetwork><![CDATA[//*[@id='LeadTerminal0WirelessNetwork']]]></WireLessNetwork>
+  <ClickLastFourDigit><![CDATA[//*[@id='LeadTerminal0Last4Digits']]]></ClickLastFourDigit>
+  <PBXCode><![CDATA[//*[@id='LeadTerminal0PbxCode']]]></PBXCode>
+  <CashBack><![CDATA[//*[@id='LeadTerminal0CashBack']]]></CashBack>
+  <Servers><![CDATA[//*[@id='LeadTerminal0Servers']]]></Servers>
+  <BarTab><![CDATA[//*[@id='LeadTerminal0BarTab']]]></BarTab>
+  <FastWay><![CDATA[//*[@id='LeadTerminal0Fastway']]]></FastWay>
+  <BothRecipientSignatureLine><![CDATA[//*[@id='LeadTerminal0BothReceipNoSignLine']]]></BothRecipientSignatureLine>
+  <BothRecipientNoSignatureLine><![CDATA[//*[@id='LeadTerminal0BothReceipSignLine']]]></BothRecipientNoSignatureLine>
+  <All><![CDATA[//*[@id='LeadTerminal0PwdAll']]]></All>
+  <Void><![CDATA[//*[@id='LeadTerminal0PwdVoid']]]></Void>
+  <Other><![CDATA[//*[@id='LeadTerminal0PwdOther']]]></Other>
+  <DebitCashbackMaxAmount><![CDATA[//*[@id='LeadTerminal0DebitCashBackMaxAmount']]]></DebitCashbackMaxAmount>
+  <PaymentForEquipmentwilbe><![CDATA[//*[@id='LeadTerminal0PaymentEquipment']]]></PaymentForEquipmentwilbe>
+  <SpecialInstruction><![CDATA[//*[@id='LeadTerminal0SpecialInstructions']]]></SpecialInstruction>
+  //################################# EQUIPMENT FEATURES   ##############################################
+  <ClickOnEquipmentFeaturesTab><![CDATA[//*[@id='equipmentOptions0boximg']/span]]></ClickOnEquipmentFeaturesTab>
+  <SelectPinBasedDebit><![CDATA[//*[@id='LeadTerminal0MexTerPinBasedDebit']]]></SelectPinBasedDebit>
+  <SelectAmex><![CDATA[//*[@id='LeadTerminal0MexAmex']]]></SelectAmex>
+  <EBTServices><![CDATA[//*[@id='LeadTerminal0MexEbtService']]]></EBTServices>
+  <EnterEBTNFS><![CDATA[//*[@id='LeadTerminal0MexEbtFnsorfcs']]]></EnterEBTNFS>
+  <MultiMerchant><![CDATA[//*[@id='LeadTerminal0MexMultiMerchant']]]></MultiMerchant>
+  <ParentMid><![CDATA[//*[@id='LeadTerminal0MexParentId']]]></ParentMid>
+  <SelectAVS><![CDATA[//*[@id='LeadTerminal0MexTerAvs']]]></SelectAVS>
+  <corpPruch><![CDATA[//*[@id='LeadTerminal0MexCorpOrPurchCard']]]></corpPruch>
+  <VerificationCode><![CDATA[//*[@id='LeadTerminal0MexVerificationCode']]]></VerificationCode>
+  <PartialAuth><![CDATA[//*[@id='LeadTerminal0MexPartialAuth']]]></PartialAuth>
+  <SelectAutoClose><![CDATA[//*[@id='LeadTerminal0MexAutoClose']]]></SelectAutoClose>
+  <SelectInvoice><![CDATA[//*[@id='LeadTerminal0MexInvoice']]]></SelectInvoice>
+  <ECommerece><![CDATA[//*[@id='LeadTerminal0MexEcommerce']]]></ECommerece>
+  <AutoCloseTime><![CDATA[//*[@id='LeadTerminal0MexAutoCloseTime']]]></AutoCloseTime>
+  <ConnectionMethod><![CDATA[//*[@id='LeadTerminal0MexConnectionMethod']]]></ConnectionMethod>
+  <StoreMethod><![CDATA[//*[@id='LeadTerminal0MexStoreForward']]]></StoreMethod>
+  <DialPreFix><![CDATA[//*[@id='LeadTerminal0MexDialPrefix']]]></DialPreFix>
+  <MemorySize><![CDATA[//*[@id='LeadTerminal0MexMemorySize']]]></MemorySize>
+  <EMVCapabilities><![CDATA[//*[@id='LeadTerminal0MexEmvCapability']]]></EMVCapabilities>
+  <TipsOfTimeSale><![CDATA[//*[@id='LeadTerminal0MexTipAtTimeOfSale']]]></TipsOfTimeSale>
+  <TipCalculator><![CDATA[//*[@id='LeadTerminal0MexTipCalculator']]]></TipCalculator>
+  //################################ TERMINAL Variable   ######################################
+  <TerminalVariable><![CDATA[//*[@id='terminal0Variables5boximg']/span]]></TerminalVariable>
+  <SelectProviderCode><![CDATA[//*[@id='LeadTerminal0ProvCode']]]></SelectProviderCode>
+  <SelectApplicationCode><![CDATA[//*[@id='LeadTerminal0AppCode']]]></SelectApplicationCode>
+  //########################### STORE VARIABLE  ###############################################
+  <ClickExpendBtnStoreVariable><![CDATA[//*[@id='store0Variables5boximg']/span]]></ClickExpendBtnStoreVariable>
+  <CallWatingTerminalLine><![CDATA[//*[@id='LeadTerminal0CallWait']]]></CallWatingTerminalLine>
+  <NumberDailedForOutSideLine><![CDATA[//*[@id='LeadTerminal0DialNine']]]></NumberDailedForOutSideLine>
+  <RollOverLines><![CDATA[//*[@id='LeadTerminal0RollOver']]]></RollOverLines>
+  <ToneOrRotary><![CDATA[//*[@id='LeadTerminal0ToneRotary']]]></ToneOrRotary>
+  <ProcessorToTrainMerchant><![CDATA[//*[@id='LeadTerminal0NpcTrain']]]></ProcessorToTrainMerchant>
+  <ProcessorTotErminal><![CDATA[//*[@id='LeadTerminal0NpcReprogram']]]></ProcessorTotErminal>
+
+
+</Locators>

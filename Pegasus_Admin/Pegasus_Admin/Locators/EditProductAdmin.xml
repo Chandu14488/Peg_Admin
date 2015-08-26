@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  //#######################   TerminalAndEquipment  #######################
+  
+  <MoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]]]></MoveHover>
+  <ClickOnAdmin><![CDATA[link=Admin]]></ClickOnAdmin>
+  <ClickOnProductTab><![CDATA[//*[@id='css3menu']/li[9]/a]]></ClickOnProductTab>
+  <ClickOnCreate><![CDATA[//a[@title='Create New Product']]]></ClickOnCreate>
+  
+  //######################    ADD NEW CATEGORY
+  <Name><![CDATA[//*[@id='ProductName']]]></Name>
+  <Category><![CDATA[//*[@id='ProductCategoryId']]]></Category>
+  <DefaultView><![CDATA[//*[@id='ProductCanCollapse']]]></DefaultView>
+  <Status><![CDATA[//*[@id='ProductStatus']]]></Status>
+  
+  //####################  ADD CUSTOM FIELDS
+   <ClickOnAddCustomFiled><![CDATA[//*[@id='ProductCreateForm']/div[2]/div/div[4]/div[2]/a/strong]]></ClickOnAddCustomFiled>
+  <FieldName><![CDATA[//*[@id='ProductCustomFieldName']]]></FieldName>
+  <TypeCustom><![CDATA[//*[@id='ProductCustomFieldType']]]></TypeCustom>
+  <ContentTypeCustom><![CDATA[//*[@id='ProductCustomFieldDataType']]]></ContentTypeCustom>
+  <SelectValidation><![CDATA[//*[@id='ProductCustomFieldValidation']]]></SelectValidation>
+  <Required><![CDATA[//*[@id='ProductCustomFieldRequired']]]></Required>
+  <DataLength><![CDATA[//*[@id='ProductCustomFieldDataLength']]]></DataLength>
+  <DataLength><![CDATA[//div[@id='datalenth']/div/input]]></DataLength>
+  <Description><![CDATA[//*[@id='ProductCustomFieldDescription']]]></Description>
+  <SaveBtn><![CDATA[//input[@value='Save']]]></SaveBtn>
+  
+  
+  //SAVE CREATE
+  <Save><![CDATA[//*[@id='main_container']/div[2]/div/a[1]/span[1]]]></Save>
+  
+  //Edit
+  <EnterToSearchName><![CDATA[//*[@id='gs_productname']]]></EnterToSearchName>
+  <ClickOnToEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td/a[@title='Edit Product']]]></ClickOnToEdit>
+  <ClickOnCustomFieldAddlink><![CDATA[//*[@id='ProductEditForm']/div[2]/div/div[4]/div[2]/a/strong]]></ClickOnCustomFieldAddlink>
+  <EditFieldName><![CDATA[//*[@id='ProductCustomFieldEditName']]]></EditFieldName>
+  <EditTypeSelect><![CDATA[//*[@id='ProductCustomFieldEditType']]]></EditTypeSelect>
+  <ContentType><![CDATA[//*[@id='ProductCustomFieldEditDataType']]]></ContentType>
+  <DataValidation><![CDATA[//*[@id='ProductCustomFieldEditValidation']]]></DataValidation>
+  <ClickOnRequiredCheckBox><![CDATA[//*[@id='ProductCustomFieldEditRequired']]]></ClickOnRequiredCheckBox>
+  <AddDescription><![CDATA[//*[@id='ProductCustomFieldEditDescription']]]></AddDescription>
+  <CliikEditSave><![CDATA[//*[@id='ProductCustomFieldEditEditForm']/div[3]/div/a[1]/span[1]]]></CliikEditSave>
+  
+</Locators>
+
+

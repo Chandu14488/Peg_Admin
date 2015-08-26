@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   Contact tab #######################
+  <ClickReportTab><![CDATA[//*[@id='css3menu']/li[10]/a]]></ClickReportTab>
+  <ClickOnCreate><![CDATA[//*[@id='actionbuttons']/span]]></ClickOnCreate>
+  //################## CREATE A REPORT
+  <Name><![CDATA[//*[@id='ReportName']]]></Name>
+  <SelectModule><![CDATA[//*[@id='ReportModuleId']]]></SelectModule>
+  <EnterDEscription><![CDATA[//*[@id='ReportDescription']]]></EnterDEscription>
+  //###############    ACTIVITY TOTAL
+  <ClientWithDocument><![CDATA[//*[contains(@id, 'metric') and contains(@value, 'total_client_documents')]]]></ClientWithDocument>
+  <TotalEmailWithClient><![CDATA[//*[contains(@id, 'metric') and contains(@value, 'total_emails')]]]></TotalEmailWithClient>
+  <TotalTaskWithClient><![CDATA[//*[contains(@id, 'metric') and contains(@value, 'total_tasks')]]]></TotalTaskWithClient>
+  <TotalClientWithEmail><![CDATA[//*[contains(@id, 'metric') and contains(@value, 'total_client_emails')]]]></TotalClientWithEmail>
+  <TotalClientWithTask><![CDATA[//*[contains(@id, 'metric') and contains(@value, 'total_client_tasks')]]]></TotalClientWithTask>
+  <TotalMeetingWithClients><![CDATA[//*[contains(@id, 'metric') and contains(@value,'total_meetings')]]]></TotalMeetingWithClients>
+  <TotalClientsWithMeeting><![CDATA[//*[@value='total_client_meetings']]]></TotalClientsWithMeeting>
+  <TotalDocumentWithClient><![CDATA[//*[@value='total_documents']]]></TotalDocumentWithClient>
+  //########    APPOINTMENT STATUS TOOL
+  <ClickONAppointmentRadiobtn><![CDATA[//*[@id='ReportTypeAppointmentStatusTotals']]]></ClickONAppointmentRadiobtn>
+  <ClickOnMeetingcChkBox><![CDATA[//*[@value='appointment_meetings']]]></ClickOnMeetingcChkBox>
+  <ClickOnTask><![CDATA[//*[@value='appointment_tasks']]]></ClickOnTask>
+  //################  AVERAGE TIME TAKEM
+  <ClickOnAvgtimetakn><![CDATA[//*[@id='ReportTypeAverageTimeTaken']]]></ClickOnAvgtimetakn>
+  <SelectFrom><![CDATA[//*[@id='ReportStatusFrom']]]></SelectFrom>
+  <SelectTo><![CDATA[//*[@id='ReportStatusTo']]]></SelectTo>
+  //#############  COVERTED CLIENT
+  <ClickOnConvertedClient><![CDATA[//*[@id='ReportTypeConvertedClients']]]></ClickOnConvertedClient>
+  <LeadConvertionRatioToClient><![CDATA[//*[@value='ratio_all_client_lead_coversions']]]></LeadConvertionRatioToClient>
+  <OpportunitiesConverstionRatioTioClient><![CDATA[//*[@value='ratio_all_client_opportunity_coversions']]]></OpportunitiesConverstionRatioTioClient>
+  <TotalCovertedOpportinuties><![CDATA[//*[@value='total_coverted_from_opportunities']]]></TotalCovertedOpportinuties>
+
+  <SelectTimePeriod><![CDATA[//*[@id='ReportTimePeriod']]]></SelectTimePeriod>
+  <Status><![CDATA[//*[@id='filterbox']/div[1]/div[1]/div/button]]></Status>
+  <SelectStatus><![CDATA[//*[@id='ui-multiselect-ReportFilterStatus-option-1']]]></SelectStatus>
+  <Source><![CDATA[//*[@id='filterbox']/div[1]/div[2]/div/button]]></Source>
+  <SelectSource><![CDATA[//*[@id='ui-multiselect-ReportFilterReferralSource-option-1']]]></SelectSource>
+  <Responsibilities><![CDATA[//*[@id='filterbox']/div[2]/div[2]/div/button]]></Responsibilities>
+  <SelectResponsibilites><![CDATA[//*[@id='ui-multiselect-ReportFilterAssignedUserId-option-1']]]></SelectResponsibilites>
+  <PartnerAgent><![CDATA[//*[@id='filterbox']/div[3]/div[1]/div/button]]></PartnerAgent>
+  <SelectPartnerAgent><![CDATA[//*[@id='ui-multiselect-ReportFilterPartnerAgentId-option-0']]]></SelectPartnerAgent>
+  <PartnerAssociation><![CDATA[//*[@id='filterbox']/div[3]/div[2]/div/button]]></PartnerAssociation>
+  <SelectPartnerAssociation><![CDATA[//*[@id='ui-multiselect-ReportFilterPartnerAssociationId-option-0']]]></SelectPartnerAssociation>
+  <SalesManager><![CDATA[//*[@id='filterbox']/div[3]/div[3]/div/button]]></SalesManager>
+  <SelectSaleManager><![CDATA[//*[@id='ui-multiselect-ReportFilterSalesManagerId-option-0']]]></SelectSaleManager>
+
+  <TimePeriod><![CDATA[//*[@id='ReportGroupby2']]]></TimePeriod>
+  <SelectTimePerioddd><![CDATA[//*[@id='ReportGrouptimeperiod']]]></SelectTimePerioddd>
+  <SelectCustomField><![CDATA[//*[@id='ReportGroupby3']]]></SelectCustomField>
+  <SelectCustomFielddd><![CDATA[//*[@id='ReportCustomfield']]]></SelectCustomFielddd>
+  //############## CLICK ON SAVE BUTTON    ########################
+  <SaveReports><![CDATA[//*[@id='ReportReportsCreateForm']/div[5]/div/a[1]/span[2]]]></SaveReports>
+
+ <!--     1099 SALE AGENT     -->
+  <ReportsTab><![CDATA[//*[@id='css3menu']/li[10]/a]]></ReportsTab>
+  
+  <!--PERMISIONS-->
+  <TeamUp><![CDATA[//*[@id='permission21']]]>></TeamUp>
+  <TeamUpWrite><![CDATA[//*[@id='permission22']]]></TeamUpWrite>
+  <TeamUpDel><![CDATA[//*[@id='permission23']]]></TeamUpDel>
+  <TeamDown><![CDATA[//*[@id='permission6']]]></TeamDown>
+  <TeamDownWrite><![CDATA[//*[@id='permission7']]]></TeamDownWrite>
+  <TeamOther><![CDATA[//*[@id='permission9']]]></TeamOther>
+  <TeamOtherWrite><![CDATA[//*[@id='permission10']]]></TeamOtherWrite>
+  <GroupRead><![CDATA[//*[@id='permission12']]]></GroupRead>
+  <GroupWrite><![CDATA[//*[@id='permission13']]]></GroupWrite>
+  <OtherRead><![CDATA[//*[@id='permission15']]]></OtherRead>
+  <OtherWrite><![CDATA[//*[@id='permission16']]]></OtherWrite>
+  
+  
+  
+
+
+</Locators>

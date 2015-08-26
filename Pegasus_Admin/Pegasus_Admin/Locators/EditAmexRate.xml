@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  //###################  LOGIN WITH CROP    ############################
+  <EnterUsername><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButtojn>
+
+
+  //#######################   MASTER TAB  #######################
+  <ClickMasterTab><![CDATA[//*[@id='css3menu']/li[7]/a]]></ClickMasterTab>
+  <ClickOnCreate><![CDATA[//*[@id='buttons']/span[2]]]></ClickOnCreate> 
+  
+  //#################    CREATE A PROCESSOR
+  <MCCCode><![CDATA[//*[@id='CorporateMasterRatesAmexMccCode']]]></MCCCode>
+  <AmexRate><![CDATA[//*[@id='CorporateMasterRatesAmexAmexRate']]]></AmexRate>
+  <AmexPerItem><![CDATA[//*[@id='CorporateMasterRatesAmexAmexPerItem']]]></AmexPerItem>
+  <ClickOnSaveBtn><![CDATA[//*[@id='main_container']/div[1]/div[2]/a[1]/span[2]]]></ClickOnSaveBtn>
+  <ClickOnPushOffice><![CDATA[//a[@title='Push to Offices']/span[2]]]></ClickOnPushOffice>
+
+  //###############  LOGOUT
+
+  <WelcomeMoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]/div]]></WelcomeMoveHover>
+  <ClickOnWelcomeBack><![CDATA[//*[@id='user_header_info']/table/tbody/tr/td[2]/div[2]/a[2]]]></ClickOnWelcomeBack>
+
+
+  // ######################## LOGIN WITH OFFICE    ############################
+
+  <EnterUsernameOff><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsernameOff>
+  <EnterPasswordOff><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPasswordOff>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButtojn>
+
+  //Become office
+  <ClickOnAdmin><![CDATA[//*[@id='user_header_info']/table/tbody/tr/td[2]/div[2]/a[1]]]></ClickOnAdmin>
+
+  <ClickOnMaterOff><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClickOnMaterOff>
+  
+  
+  //#####################    SET SEARCH FILTERS  
+  <EnterMccCode><![CDATA[//*[@id='gs_mcc_code']]]></EnterMccCode>
+  <AmexRATEsRCH><![CDATA[//*[@id='gs_amexRate']]]></AmexRATEsRCH>
+  <ClickOnEditIcn><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/span/a]]></ClickOnEditIcn>
+  <AmexRate><![CDATA[//*[@id='CorporateMasterRatesAmexAmexRate']]]></AmexRate>
+  <AmexPerItem><![CDATA[//*[@id='CorporateMasterRatesAmexAmexPerItem']]]></AmexPerItem>
+  <ClickOnSaveBtn><![CDATA[//*[@id='main_container']/div[1]/div[2]/a[1]/span[2]]]></ClickOnSaveBtn>
+
+ 
+  
+</Locators>
+
+

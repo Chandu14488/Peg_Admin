@@ -1,0 +1,423 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+
+  //#######################   Master Data TAB  #######################
+
+  <MoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]]]></MoveHover>
+  <ClickOnAdmin><![CDATA[link=Admin]]></ClickOnAdmin>
+  <ClickOnMasterDataTab><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClickOnMasterDataTab>
+
+
+  <PricingTemplateName><![CDATA[//*[@id='MasterRateTemplateName']]]></PricingTemplateName>
+
+
+  //#######################   Contact tab #######################
+  <ClickMasterTab><![CDATA[//*[@id='css3menu']/li[3]/a]]></ClickMasterTab>
+  <EnterCompanyName><![CDATA[//*[@id='gs_company_name']]]></EnterCompanyName>
+  <ClickOnCompany><![CDATA[//*[@id='63052']/td[15]/a]]></ClickOnCompany>
+
+  <ClickOnRateFess><![CDATA[//*[@id='tabs']/li[5]/a]]></ClickOnRateFess>
+
+  //#################################3   RATE AND FEES    #######################################
+  <Processor><![CDATA[//*[@id='processor_type']]]></Processor>
+  <SelectMerchanType><![CDATA[//*[@id='MasterRateMerchantType']]]></SelectMerchanType>
+
+  <EnterMCCSICcODE><![CDATA[//*[@id='MasterRateSicCode']]]></EnterMCCSICcODE>
+  <MethodOfAcceptingCards><![CDATA[//*[@id='MasterRateCardAcceptMethod']]]></MethodOfAcceptingCards>
+  <PricePlan><![CDATA[//*[@id='MasterRatePricingPlan']]]></PricePlan>
+  <Template><![CDATA[//*[@id='MasterRateTemplates']]]></Template>
+  <DiscountFrequency><![CDATA[//*[@id='MasterRatePayDiscFreq']]]></DiscountFrequency>
+
+
+  //################################## DISCOUNT FESS    #########################################
+  <DebitNetworkInterFacePassThrough><![CDATA[//*[@id='MasterRatePayIntPassThru']]]></DebitNetworkInterFacePassThrough>
+  <VicaCreditOualifiedPercentage><![CDATA[//*[@id='MasterRateQualRate']]]></VicaCreditOualifiedPercentage>
+  <VicaCreditMidQualified><![CDATA[//*[@id='MasterRateMidQualRate']]]></VicaCreditMidQualified>
+  <VicaCreditNonQualified><![CDATA[//*[@id='MasterRateNonQualRate']]]></VicaCreditNonQualified>
+  <VicaCreditPerItem><![CDATA[//*[@id='MasterRateVisaPer']]]></VicaCreditPerItem>
+  <VicaCreditAuthorizationFees><![CDATA[//*[@id='MasterRateVisaAuth']]]></VicaCreditAuthorizationFees>
+  <VicaCheckCardQualified><![CDATA[//*[@id='MasterRateVCheckQual']]]></VicaCheckCardQualified>
+  <VicaCheckCardMidQualified><![CDATA[//*[@id='MasterRateVCheckMid']]]></VicaCheckCardMidQualified>
+  <VicaCheckCardNonQualified><![CDATA[//*[@id='MasterRateVCheckNon']]]></VicaCheckCardNonQualified>
+  <VicaCheckCardPerIthem><![CDATA[//*[@id='MasterRateVCheckPerQual']]]></VicaCheckCardPerIthem>
+  <VicaCheckCardMidQualPerItem><![CDATA[//*[@id='MasterRateVCheckPerMid']]]></VicaCheckCardMidQualPerItem>
+  <ViceCheckCardNonQualPeritem><![CDATA[//*[@id='MasterRateVCheckPerNon']]]></ViceCheckCardNonQualPeritem>
+  <AuthenticationFees><![CDATA[//*[@id='MasterRateVCheckAuth']]]></AuthenticationFees>
+  <MasterCardCreditQualified><![CDATA[//*[@id='MasterRateMQual']]]></MasterCardCreditQualified>
+  <MaterCardCreditMidQualified><![CDATA[//*[@id='MasterRateMMidQual']]]></MaterCardCreditMidQualified>
+  <MasterCardCreditNonQualified><![CDATA[//*[@id='MasterRateMNonQual']]]></MasterCardCreditNonQualified>
+  <MasterCardCreditPerItem><![CDATA[//*[@id='MasterRateMPerQual']]]></MasterCardCreditPerItem>
+  <MasterCreditCardMidQualPerItem><![CDATA[//*[@id='MasterRateMPerMid']]]></MasterCreditCardMidQualPerItem>
+  <MasterCreditCardNonQualPerItem><![CDATA[//*[@id='MasterRateMPerNon']]]></MasterCreditCardNonQualPerItem>
+  <MasterCreditCardAuthenticationfee><![CDATA[//*[@id='MasterRateMAuth']]]></MasterCreditCardAuthenticationfee>
+
+  <MasterCardDebitQualified><![CDATA[//*[@id='MasterRateMDebitQual']]]></MasterCardDebitQualified>
+  <MasterCreditCardMidQualified><![CDATA[//*[@id='MasterRateMDebitMid']]]></MasterCreditCardMidQualified>
+  <MasterDebitCardNonQualified><![CDATA[//*[@id='MasterRateMDebitNon']]]></MasterDebitCardNonQualified>
+  <MasterDebitCardperItem><![CDATA[//*[@id='MasterRateMDebitPerQual']]]></MasterDebitCardperItem>
+  <MasterDebitCardMidQual><![CDATA[//*[@id='MasterRateMDebitPerMid']]]></MasterDebitCardMidQual>
+  <MasterDebitCardNonQualPerItem><![CDATA[//*[@id='MasterRateMDebitPerNon']]]></MasterDebitCardNonQualPerItem>
+  <MasterDebitCardAuthorizationFees><![CDATA[//*[@id='MasterRateMDebitAuth']]]></MasterDebitCardAuthorizationFees>
+
+  <DiscoverNetworCreditQualified><![CDATA[//*[@id='MasterRateDiscCreditQualDiscount']]]></DiscoverNetworCreditQualified>
+  <DiscoverMidQualified><![CDATA[//*[@id='MasterRateDiscCreditMidDiscount']]]></DiscoverMidQualified>
+  <DiscoverNetworkCreditNonQualified><![CDATA[//*[@id='MasterRateDiscCreditNonDiscount']]]></DiscoverNetworkCreditNonQualified>
+  <DiscoverNetworkCreditPerItem><![CDATA[//*[@id='MasterRateDiscCreditQualMpgFee']]]></DiscoverNetworkCreditPerItem>
+  <DiscoverNetworkCreditMidQualified><![CDATA[//*[@id='MasterRateDiscCreditMidMpgFee']]]></DiscoverNetworkCreditMidQualified>
+  <DiscoverNetworkCreditNonQualified><![CDATA[//*[@id='MasterRateDiscCreditNonMpgFee']]]></DiscoverNetworkCreditNonQualified>
+  <DiscoverNetworkcreditAuthentication><![CDATA[//*[@id='MasterRateDiscCreditAuthMpgFee']]]></DiscoverNetworkcreditAuthentication>
+
+  <DiscoverNetworkDebitQualified><![CDATA[//*[@id='MasterRateDiscDebitQualDiscount']]]></DiscoverNetworkDebitQualified>
+  <DiscoverNetworkDebitMidQualified><![CDATA[//*[@id='MasterRateDiscDebitMidDiscount']]]></DiscoverNetworkDebitMidQualified>
+  <DiscoverNetworkDebitNonQualified><![CDATA[//*[@id='MasterRateDiscDebitNonDiscount']]]></DiscoverNetworkDebitNonQualified>
+  <DiscoverNetworkDebitPerItem><![CDATA[//*[@id='MasterRateDiscDebitQualMpgFee']]]></DiscoverNetworkDebitPerItem>
+  <DiscoverNetworkDebitMidQualPerItem><![CDATA[//*[@id='MasterRateDiscDebitMidMpgFee']]]></DiscoverNetworkDebitMidQualPerItem>
+  <DiscoverNetworkDebitNonQualPerItem><![CDATA[//*[@id='MasterRateDiscDebitNonMpgFee']]]></DiscoverNetworkDebitNonQualPerItem>
+  <DiscoverNetworkDebitAuthentication><![CDATA[//*[@id='MasterRateDiscDebitAuthMpgFee']]]></DiscoverNetworkDebitAuthentication>
+
+  <AmericanExpressQualified><![CDATA[//*[@id='MasterRateAmexRate']]]></AmericanExpressQualified>
+  <AmericanExpressMidQualified><![CDATA[//*[@id='MasterRateAmexCreditMidDiscount']]]></AmericanExpressMidQualified>
+  <AmericanExpressDebitNonQualified><![CDATA[//*[@id='MasterRateAmexCreditNonDiscount']]]></AmericanExpressDebitNonQualified>
+  <AmericanExpressDebitPerItem><![CDATA[//*[@id='MasterRateAmexPerQual']]]></AmericanExpressDebitPerItem>
+  <AmericanExpressDebitMidQualPerItem><![CDATA[//*[@id='MasterRateAmexCreditMidMpgFee']]]></AmericanExpressDebitMidQualPerItem>
+  <AmericanExpressDebitNonQualPerItem><![CDATA[//*[@id='MasterRateAmexCreditNonMpgFee']]]></AmericanExpressDebitNonQualPerItem>
+  <AmericanExpressDebitAuthentication><![CDATA[//*[@id='MasterRateAmexAuth']]]></AmericanExpressDebitAuthentication>
+
+
+  <AMEXPrepaidQualified><![CDATA[//*[@id='MasterRateAmexPrepaidRate']]]></AMEXPrepaidQualified>
+  <AMEXPrepaidMidQualified><![CDATA[//*[@id='MasterRateAmexPrepaidPerQual']]]></AMEXPrepaidMidQualified>
+
+  <AmexMonthlyFlatFee><![CDATA[//*[@id='MasterRateMexAmexMonthlyFlat']]]></AmexMonthlyFlatFee>
+
+  <VisaRegulatedDebit><![CDATA[//*[@id='MasterRateVCheckRegulated']]]></VisaRegulatedDebit>
+  <VisaRegulatedDebitPerItem><![CDATA[//*[@id='MasterRateVCheckPerRegulated']]]></VisaRegulatedDebitPerItem>
+
+  <MasterCardRegulatedDebitQualified><![CDATA[//*[@id='MasterRateMDebitRegulated']]]></MasterCardRegulatedDebitQualified>
+  <MasterCardRegulatedDebitPerItem><![CDATA[//*[@id='MasterRateMDebitPerRegulated']]]></MasterCardRegulatedDebitPerItem>
+
+  <DiscoverNetworkRegualtedDebit><![CDATA[//*[@id='MasterRateDiscDebitRegulatedDiscount']]]></DiscoverNetworkRegualtedDebit>
+  <DiscoverNetworkRegulatedDebitPerItem><![CDATA[//*[@id='MasterRateDiscDebitRegulatedMpgFee']]]></DiscoverNetworkRegulatedDebitPerItem>
+
+  //##############################  Diners Club / Carte Blanche   #################################################
+  <DinerClubCareteQualified><![CDATA[//*[@id='MasterRateDinersRate']]]></DinerClubCareteQualified>
+  <DinerClubQualPer><![CDATA[//*[@id='MasterRateDinersPerQual']]]></DinerClubQualPer>
+  <DinerAuthentication><![CDATA[//*[@id='MasterRateDinersAuth']]]></DinerAuthentication>
+
+  //####################################  DISCOVER  #####################################################
+  <DiscoverQualifiedQualified><![CDATA[//*[@id='MasterRateDiscRate']]]></DiscoverQualifiedQualified>
+  <DiscoverPerItem><![CDATA[//*[@id='MasterRateDiscPerQual']]]></DiscoverPerItem>
+  <DiscoverAuthentictaion><![CDATA[//*[@id='MasterRateDiscAuth']]]></DiscoverAuthentictaion>
+
+  //#####################################   EBT    ############################################
+  <EBTQualified><![CDATA[//*[@id='MasterRateEbtRate']]]></EBTQualified>
+  <EBTItem><![CDATA[//*[@id='MasterRateEbtFee']]]></EBTItem>
+
+  //#####################################   EBT CASH BENEFIT    ############################################
+  <EBTCashBenefitQualified><![CDATA[//*[@id='MasterRateEbtCashBenefitFee']]]></EBTCashBenefitQualified>
+
+  //####################################  Flexcache (Gift Card)   #######################################
+  <FlexCacheGiftCard><![CDATA[//*[@id='MasterRateFlexRate']]]></FlexCacheGiftCard>
+  <FlexCachePerGiftCard><![CDATA[//*[@id='MasterRateFlexPerQual']]]></FlexCachePerGiftCard>
+  <FlexCacheAuthenticationGiftCard><![CDATA[//*[@id='MasterRateFlexAuth']]]></FlexCacheAuthenticationGiftCard>
+
+  //####################################  JBC  #######################################
+  <JCBQualified><![CDATA[//*[@id='MasterRateJcbRate']]]></JCBQualified>
+  <JCBMidQualified><![CDATA[//*[@id='MasterRateJcbRateMid']]]></JCBMidQualified>
+  <JCBNonQualified><![CDATA[//*[@id='MasterRateJcbRateNon']]]></JCBNonQualified>
+  <JCBPerItem><![CDATA[//*[@id='MasterRateJcbPerQual']]]></JCBPerItem>
+  <JCBMidQualPerItem><![CDATA[//*[@id='MasterRateJcbPerMid']]]></JCBMidQualPerItem>
+  <JCBNonQualPerItem><![CDATA[//*[@id='MasterRateJcbPerNon']]]></JCBNonQualPerItem>
+  <JCBAuthentication><![CDATA[//*[@id='MasterRateJcbAuth']]]></JCBAuthentication>
+
+  //####################################  Pin-based Debit  #######################################
+  <PinBasedDebitQualified><![CDATA[//*[@id='MasterRatePinRate']]]></PinBasedDebitQualified>
+  <PinBasedDebitMidQualified><![CDATA[//*[@id='MasterRatePinVolumePercent']]]></PinBasedDebitMidQualified>
+  <PinBasedDebitPerQualified><![CDATA[//*[@id='MasterRatePinPerQual']]]></PinBasedDebitPerQualified>
+
+
+  //####################################  Wright Express Fleet Card  #######################################
+  <WrightExpressFleetCardQualified><![CDATA[//*[@id='MasterRateFleetRate']]]></WrightExpressFleetCardQualified>
+  <WrightExpressFleetCardMidQualified><![CDATA[//*[@id='MasterRateFleetRateMid']]]></WrightExpressFleetCardMidQualified>
+  <WrightExpressFleetCardNonQualified><![CDATA[//*[@id='MasterRateFleetRateNon']]]></WrightExpressFleetCardNonQualified>
+  <WrightExpressFleetCardPerItem><![CDATA[//*[@id='MasterRateFleetPerQual']]]></WrightExpressFleetCardPerItem>
+  <WrightExpressFleetCardMidQualPerItem><![CDATA[//*[@id='MasterRateFleetPerMid']]]></WrightExpressFleetCardMidQualPerItem>
+  <WrightExpressFleetCardNonQualPerItem><![CDATA[//*[@id='MasterRateFleetPerNon']]]></WrightExpressFleetCardNonQualPerItem>
+  <WrightExpressFleetCardAuthentication><![CDATA[//*[@id='MasterRateFleetAuth']]]></WrightExpressFleetCardAuthentication>
+
+
+  //####################################  Voyager Fleet Card  #######################################
+  <VoyagerFleetCardQualified><![CDATA[//*[@id='MasterRateVoyfleetRate']]]></VoyagerFleetCardQualified>
+  <VoyagerFleetCardMidQualified><![CDATA[//*[@id='MasterRateVoyfleetRateMid']]]></VoyagerFleetCardMidQualified>
+  <VoyagerFleetCardNonQualified><![CDATA[//*[@id='MasterRateVoyfleetRateNon']]]></VoyagerFleetCardNonQualified>
+  <VoyagerFleetCardPerItem><![CDATA[//*[@id='MasterRateVoyfleetPerQual']]]></VoyagerFleetCardPerItem>
+  <VoyagerFleetCardMidQualPerItem><![CDATA[//*[@id='MasterRateVoyfleetPerMid']]]></VoyagerFleetCardMidQualPerItem>
+  <VoyagerFleetCardNonQualPerItem><![CDATA[//*[@id='MasterRateVoyfleetPerNon']]]></VoyagerFleetCardNonQualPerItem>
+  <VoyagerFleetCardAuthentication><![CDATA[//*[@id='MasterRateVoyfleetAuth']]]></VoyagerFleetCardAuthentication>
+
+
+  //####################################  BILBACK SUURCHARGE #######################################
+  <BillBackSurchargeQualified><![CDATA[//*[@id='MasterRateBillback']]]></BillBackSurchargeQualified>
+
+  //################################### Rewards Surcharge (Retail Only)  ############################
+  <RewardsSurchargeRetailQualified><![CDATA[//*[@id='MasterRateMexRewardSurcharge']]]></RewardsSurchargeRetailQualified>
+  <RewardsSurchargeWithQualifiedRewardAtPass><![CDATA[//*[@id='MasterRateMexRewardSurchargeQualified']]]></RewardsSurchargeWithQualifiedRewardAtPass>
+
+  //####################################  MC Worldcard  #######################################
+  <McWorldCardQualified><![CDATA[//*[@id='MasterRateMcWorldcardQualDiscount']]]></McWorldCardQualified>
+  <McWorldCardMidQualified><![CDATA[//*[@id='MasterRateMcWorldcardMidDiscount']]]></McWorldCardMidQualified>
+  <McWorldCardNonQualified><![CDATA[//*[@id='MasterRateMcWorldcardNonDiscount']]]></McWorldCardNonQualified>
+  <McWorldCardPerItem><![CDATA[//*[@id='MasterRateMcWorldcardQualMpgFee']]]></McWorldCardPerItem>
+  <McWorldCardMidQualPerItem><![CDATA[//*[@id='MasterRateMcWorldcardMidMpgFee']]]></McWorldCardMidQualPerItem>
+  <McWorldCardNonQualPerItem><![CDATA[//*[@id='MasterRateMcWorldcardNonMpgFee']]]></McWorldCardNonQualPerItem>
+
+
+  //####################################  Visa Rewards1 #######################################
+  <VisaRewardsQualified> <![CDATA[//*[@id='MasterRateVsRewards1Discount']]]></VisaRewardsQualified>
+  <VisaRewardsMidQualified><![CDATA[//*[@id='MasterRateVsRewards1MpgFee']]]></VisaRewardsMidQualified>
+
+  //#######################################  MC Other Item  ##################################################
+  <McOtherItemqualified><![CDATA[//*[@id='MasterRateMcOtherItemRate']]]></McOtherItemqualified>
+
+  //#######################################  Visa Other Item  ##################################################
+  <VisaOtherItem><![CDATA[//*[@id='MasterRateVisaOtherItemRate']]]></VisaOtherItem>
+
+
+  //#######################################  DiscoverOtherItem ##################################################
+  <DiscoverOtherItem><![CDATA[//*[@id='MasterRateDiscOtherItemRate']]]></DiscoverOtherItem>
+
+  //################################### JBC OTHER ITEM   ########################################################
+  <JBCOtherItem><![CDATA[//*[@id='MasterRateJbcOtherItemRate']]]></JBCOtherItem>
+
+  //##################################### AMEX OTHER ITEM   ######################################
+  <AMEXOtherItem><![CDATA[//*[@id='MasterRateAmexOnepointVolume']]]></AMEXOtherItem>
+
+  //##################################### PIN Debit-Other Volume Percentage  ######################################
+  <PinDebitVolume><![CDATA[//*[@id='MasterRatePercentVolumePinDebitOther']]]></PinDebitVolume>
+
+  //##################################### Dues Asssesments   ######################################
+  <DuesAssesmentCheckbox><![CDATA[//*[@id='MasterBusinessDetailDuesAssessments']]]></DuesAssesmentCheckbox>
+
+
+  //################################   OTHER SERVICE FEES    #####################################################
+  <ClickOnOtherServiceFeeExpandButton><![CDATA[//*[@id='otherservicesfeebox3img']/span]]></ClickOnOtherServiceFeeExpandButton>
+  <AccountSetupFee><![CDATA[//*[@id='MasterRateSetupFee']]]></AccountSetupFee>
+  <AccountSetupFrequency><![CDATA[//*[@id='MasterRateSetupFreq']]]></AccountSetupFrequency>
+  <ACHReturnItemProcessing><![CDATA[//*[@id='MasterRateAchReject']]]></ACHReturnItemProcessing>
+  <ACHReturnItemProcessingFrequency><![CDATA[//*[@id='MasterRateAchFreq']]]></ACHReturnItemProcessingFrequency>
+  <AnnualMemberShip><![CDATA[//*[@id='MasterRateAnnualFee']]]></AnnualMemberShip>
+  <AnnualMemberShipFrequency><![CDATA[//*[@id='MasterRateAnnualFreq']]]></AnnualMemberShipFrequency>
+  <AnnualFeesCollectedMonth><![CDATA[//*[@id='MasterRateAnnualFeeCollectedMonth']]]></AnnualFeesCollectedMonth>
+  <ApplicationProcessing><![CDATA[//*[@id='MasterRateApplicationFee']]]></ApplicationProcessing>
+  <ApplicationProcessingFrquency><![CDATA[//*[@id='MasterRateApplicationFreq']]]></ApplicationProcessingFrquency>
+  <BatchSettlement><![CDATA[//*[@id='MasterRateBatchFee']]]></BatchSettlement>
+  <BatchSettlementFrequency><![CDATA[//*[@id='MasterRateBatchFreq']]]></BatchSettlementFrequency>
+  <ChargeBackProcessing><![CDATA[//*[@id='MasterRateChargebackFee']]]></ChargeBackProcessing>
+  <ChargeBackFrequency><![CDATA[//*[@id='MasterRateChargebackFreq']]]></ChargeBackFrequency>
+  <DebitEBTSetUp><![CDATA[//*[@id='MasterRateDebitEbtSetup']]]></DebitEBTSetUp>
+  <DebitEBTFrequency><![CDATA[//*[@id='MasterRateDebitEbtFreq']]]></DebitEBTFrequency>
+  <DecisionableData><![CDATA[//*[@id='MasterRateDecDataFee']]]></DecisionableData>
+  <DecisionableDataFrequency><![CDATA[//*[@id='MasterRateDecDataFreq']]]></DecisionableDataFrequency>
+  <DepositConfirmationLetter><![CDATA[//*[@id='MasterRateLetterFee']]]></DepositConfirmationLetter>
+  <DepositConfirmationFreq><![CDATA[//*[@id='MasterRateLetterFreq']]]></DepositConfirmationFreq>
+  <ExcepetionItemRespond><![CDATA[//*[@id='MasterRateExceptionFee']]]></ExcepetionItemRespond>
+  <ExcepetionItemRespondFrequency><![CDATA[//*[@id='MasterRateExceptionFreq']]]></ExcepetionItemRespondFrequency>
+  <FlexCacheSetup><![CDATA[//*[@id='MasterRateFlexCacheFee']]]></FlexCacheSetup>
+  <FlecCacheSetupFrequency><![CDATA[//*[@id='MasterRateFlexCacheFreq']]]></FlecCacheSetupFrequency>
+  <FlexCacheInternalStoreSettlement><![CDATA[//*[@id='MasterRateFlexCacheSetFee']]]></FlexCacheInternalStoreSettlement>
+  <FlexCacheInternalStoreSettlementFrequency><![CDATA[//*[@id='MasterRateFlexCacheSetFreq']]]></FlexCacheInternalStoreSettlementFrequency>
+  <MonthlyCutomerServiceFees><![CDATA[//*[@id='MasterRateMonthlyServiceFee']]]></MonthlyCutomerServiceFees>
+  <EMarchentViewAccessFee><![CDATA[//*[@id='MasterRateMonthlyEmvAccessFee']]]></EMarchentViewAccessFee>
+  <MonthlySupplies><![CDATA[//*[@id='MasterRateMonthlySupplyAmount']]]></MonthlySupplies>
+  <OtherMonthlyFees><![CDATA[//*[@id='MasterRateMonthlyOtherAmount']]]></OtherMonthlyFees>
+  <OtherFees><![CDATA[//*[@id='MasterRateOtherFees']]]></OtherFees>
+  <VisaMisuesFees><![CDATA[//*[@id='MasterRateVisaMisuseFee']]]></VisaMisuesFees>
+  <MCCNPAVSFees><![CDATA[//*[@id='MasterRateMcCnpAvs']]]></MCCNPAVSFees>
+  <DiscoverDataUsage><![CDATA[//*[@id='MasterRateDiscDataUsage']]]></DiscoverDataUsage>
+  <AcquireProcessingFeesDebit><![CDATA[//*[@id='MasterRateAcquirerProcFee']]]></AcquireProcessingFeesDebit>
+  <MCLicenseVolumeFee><![CDATA[//*[@id='MasterRateMcLicenseVolumeFee']]]></MCLicenseVolumeFee>
+  <VisaPartialAuth><![CDATA[//*[@id='MasterRateVisaPartialAuth']]]></VisaPartialAuth>
+  <TransFreedomMontlyFee><![CDATA[//*[@id='MasterRateMexTransfreedomMonthlyFee']]]></TransFreedomMontlyFee>
+  <MonthlyMerchantClubFees><![CDATA[//*[@id='MasterRateMexTransfreedomMonthlyFee']]]></MonthlyMerchantClubFees>
+  <ReprogrammingFee><![CDATA[//*[@id='MasterRateMexReprogrammingFee']]]></ReprogrammingFee>
+  <VisaTransactionInterigityFee><![CDATA[//*[@id='MasterRateVisaTransactionIntegrityFee']]]></VisaTransactionInterigityFee>
+  <VisaKilobyteSurchargeFee><![CDATA[//*[@id='MasterRateVisaKilobyteSurchargeFee']]]></VisaKilobyteSurchargeFee>
+  <MCAVSSurchageFee><![CDATA[//*[@id='MasterRateMcAvsSurchargeFee']]]></MCAVSSurchageFee>
+  <VisaFANFCardPersentSurcharge><![CDATA[//*[@id='MasterRateVisaFanfCardPresentSurcharge']]]></VisaFANFCardPersentSurcharge>
+  <VisaAFDNonParticipation><![CDATA[//*[@id='MasterRateVisaAfdNonParticipationSurchargeFee']]]></VisaAFDNonParticipation>
+  <MCKilobyteSurchargeFee><![CDATA[//*[@id='MasterRateMcKilobyteSurchargeFee']]]></MCKilobyteSurchargeFee>
+  <MCDigitalEnableFee><![CDATA[//*[@id='MasterRateMcDigitalEnableFee']]]></MCDigitalEnableFee>
+  <DiscoverAuthSurchage><![CDATA[//*[@id='MasterRateDiscoverNetworkAuthSurchargeFee']]]></DiscoverAuthSurchage>
+  <StarDebitNetworkAnualSurcharge><![CDATA[//*[@id='MasterRateStarDebitNetworkAnnualSurchargeFee']]]></StarDebitNetworkAnualSurcharge>
+  <JeanieDebitNetworkAnualSurcharge><![CDATA[//*[@id='MasterRateJeanieDebitNetworkAnnualSurchargeFee']]]></JeanieDebitNetworkAnualSurcharge>
+  <ProtfolioMsgFees><![CDATA[//*[@id='MasterRatePortfolioMgrFee']]]></ProtfolioMsgFees>
+  <CloverAndTransarmorMontlyFee><![CDATA[//*[@id='MasterRateCloverTransMonthFee']]]></CloverAndTransarmorMontlyFee>
+  <AprivaActivationFee><![CDATA[//*[@id='MasterRateAprivaActivationFee']]]></AprivaActivationFee>
+  <PerkaSolutionFee><![CDATA[//*[@id='MasterRatePerkaSolFee']]]></PerkaSolutionFee>
+  <OtherServicesFees><![CDATA[//*[@id='MasterRateOtherAmount1']]]></OtherServicesFees>
+  <OnFileFee><![CDATA[//*[@id='MasterRateOnFileFee']]]></OnFileFee>
+  <PCIFeeYear><![CDATA[//*[@id='MasterRatePciFeeYear']]]></PCIFeeYear>
+  <PaperStatementFee><![CDATA[//*[@id='MasterRatePaperStatementFee']]]></PaperStatementFee>
+  <VisaProcessingFee><![CDATA[//*[@id='MasterRateVisaProcFee']]]></VisaProcessingFee>
+
+  // ######################   RIGHT SIDE OF OTHER SERVICES FEES
+  <FrameRelaySetup><![CDATA[//*[@id='MasterRateFrameFee']]]></FrameRelaySetup>
+  <FrameRelayFrequency><![CDATA[//*[@id='MasterRateFrameFreq']]]></FrameRelayFrequency>
+  <MinimumMontlyDiscount><![CDATA[//*[@id='MasterRateMonthlyMin']]]></MinimumMontlyDiscount>
+  <MinimumMontlyDiscountFrequency><![CDATA[//*[@id='MasterRateMonthlyMinFreq']]]></MinimumMontlyDiscountFrequency>
+  <MonthlyServiceSupport><![CDATA[//*[@id='MasterRateServiceFee']]]></MonthlyServiceSupport>
+  <MontlyServiceSupportfreq><![CDATA[//*[@id='MasterRateServiceFreq']]]></MontlyServiceSupportfreq>
+  <NetConnectActivation><![CDATA[//*[@id='MasterRateNetConnectFee']]]></NetConnectActivation>
+  <NetConnectActivationFrequency><![CDATA[//*[@id='MasterRateNetConnectFreq']]]></NetConnectActivationFrequency>
+  <OrbitalGateWayActivation><![CDATA[//*[@id='MasterRateGatewayAct']]]></OrbitalGateWayActivation>
+  <OrbitalGateWayActivationFrequency><![CDATA[//*[@id='MasterRateGateFreq']]]></OrbitalGateWayActivationFrequency>
+  <OrbitalMontlyServiceSupport><![CDATA[//*[@id='MasterRateOrbitalMonthlyFee']]]></OrbitalMontlyServiceSupport>
+  <OrbitalMontlyServiceSupportFrequency><![CDATA[//*[@id='MasterRateOrbitalMonthlyFreq']]]></OrbitalMontlyServiceSupportFrequency>
+  <PinPadEncrypytion><![CDATA[//*[@id='MasterRatePinEncryptFee']]]></PinPadEncrypytion>
+  <PinPadEncrypytionFrequency><![CDATA[//*[@id='MasterRatePinEncryptFreq']]]></PinPadEncrypytionFrequency>
+  <ReconSolution><![CDATA[//*[@id='MasterRateReconFee']]]></ReconSolution>
+  <ReconSolutionFrequecy><![CDATA[//*[@id='MasterRateReconFreq']]]></ReconSolutionFrequecy>
+  <Retrivel><![CDATA[//*[@id='MasterRateRetrievalFee']]]></Retrivel>
+  <RetrivelFrequency><![CDATA[//*[@id='MasterRateRetrievalFreq']]]></RetrivelFrequency>
+  <Statement><![CDATA[//*[@id='MasterRateStatementFee']]]></Statement>
+  <StatementFrequency><![CDATA[//*[@id='MasterRateStatementFreq']]]></StatementFrequency>
+  <WirelessActivation><![CDATA[//*[@id='MasterRateWirelessActivation']]]></WirelessActivation>
+  <WirelessActivationFrequency><![CDATA[//*[@id='MasterRateWirelessActFreq']]]></WirelessActivationFrequency>
+  <WirelessMontlyServiceSupport><![CDATA[//*[@id='MasterRateWirelessMonthly']]]></WirelessMontlyServiceSupport>
+  <WirelessMontlyServiceSupportFrequecy><![CDATA[//*[@id='MasterRateWirelessMonthlyFreq']]]></WirelessMontlyServiceSupportFrequecy>
+  <MonthlyDebitAccessFees><![CDATA[//*[@id='MasterRateMonthlyDebitAccessFee']]]></MonthlyDebitAccessFees>
+  <EarlyTerminationFees><![CDATA[//*[@id='MasterRateEarlyTerminatonFee']]]></EarlyTerminationFees>
+  <Descriptionl><![CDATA[//*[@id='MasterRateMonthlySupplyDetail']]]></Descriptionl>
+  <MCAcquirierAVSBilling><![CDATA[//*[@id='MasterRateMcAcquireAvs']]]></MCAcquirierAVSBilling>
+  <MCProcessingIntegration><![CDATA[//*[@id='MasterRateMcProcInt']]]></MCProcessingIntegration>
+  <VisaNetworkFees><![CDATA[//*[@id='MasterRateVisaNetworkFeeCP']]]></VisaNetworkFees>
+  <VisaNetworkFesCNP><![CDATA[//*[@id='MasterRateVisaNetworkFeeCNP']]]></VisaNetworkFesCNP>
+  <TerminalSupportFees><![CDATA[//*[@id='MasterRateMexTerminalSupportFee']]]></TerminalSupportFees>
+  <StartDate><![CDATA[//*[@id='MasterRateMexStartDate']]]></StartDate>
+  <NetworkRealseFees><![CDATA[//*[@id='MasterRateMexNetworkReleaseFee']]]></NetworkRealseFees>
+  <DiscoverInternationalServicesFees><![CDATA[//*[@id='MasterRateDiscoverInternationalServiceFee']]]></DiscoverInternationalServicesFees>
+  <VisaKilobyteFeesSurcharge><![CDATA[//*[@id='MasterRateVisaKilobyteSurchargeFeeItem']]]></VisaKilobyteFeesSurcharge>
+  <MCCVC2FeesSurcharge><![CDATA[//*[@id='MasterRateMcCvc2SurchargeFeeItem']]]></MCCVC2FeesSurcharge>
+  <VisaFANDCardNotPresentSurcharge><![CDATA[//*[@id='MasterRateVisaFanfCardNotPresentSurcharge']]]></VisaFANDCardNotPresentSurcharge>
+  <MCKiloByteFeeSurcharge><![CDATA[//*[@id='MasterRateMcKilobyteSurchargeFeeItem']]]></MCKiloByteFeeSurcharge>
+  <AMEXNetworkSurchargeFees><![CDATA[//*[@id='MasterRateAmexNetworkSurchargeFee']]]></AMEXNetworkSurchargeFees>
+  <DiscoverNetworkAutFeeSurcharge><![CDATA[//*[@id='MasterRateDiscoverNetworkAuthSurchargeFeeItem']]]></DiscoverNetworkAutFeeSurcharge>
+  <PulseDebitCardAnnualSurcharge><![CDATA[//*[@id='MasterRatePluseDebitNetworkAnnualSurchargeFee']]]></PulseDebitCardAnnualSurcharge>
+  <ReturnTransFees><![CDATA[//*[@id='MasterRateReturnTransFee']]]>></ReturnTransFees>
+  <eIDSAccesFees><![CDATA[//*[@id='MasterRateEidsAccessFee']]]></eIDSAccesFees>
+  <InsightsSolutionMonthlyfee><![CDATA[//*[@id='MasterRateInsightSolnMonthFee']]]></InsightsSolutionMonthlyfee>
+  <AprivaMontlyAccesFes><![CDATA[//*[@id='MasterRateAprivaMonthAccessFee']]]></AprivaMontlyAccesFes>
+  <DescriptionAgain><![CDATA[//*[@id='MasterRateOtherDetail1']]]></DescriptionAgain>
+  <DescriptionFreSelect><![CDATA[//*[@id='MasterRateOtherType1']]]></DescriptionFreSelect>
+  <SelectMontly><![CDATA[//*[@id='MasterRateOtherMonth2']]]></SelectMontly>
+  <AdvantageBuyerProgram><![CDATA[//*[@id='MasterRateAdvantageBuyerPgm']]]></AdvantageBuyerProgram>
+  <PCIFeesMonth><![CDATA[//*[@id='MasterRatePciFeeMonth']]]></PCIFeesMonth>
+  <MCproceesingFees><![CDATA[//*[@id='MasterRateMcProcFee']]]></MCproceesingFees>
+
+
+  //###############################################   OTHER AUTHOROIAZATION FEES  ######################################
+  <ClickOnExpandBtnOAF><![CDATA[//*[@id='otherauthfeesbox3img']/span]]></ClickOnExpandBtnOAF>
+  <Voice><![CDATA[//*[@id='MasterRateVoice']]]></Voice>
+  <FrameRelayAuthoriztion><![CDATA[//*[@id='MasterRateFrameRelay']]]></FrameRelayAuthoriztion>
+  <MCNABUFees><![CDATA[//*[@id='MasterRateMcNabuFee']]]></MCNABUFees>
+  <CrossBorderFees><![CDATA[//*[@id='MasterRateCrossBorderFeeNonUsd']]]></CrossBorderFees>
+  <IssuerRefferal><![CDATA[//*[@id='MasterRateIssuerRef']]]></IssuerRefferal>
+  <NetConnectAuthorization><![CDATA[//*[@id='MasterRateNetConnAuth']]]></NetConnectAuthorization>
+  <VisaAPFFees><![CDATA[//*[@id='MasterRateVisaApfFee']]]></VisaAPFFees>
+  <CrossBorderFeesUs><![CDATA[//*[@id='MasterRateCrossBorderFeeUsd']]]></CrossBorderFeesUs>
+  <ElectronicAVS><![CDATA[//*[@id='MasterRateElecAvs']]]></ElectronicAVS>
+  <OAFWireLessAuthorizationFees><![CDATA[//*[@id='MasterRateWirelessTransAuth']]]></OAFWireLessAuthorizationFees>
+  <OAFZeroLimitFee><![CDATA[//*[@id='MasterRateZeroLimitFee']]]></OAFZeroLimitFee>
+  <ConnectivityFees><![CDATA[//*[@id='MasterRateConnectivityAuth']]]></ConnectivityFees>
+  <VoiceAVS><![CDATA[//*[@id='MasterRateVoiceAuth']]]></VoiceAVS>
+  <VisaInterNationalFees><![CDATA[//*[@id='MasterRateVisaInternationalFee']]]></VisaInterNationalFees>
+  <TransArmorAuthfees><![CDATA[//*[@id='MasterRateTransArmorAuthFee']]]></TransArmorAuthfees>
+  <VisaBinFees><![CDATA[//*[@id='MasterRateVisaBinFee']]]></VisaBinFees>
+  <MCIICAFees><![CDATA[//*[@id='MasterRateMcIcaFee']]]></MCIICAFees>
+  <RegulatoryProductFee><![CDATA[//*[@id='MasterRateRegulatoryProductFee']]]></RegulatoryProductFee>
+  <TINTNFInvalidFee><![CDATA[//*[@id='MasterRateTinTfnInvalidFee']]]></TINTNFInvalidFee>
+  <WebsiteUsageFees><![CDATA[//*[@id='MasterRateWebsiteUsageFee']]]></WebsiteUsageFees>
+  <IVRUsageFees><![CDATA[//*[@id='MasterRateIvrUsageFee']]]></IVRUsageFees>
+  <MCLiceseFee><![CDATA[//*[@id='MasterRateMcLicenseFeePerItem']]]></MCLiceseFee>
+  <MCLicenseFeesSaleVol><![CDATA[//*[@id='MasterRateMcLicenseFeeSalesVolume']]]></MCLicenseFeesSaleVol>
+  <MCLicenseFeesFlatRate><![CDATA[//*[@id='MasterRateMcLicenseFeeFlatRate']]]></MCLicenseFeesFlatRate>
+  <SelectMCLicenseFeesColectType><![CDATA[//*[@id='MasterRateMcLicenseFeeType']]]></SelectMCLicenseFeesColectType>
+
+  //################################ MERCHANT OPTION   ##############################################
+  <AutoClose><![CDATA[//*[@id='MasterRateAutoclose']]]></AutoClose>
+  <ApplyServiceType><![CDATA[//*[@id='MasterRateAmexServiceTypes']]]></ApplyServiceType>
+  <AcceptTips><![CDATA[//*[@id='MasterRateAcceptTips']]]></AcceptTips>
+  <HaveYouAmricanExpresSENumb><![CDATA[//*[@id='MasterRateMexAmexSe']]]></HaveYouAmricanExpresSENumb>
+
+  //#############################   APPLY FOR CASH ADVANCE    #############################################
+  <ClickOnCheckBoxCasdAdvance><![CDATA[//*[@id='MasterRateApplyCashAdvance']]]></ClickOnCheckBoxCasdAdvance>
+  <TypeCashAdv><![CDATA[//*[@id='MasterRateCashAdvType']]]></TypeCashAdv>
+  <IntendedUseOfFund><![CDATA[//*[@id='MasterRateCashAdvUseOfFunds']]]></IntendedUseOfFund>
+  <TimeWithCurrentProcessor><![CDATA[//*[@id='MasterRateCashAdvTimeCurrProcessor']]]></TimeWithCurrentProcessor>
+  <RequestedAdvanceFund><![CDATA[//*[@id='MasterRateCashAdvReqFunds']]]></RequestedAdvanceFund>
+  <IsBusinessSale><![CDATA[//*[@id='MasterRateCashAdvBussinessForSaleYes']]]></IsBusinessSale>
+  <DoYouHaveFederal><![CDATA[//*[@id='cash1No']]]></DoYouHaveFederal>
+
+  //###########################  GATEWAY FEES   ##########################################
+  <ClickGatewyaExpndbtn><![CDATA[//*[@id='gatewayFeesbox3img']/span]]></ClickGatewyaExpndbtn>
+  <GatewayFees><![CDATA[//*[@id='MasterRateGatewayFee']]]></GatewayFees>
+  <GatewaySoftwareLicense><![CDATA[//*[@id='MasterRateGatewayFee']]]></GatewaySoftwareLicense>
+  <AnnualLicenseFees><![CDATA[//*[@id='MasterRateGatewayLic']]]></AnnualLicenseFees>
+  <GateWayTransactionfee><![CDATA[//*[@id='MasterRateGatewayTransFee']]]></GateWayTransactionfee>
+  <GateWaySetUpFee><![CDATA[//*[@id='MasterRateGatewaySetup']]]></GateWaySetUpFee>
+
+
+  //############################ CHECK PROCESSING Rate   #################################################
+  <ClickOnCheckProcessingRateExpndBtn><![CDATA[//*[@id='checkProcessingRatebox3img']/span]]></ClickOnCheckProcessingRateExpndBtn>
+  <CheckDiscountRate><![CDATA[//*[@id='MasterRateCheckDiscFee']]]></CheckDiscountRate>
+  <CheckSetUpFee><![CDATA[//*[@id='MasterRateCheckSetup']]]></CheckSetUpFee>
+  <CheckMonthlyMinimum><![CDATA[//*[@id='MasterRateCheckSetup']]]></CheckMonthlyMinimum>
+  <CheckTransactionFees><![CDATA[//*[@id='MasterRateCheckTransFee']]]></CheckTransactionFees>
+  <TotalNumberOfChecks><![CDATA[//*[@id='MasterRateNumChksMonthly']]]></TotalNumberOfChecks>
+  <AverageCheckAmount><![CDATA[//*[@id='MasterRateAvgChkAmt']]]></AverageCheckAmount>
+  <LargestCheckAmount><![CDATA[//*[@id='MasterRateLrgstChkAmt']]]></LargestCheckAmount>
+
+  //####################### SPECIAL INSTRUCTION   ####################################
+  <ClcikOnExpandBtnSpecialIns><![CDATA[//*[@id='specialInstructionsbox3img']/span]]></ClcikOnExpandBtnSpecialIns>
+  <EnterSpecialInstruction><![CDATA[//*[@id='MasterRatePaySpecInstr']]]></EnterSpecialInstruction>
+
+  //############################## TELECHECK   ####################################################
+  <ClickOnTeleCheckExpndBtn><![CDATA[//*[@id='telecheckbox3img']/span]]></ClickOnTeleCheckExpndBtn>
+  <SelectTeleCheck><![CDATA[//*[@id='MasterRateTelecheckType']]]></SelectTeleCheck>
+  <InquiryRate><![CDATA[//*[@id='MasterRateTelecheckInqiryRate']]]></InquiryRate>
+  <RateAndFees><![CDATA[//*[@id='MasterRateTelecheckRateFees']]]></RateAndFees>
+  <PerTXNFees><![CDATA[//*[@id='MasterRateTelecheckPerTxnFee']]]></PerTXNFees>
+  <MonthlyMinimumFees><![CDATA[//*[@id='MasterRateTelecheckMonthMinFee']]]></MonthlyMinimumFees>
+
+  //#############################  FIRST DATA GLOBAL GATEWAY E4 ####################################
+  <ClickOnExpandBtnOfFrstDatGateWayE4><![CDATA[//*[@id='gridinfobox8img']/span]]></ClickOnExpandBtnOfFrstDatGateWayE4>
+  <GGE4Checkbox><![CDATA[//*[@id='MasterRateGge4Participation']]]></GGE4Checkbox>
+  <GGE4EffectiveData><![CDATA[//*[@id='MasterRateGge4EffectiveDate']]]></GGE4EffectiveData>
+  <GGE4OneTimeSetup><![CDATA[//*[@id='MasterRateGge4OnetimeSetupFee']]]></GGE4OneTimeSetup>
+  <GGE4MonthliFee><![CDATA[//*[@id='MasterRateGge4MonthlyFee']]]></GGE4MonthliFee>
+  <GGE4AuthFee><![CDATA[//*[@id='MasterRateGge4AuthFee']]]></GGE4AuthFee>
+  <PayPalAuthFees><![CDATA[//*[@id='MasterRatePaypalAuthFee']]]></PayPalAuthFees>
+  <PayPalSaleFee><![CDATA[//*[@id='MasterRatePaypalSaleFee']]]></PayPalSaleFee>
+  <PayPalReturnFee><![CDATA[//*[@id='MasterRatePaypalReturnFee']]]></PayPalReturnFee>
+  <GGE4TeleCheckFeeDepositeFee><![CDATA[//*[@id='MasterRateGge4TelecheckDepositFee']]]></GGE4TeleCheckFeeDepositeFee>
+  <GGE4TeleCheckAdjustFee><![CDATA[//*[@id='MasterRateGge4TelecheckAdjustmentFee']]]></GGE4TeleCheckAdjustFee>
+
+  //############################ AMEX OPT Blue  ################################################
+  <AmexCreditDiscountRate><![CDATA[//*[@id='MasterRateAobCreditDiscountRate']]]></AmexCreditDiscountRate>
+  <CreditDiscountRate813><![CDATA[//*[@id='MasterRateAob81cCreditDiscountRate']]]></CreditDiscountRate813>
+  <SaleAndCreditTrans><![CDATA[//*[@id='MasterRateAobSalesCreditTransRate']]]></SaleAndCreditTrans>
+  <MidQualCreditTrans><![CDATA[//*[@id='MasterRateAobMidQualCreditTransFee']]]></MidQualCreditTrans>
+  <NonQualCreditTrans><![CDATA[//*[@id='MasterRateAobNonQualCreditTransFee']]]></NonQualCreditTrans>
+  <NonQualSurcarge><![CDATA[//*[@id='MasterRateAobNonQualSurchargeRate']]]></NonQualSurcarge>
+  <ChargeBackFees><![CDATA[//*[@id='MasterRateAobChargebackFee']]]></ChargeBackFees>
+  <RetrivalFees><![CDATA[//*[@id='MasterRateAobRetreivalFee']]]></RetrivalFees>
+  <AVSAmex><![CDATA[//*[@id='MasterRateAobAvs']]]></AVSAmex>
+  <AmexAuthDees><![CDATA[//*[@id='MasterRateAobAmexAuthFee']]]></AmexAuthDees>
+
+  //###################################    Apply for Voyager  ########################################
+  <ClickOnApplyForVoyagerChckbox><![CDATA[//*[@id='MasterRateApplyVoyager']]]></ClickOnApplyForVoyagerChckbox>
+
+  //#######################  CLICK ON SAVE BUTTON   ###################
+  <ClickOnMasterRateAndFeesSavebtn><![CDATA[//a[@title='Save']]]></ClickOnMasterRateAndFeesSavebtn>
+
+</Locators>

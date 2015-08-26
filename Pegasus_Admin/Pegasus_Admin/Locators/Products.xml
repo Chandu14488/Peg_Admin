@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   Products  #######################
+  <ClickProductsTab><![CDATA[//*[@id='tabs']/li[16]/a/span]]></ClickProductsTab>
+  <ClickOnRisk><![CDATA[//*[@id='ProductDetail1ApplyProduct']]]></ClickOnRisk>
+  <Anything><![CDATA[//*[@id='ricks']/table/tbody/tr[2]/td[3]/input[2]]]></Anything>
+  <OneMore><![CDATA[//*[@id='ProductCustomField318Value']]]></OneMore>
+  <TextBox><![CDATA[//*[@id='ProductCustomField316Value']]]></TextBox>
+  <TRS80><![CDATA[//*[@id='ProductDetail2ApplyProduct']]]></TRS80>
+  <AlexField><![CDATA[//*[@id='ProductCustomField315Value']]]></AlexField>
+</Locators>

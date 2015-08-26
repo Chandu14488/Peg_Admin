@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  //###################  LOGIN WITH CROP    ############################
+  <EnterUsername><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButtojn>
+
+//####################  PDF TEMPLATE
+ <ClickOnPDFTemplateTab><![CDATA[//*[@id='css3menu']/li[9]/a]]></ClickOnPDFTemplateTab>
+  <ClickOnPDFCategory><![CDATA[link=PDF Categories]]></ClickOnPDFCategory>
+  <ClickOnCreateBtn><![CDATA[//*[@id='main_container']/div/div[1]/div[2]/a/span[1]]]></ClickOnCreateBtn>
+  
+ //###################  Add New Category
+ <EnterName><![CDATA[//*[@id='CorporatePdfCategoryName']]]></EnterName>
+  
+  //################  SAVE 
+  <ClickOnSaveBtn><![CDATA[//*[@id='roleCreate']/span[1]]]></ClickOnSaveBtn>
+  <!--ADMIN-->
+  <ClickOnPDFTab><![CDATA[//*[@id='css3menu']/li[6]/a]]></ClickOnPDFTab>
+
+</Locators>
+
+

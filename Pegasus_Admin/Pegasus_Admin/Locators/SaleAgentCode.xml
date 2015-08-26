@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  //#######################   Agent Tab #######################
+  <ClickAgentTab><![CDATA[//*[@id='css3menu']/li[8]/a/span]]></ClickAgentTab>
+  <ClickOnEmployees><![CDATA[//*[@id='css3menu']/li[8]/div/div/ul/li[2]/a]]></ClickOnEmployees>
+  <EnterSaleAgentName><![CDATA[//*[@id='gs_contactNm']]]></EnterSaleAgentName>
+  <SelectStatus><![CDATA[//*[@id='gs_active']]]></SelectStatus>
+  <ClickOnaCreateSaleBtn><![CDATA[//*[@id='425']/td[6]/a]]></ClickOnaCreateSaleBtn>
+  <ClickOnEditSaleAgentBtn><![CDATA[//*[@id='main_container']/div[3]/div[1]/div/a/span[2]]]></ClickOnEditSaleAgentBtn>
+  //####### AGENT CODES AND REVENUE SHARES
+  <clickOnAddANewAgentCode><![CDATA[//*[@id='actionbuttons']/span[2]]]></clickOnAddANewAgentCode>
+  <EnterSaleCode><![CDATA[//*[@id='EmployeeSalesCodeSalesCode']]]></EnterSaleCode>
+  <EnterRevenueShareAsAgent><![CDATA[//*[@id='EmployeeSalesCodeAgentRevenueShare']]]></EnterRevenueShareAsAgent>
+  <EnterRevenueShareAsManager><![CDATA[//*[@id='EmployeeSalesCodeManagerRevenueShare']]]></EnterRevenueShareAsManager>
+  <ClickOnSaveBtn><![CDATA[//*[@id='SalesCode']/div[7]/div/a[1]/span[2]]]></ClickOnSaveBtn>
+  //#########################  ADJUSTMENT REVENUE   #######################
+  <ClickOnCreateRvnueAdjstmntBtn><![CDATA[//*[@id='adjustactions']/span[2]]]></ClickOnCreateRvnueAdjstmntBtn>
+  <ClickOnAdjSaleAgent><![CDATA[//*[@id='ui-active-menuitem']]]></ClickOnAdjSaleAgent>
+  <EnterAdjustmentName><![CDATA[//*[@id='RirOrgMasterRulesetRuleName']]]></EnterAdjustmentName>
+  <Description><![CDATA[//*[@id='RirOrgMasterRulesetDescription']]]></Description>
+  <AdjustmentTYpe><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentType']]]></AdjustmentTYpe>
+  <SelectProcessor><![CDATA[//*[@id='RirOrgMasterRulesetProcessor']]]></SelectProcessor>
+  //################################# CREATE RULES   ########################################
+  <SelectType><![CDATA[//*[@id='rule_type0']]]></SelectType>
+  <Amount><![CDATA[//*[@id='amount_field0']]]></Amount>
+  <SelectAddRemove><![CDATA[//*[@id='RirOrgMasterRulesetCustomRule0AddOrRemoveFlag']]]></SelectAddRemove>
+  <Remark><![CDATA[//*[@id='RirOrgMasterRulesetCustomRule0Remarks']]]></Remark>
+  //######################  CLICK ON SAVE BUTTON
+  <SaveDetailsBUtton><![CDATA[//*[@id='main_container']/div[3]/div/a[1]/span[2]]]></SaveDetailsBUtton>
+
+
+</Locators>

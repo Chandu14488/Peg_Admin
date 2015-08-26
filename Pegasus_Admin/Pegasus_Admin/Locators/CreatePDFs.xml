@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <ClientTab><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClientTab>
+  <ClickOnClient><![CDATA[//*[@id='47852']/td[17]/a]]></ClickOnClient>
+  <PDFsTab><![CDATA[//*[@id='tabs']/li[2]/a/span]]></PDFsTab>
+  <ClickOnCreatePackage><![CDATA[//*[@id='actionbuttons']/span[2]]]></ClickOnCreatePackage>
+  <SelectPDF><![CDATA[//*[@id='PdfTemplatePdfTemplateId']]]></SelectPDF>
+  <ClickToExpandSavePDFs><![CDATA[//*[@id='saveblockimg']]]></ClickToExpandSavePDFs>
+  <PackageName><![CDATA[//*[@id='PdfTemplateName']]]></PackageName>
+  <Category><![CDATA[//*[@id='PdfTemplatePdfCategoryId']]]></Category>
+  <Processor><![CDATA[//*[@id='PdfTemplateProcessor']]]></Processor>
+  <DisplayeInTab><![CDATA[//*[@id='PdfTemplateTabLink']]]></DisplayeInTab>
+  <CanShare><![CDATA[//*[@id='PdfTemplateShareLink']]]></CanShare>
+  <CanEmail><![CDATA[//*[@id='PdfTemplateEmailLink']]]></CanEmail>
+  <PDFAccessAllTeam><![CDATA[//*[@id='OrganizationAllTeams0']]]></PDFAccessAllTeam>
+  <ClickOnSaveBtn><![CDATA[//*[@id='saveblock']/div[5]/div/a/span[2]]]></ClickOnSaveBtn>  
+  
+  <!--   SHARE PDFs        -->
+  <CompanyNameSrch><![CDATA[//*[@id='gs_company_dba_name']]]></CompanyNameSrch>
+  <ClickOnClinet><![CDATA[//table[@id='list1']/tbody/tr[2]/td[17]/a]]></ClickOnClinet>
+  <ClickOnPDFTabs><![CDATA[//*[@id='tabs']/li[2]/a/span]]></ClickOnPDFTabs>
+  <ClickOnShareLink><![CDATA[//*[@id='card_service_agreements']/table/tbody/tr[1]/td[2]/table/tbody/tr[2]/td[2]/a]]></ClickOnShareLink>
+  <ClickOnShareAgreementBtn><![CDATA[//a[@title='Share Agreement']]]></ClickOnShareAgreementBtn>
+  <OwnerSignatureRequired><![CDATA[//*[@id='ClientRequiredSignature']]]></OwnerSignatureRequired>
+  <ClickonPDF><![CDATA[//table[@class='static']/tbody/tr[1]/td[1]/a]]></ClickonPDF>
+  
+  <!--  Login with CLIENT uSER      -->
+  <loginClinet><![CDATA[//*[@id='UserLoginUserName']]]></loginClinet>
+  <PasswordClinetUser><![CDATA[//*[@id='UserLoginPasswordHash']]]></PasswordClinetUser>
+  <LoginBtn><![CDATA[//*[@id='UserLoginLoginForm']/div[3]/div/div[3]/button]]></LoginBtn>
+  <ClickOnFileShareTAB><![CDATA[//*[@id='css3menu']/li[2]/a]]></ClickOnFileShareTAB>
+  <ClickLOgoutClint><![CDATA[//a[@href='/selenium_corp/selenium_office/logout']]]></ClickLOgoutClint>
+ 
+  <!--  SIGNATURE REQUIRED    -->
+  <SignatureRequired><![CDATA[//table[@class='static']/tbody/tr[1]/td[7]/a/span]]></SignatureRequired>
+  <TermCondition><![CDATA[//*[@id='ClientMerchantapplication']]]></TermCondition>
+  <Signature11><![CDATA[//*[@id='clicknew']]]></Signature11>
+  <ClickOnSign><![CDATA[//*[@id='SignButton']/a/span[1]]]></ClickOnSign>
+  <ClickToSignature><![CDATA[//*[@id='signatureDiv']/div[1]/div[4]/canvas]]></ClickToSignature>
+  
+  <!--  EMAIL PDFs        -->
+  <EmailPDF><![CDATA[//div[@id='card_service_agreements']/table/tbody/tr[1]/td[2]/table/tbody/tr[2]/td[1]/a]]></EmailPDF>
+  <EmailAddress><![CDATA[//*[@id='ClientEmailAddress']]]></EmailAddress>
+  <RecipientName><![CDATA[//*[@id='ClientEmailName']]]></RecipientName>
+  <ConfirmAndContinue><![CDATA[//*[@id='pdfmail']/div[2]/div/a[1]/span[1]]]></ConfirmAndContinue>
+  <ClickToSend><![CDATA[//*[@id='main_container']/div/div[2]/div[2]/div[1]/div/div[2]/a[1]/span[1]]]></ClickToSend>
+  <BackToPDFSection><![CDATA[//*[@id='pdfmail']/div[2]/div/a[2]/span[2]]]></BackToPDFSection>
+  
+  <!--   FILE SHARE       -->
+  <FileShareTab><![CDATA[//*[@id='tabs']/li[13]/a/span]]></FileShareTab>
+  <ClickOnTicketTab><![CDATA[//*[@id='css3menu']/li[3]/a]]></ClickOnTicketTab>
+  <ClickOnHomeClintUser><![CDATA[//*[@id='css3menu']/li[1]/a]]></ClickOnHomeClintUser>
+  <ClickOnSaveBtn><![CDATA[//*[@id='saveblock']/div[5]/div/a/span[2]]]></ClickOnSaveBtn>
+
+  <!--DELETE CLIENT -->
+  <ClickCreateClientBtn><![CDATA[//a[@title='Create New Client']]]></ClickCreateClientBtn>
+  <EnterCompanyDBAName><![CDATA[//*[@id='ClientCompanyDbaName']]]></EnterCompanyDBAName>
+  <CompanyDBAName><![CDATA[//*[@id='ClientCompanyDbaName']]]></CompanyDBAName>
+  <SearchCompany><![CDATA[//*[@id='gs_company_dba_name']]]></SearchCompany>
+  <SelectClientDEl><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></SelectClientDEl>
+  <ClickOnDel><![CDATA[//*[@id='deleteclient']/span[1]]]></ClickOnDel>
+  <ClickOnRecycleBin><![CDATA[//*[@id='recyclebin']/span/span]]></ClickOnRecycleBin>
+  <ClickOnDeleteRecyclebin><![CDATA[//table[@id='list1']/tbody/tr[2]/td[7]/span/a[1]]]></ClickOnDeleteRecyclebin>
+  <ClickOnRestore><![CDATA[//table[@id='list1']/tbody/tr[2]/td[7]/span/a[2]]]></ClickOnRestore>
+  <!--CLIENT EXPORT TO CSV AND EXCEL -->
+  <ExportBtn><![CDATA[//*[@id='exportactions']/span[1]]]></ExportBtn>
+  <ExportToCSV><![CDATA[//div[@class='grid_toolbar_back']/div[3]/div[2]/ul/li[1]/a]]></ExportToCSV>
+  <ExportToExcel><![CDATA[//div[@class='grid_toolbar_back']/div[3]/div[2]/ul/li[2]/a]]></ExportToExcel>
+  <!--BULK UPDATE CLIENT -->
+  <SelectClient2><![CDATA[//table[@id='list1']/tbody/tr[3]/td[1]/input]]></SelectClient2>
+  <ClickOnBulkUpdateClientBtn><![CDATA[//*[@id='moreactions']/span[1]]]></ClickOnBulkUpdateClientBtn>
+  <ClickOnPartnerAgnet><![CDATA[//div[@class='moreactions']/ul/li[8]/a]]></ClickOnPartnerAgnet>
+  <PartnerDrpDwn><![CDATA[//*[@id='ClientPartnerUpdatePartnerAgentId']]]></PartnerDrpDwn>
+  <ClickOnUpadte><![CDATA[//*[@id='ClientPartnerUpdateIndexForm']/table/tbody/tr/td[3]/a]]></ClickOnUpadte>
+  <!--IMPORT CLIENT -->
+  <ClickOnImport><![CDATA[//*[@id='main_container']/div[3]/div/div[3]/div[3]/a[2]/span/span]]></ClickOnImport>
+  <SelectFile><![CDATA[//*[@id='ClientCsvFile']]]></SelectFile>
+  <ClickOnImportBtn><![CDATA[//*[@id='importform']/a/span]]></ClickOnImportBtn>
+  <ClickOnProcess><![CDATA[//a[@title='Process']]]></ClickOnProcess>
+
+  <!--PDFs Email Share-->
+  <ClickOnEmail><![CDATA[//div[@id='card_service_agreements']/table/tbody/tr[1]/td[2]/table/tbody/tr[2]/td[1]/a]]></ClickOnEmail>
+  <ConirmAndContinue><![CDATA[//span[text()='Confirm Options and Continue']]]></ConirmAndContinue>
+  <ClickOnSendPDFEmail><![CDATA[//*[@id='main_container']/div/div[2]/div[2]/div[1]/div/div[2]/a[1]/span[1]]]></ClickOnSendPDFEmail>
+  <SearchEmailSharePdf><![CDATA[//*[@id='gs_electronic_content']]]></SearchEmailSharePdf>
+
+
+
+</Locators>

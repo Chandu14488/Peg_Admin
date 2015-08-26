@@ -1,0 +1,88 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  //#######################   Contact tab #######################
+  <ClickConatactTab><![CDATA[//*[@id='css3menu']/li[5]/a]]></ClickConatactTab>
+  <ClickOnCreate><![CDATA[//*[@id='actionbuttons']/span]]></ClickOnCreate>
+
+  //####### CREATE A CONTACT
+  <SelectSalutation><![CDATA[//*[@id='ContactSalutation']]]></SelectSalutation>
+  <FirstNAME><![CDATA[//*[@id='ContactFirstName']]]></FirstNAME>
+  <LastName><![CDATA[//*[@id='ContactLastName']]]></LastName>
+  <CompanyName><![CDATA[//*[@id='ContactCompanyName']]]></CompanyName>
+  <Title><![CDATA[//*[@id='ContactTitle']]]></Title>
+  <DateOfBirth><![CDATA[//*[@id='ContactBirthdate']]]></DateOfBirth>
+  <SelectType><![CDATA[//*[@id='ContactType']]]></SelectType>
+  <SelectLanguage><![CDATA[//*[@id='ContactLanguage']]]></SelectLanguage>
+  <ProfilePicUpload><![CDATA[//*[@id='ContactProfileImage']]]></ProfilePicUpload>
+
+  //########## PHONE
+  <PhoneType><![CDATA[//*[@id='ContactPhone0PhoneType']]]></PhoneType>
+  <PhoneNumber><![CDATA[//*[@id='ContactPhone0PhoneFormat']]]></PhoneNumber>
+  <DoNotCall><![CDATA[//*[@id='ContactPhone0DoNotCall']]]></DoNotCall>
+
+  //####### EMAIL AND INTERNET
+  <SelectEmailType><![CDATA[//*[@id='ContactElectronicAddress0ElectronicContentType']]]></SelectEmailType>
+  <SelectEaddresslabel><![CDATA[//*[@id='ContactElectronicAddress0ElectronicContentLabel']]]></SelectEaddresslabel>
+  <Eaddrress><![CDATA[//*[@id='ContactElectronicAddress0ElectronicContent']]]></Eaddrress>
+  <OptedOut><![CDATA[//div[@id='etabs-0']/div[3]/div/input[3]]]></OptedOut>
+
+  //################# ADDRESS
+  <AddressType><![CDATA[//*[@id='ContactAddress0Type']]]></AddressType>
+  <AddressLine1><![CDATA[//*[@id='ContactAddress0AddressLine1']]]></AddressLine1>
+  <City><![CDATA[//*[@id='ContactAddress0City']]]></City>
+  <AddressState><![CDATA[//*[@id='ContactAddress0State']]]></AddressState>
+  <ZipCode><![CDATA[//*[@id='ContactAddress0PostalCode']]]></ZipCode>
+  <DoNotSolicit><![CDATA[//*[@id='ContactAddress0DoNotSolicit']]]></DoNotSolicit>
+  <AddRemark><![CDATA[//*[@id='address_add_link0']]]></AddRemark>
+  <RemarkText><![CDATA[//*[@id='ContactAddress0Description']]]></RemarkText>
+  <SelectCountry><![CDATA[//*[@id='ContactAddress0Country']]]></SelectCountry>
+
+  //######################  CLICK ON SAVE BUTTON
+  <SaveContactbtn><![CDATA[//*[@id='ContactCreateForm']/div[2]/div[3]/a[1]]]></SaveContactbtn>
+
+  <ClickOnDubloicate><![CDATA[//*[@id='message']/div[4]/div/a[1]/span[2]]]></ClickOnDubloicate>
+
+
+
+
+
+
+  //#######################   Contact tab #######################
+  <ClickConatactTab><![CDATA[//*[@id='css3menu']/li[5]/a]]></ClickConatactTab>
+  <ClickOnEditContactBtn><![CDATA[//table[@id="list1"]/tbody/tr[2]/td[7]/span/a]]></ClickOnEditContactBtn>
+  <ClickOnEditContactBtn><![CDATA[//*[@id='73572']/td[7]/span/a/span]]></ClickOnEditContactBtn>
+  
+  //####### CREATE A CONTACT
+  <SelectSalutation><![CDATA[//*[@id='ContactSalutation']]]></SelectSalutation>
+  <FirstNAME><![CDATA[//*[@id='ContactFirstName']]]></FirstNAME>
+  <LastName><![CDATA[//*[@id='ContactLastName']]]></LastName>
+  <CompanyName><![CDATA[//*[@id='ContactCompanyName']]]></CompanyName>
+  <Title><![CDATA[//*[@id='ContactTitle']]]></Title>
+  <DateOfBirth><![CDATA[//*[@id='ContactBirthdate']]]></DateOfBirth>
+  <SelectType><![CDATA[//*[@id='ContactType']]]></SelectType>
+  <SelectLanguage><![CDATA[//*[@id='ContactLanguage']]]></SelectLanguage>
+  <ProfilePicUpload><![CDATA[//*[@id='ContactProfileImage']]]></ProfilePicUpload>
+  //########## PHONE
+  <PhoneType><![CDATA[//*[@id='ContactPhone0PhoneType']]]></PhoneType>
+  <PhoneNumber><![CDATA[//*[@id='ContactPhone0PhoneFormat']]]></PhoneNumber>
+  <DoNotCall><![CDATA[//*[@id='ContactPhone0DoNotCall']]]></DoNotCall>
+  //####### EMAIL AND INTERNET
+  <SelectEmailType><![CDATA[//*[@id='ContactElectronicAddress0ElectronicContentType']]]></SelectEmailType>
+  <SelectEaddresslabel><![CDATA[//*[@id='ContactElectronicAddress0ElectronicContentLabel']]]></SelectEaddresslabel>
+  <Eaddrress><![CDATA[//*[@id='ContactElectronicAddress0ElectronicContent']]]></Eaddrress>
+  <OptedOut><![CDATA[//*[@id='ContactElectronicAddress0OptOut']]]></OptedOut>
+  //################# ADDRESS
+  <AddressType><![CDATA[//*[@id='ContactAddress0Type']]]></AddressType>
+  <AddressLine1><![CDATA[//*[@id='ContactAddress0AddressLine1']]]></AddressLine1>
+  <City><![CDATA[//*[@id='ContactAddress0City']]]></City>
+  <AddressState><![CDATA[//*[@id='ContactAddress0State']]]></AddressState>
+  <ZipCode><![CDATA[//*[@id='ContactAddress0PostalCode']]]></ZipCode>
+  <DoNotSolicit><![CDATA[//*[@id='ContactAddress0DoNotSolicit']]]></DoNotSolicit>
+  <AddRemark><![CDATA[//*[@id='address_add_link0']]]></AddRemark>
+  <RemarkText><![CDATA[//*[@id='ContactAddress0Description']]]></RemarkText>
+  //################## Clcik Save btn
+  <SaveEditContactbtn><![CDATA[//*[@id='ContactEditForm']/div[6]/div/a[1]/span[2]]]></SaveEditContactbtn>
+  <EnterNameToSrchy><![CDATA[//*[@id='gs_contactNm']]]></EnterNameToSrchy>
+
+</Locators>

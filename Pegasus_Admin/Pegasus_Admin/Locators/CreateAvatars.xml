@@ -1,0 +1,427 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //###################  LOGIN WITH CROP    ############################
+  <EnterUsername><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButtojn>
+  //#######################   MASTER TAB  #######################
+  <ClickSystemTab><![CDATA[//*[@id='css3menu']/li[8]/a]]></ClickSystemTab>
+  <ClickOnCreate><![CDATA[//*[@id='ui_buttons']/span]]></ClickOnCreate>
+  //#################    CREATE A AVATARS
+  <AvatarName><![CDATA[//*[@id='CorporateAvatarName']]]></AvatarName>
+  <UserType><![CDATA[//*[@id='CorporateAvatarCorpUserTypeId']]]></UserType>
+  //########################################## Active Level Privilege   #######################################################################
+  //Calls
+  <AddAttachment><![CDATA[//div[@id='tabs-1']/fieldset[1]/div/ul/li[1]/div/span]]></AddAttachment>
+  <Delete><![CDATA[//div[@id='tabs-1']/fieldset[1]/div/ul/li[2]/div/span]]></Delete>
+  <ListAll><![CDATA[//div[@id='tabs-1']/fieldset[1]/div/ul/li[3]/div/span]]></ListAll>
+  <View><![CDATA[//div[@id='tabs-1']/fieldset[1]/div/ul/li[5]/div/span]]></View>
+  <Create><![CDATA[//div[@id='tabs-1']/fieldset[1]/div/ul/li[6]/div/span]]></Create>
+  <RecycleBin><![CDATA[//div[@id='tabs-1']/fieldset[1]/div/ul/li[8]/div/span]]></RecycleBin>
+  <LogACall><![CDATA[//*[@value='506']]]></LogACall>
+  <RestoreACall><![CDATA[//div[@id='tabs-1']/fieldset[1]/div/ul/li[9]/div/span]]></RestoreACall>
+  //DOCUMENTS
+  <CreateDMT><![CDATA[//div[@id='tabs-1']/fieldset[2]/div/ul/li[1]/div/span]]></CreateDMT>
+  <EditdDMT><![CDATA[//div[@id='tabs-1']/fieldset[2]/div/ul/li[2]/div/span]]></EditdDMT>
+  <Download><![CDATA[//div[@id='tabs-1']/fieldset[2]/div/ul/li[3]/div/span]]></Download>
+  <ViewDMT><![CDATA[//div[@id='tabs-1']/fieldset[2]/div/ul/li[4]/div/span]]></ViewDMT>
+  <RecycleBinDMT><![CDATA[//div[@id='tabs-1']/fieldset[2]/div/ul/li[5]/div/span]]></RecycleBinDMT>
+  //EMAILS
+  <CreateNewEmailAccount><![CDATA[//div[@id='tabs-1']/fieldset[3]/div/ul/li[1]/div/span]]></CreateNewEmailAccount>
+  <Archive><![CDATA[//div[@id='tabs-1']/fieldset[3]/div/ul/li[2]/div/span]]></Archive>
+  <DeletePermanentEmail><![CDATA[//div[@id='tabs-1']/fieldset[3]/div/ul/li[3]/div/span]]></DeletePermanentEmail>
+  <RestoreEmail><![CDATA[//div[@id='tabs-1']/fieldset[3]/div/ul/li[4]/div/span]]></RestoreEmail>
+  <ListOfEmailFolder><![CDATA[//div[@id='tabs-1']/fieldset[3]/div/ul/li[5]/div/span]]></ListOfEmailFolder>
+  <Compose><![CDATA[//div[@id='tabs-1']/fieldset[3]/div/ul/li[6]/div/span]]></Compose>
+  <SentEmail><![CDATA[//div[@id='tabs-1']/fieldset[3]/div/ul/li[7]/div/span]]></SentEmail>
+  <DeleateEmailAccount><![CDATA[//div[@id='tabs-1']/fieldset[3]/div/ul/li[8]/div/span]]></DeleateEmailAccount>
+  <Draft><![CDATA[//div[@id='tabs-1']/fieldset[3]/div/ul/li[9]/div/span]]></Draft>
+  <TrashEmail><![CDATA[//div[@id='tabs-1']/fieldset[3]/div/ul/li[10]/div/span]]></TrashEmail>
+  //MEETINGS
+  <CreateMeeting><![CDATA[//div[@id='tabs-1']/fieldset[4]/div/ul/li[1]/div/span]]></CreateMeeting>
+  <EditMeeting><![CDATA[//div[@id='tabs-1']/fieldset[4]/div/ul/li[2]/div/span]]></EditMeeting>
+  <RecyleBinMeeting><![CDATA[//div[@id='tabs-1']/fieldset[4]/div/ul/li[3]/div/span]]></RecyleBinMeeting>
+  <ListAllMeeting><![CDATA[//div[@id='tabs-1']/fieldset[4]/div/ul/li[4]/div/span]]></ListAllMeeting>
+  <OpenMeeting><![CDATA[//div[@id='tabs-1']/fieldset[4]/div/ul/li[5]/div/span]]></OpenMeeting>
+  <ViewMeeting><![CDATA[//div[@id='tabs-1']/fieldset[4]/div/ul/li[6]/div/span]]></ViewMeeting>
+  <MeetingDeleteMeeting><![CDATA[//div[@id='tabs-1']/fieldset[4]/div/ul/li[7]/div/span]]></MeetingDeleteMeeting>
+  <ViewMeeting><![CDATA[//div[@id='tabs-1']/fieldset[4]/div/ul/li[8]/div/span]]></ViewMeeting>
+  //NOTES
+  <AddAttachmentNotes><![CDATA[//div[@id='tabs-1']/fieldset[5]/div/ul/li[1]/div/span]]></AddAttachmentNotes>
+  <DeletNotes><![CDATA[//div[@id='tabs-1']/fieldset[5]/div/ul/li[2]/div/span]]></DeletNotes>
+  <ViewNotes><![CDATA[//div[@id='tabs-1']/fieldset[5]/div/ul/li[3]/div/span]]></ViewNotes>
+  <CreateNotes><![CDATA[//div[@id='tabs-1']/fieldset[5]/div/ul/li[4]/div/span]]></CreateNotes>
+  <RecycleBin><![CDATA[//div[@id='tabs-1']/fieldset[5]/div/ul/li[5]/div/span]]></RecycleBin>
+  <Restore><![CDATA[//div[@id='tabs-1']/fieldset[5]/div/ul/li[6]/div/span]]></Restore>
+  //SHORTAL API
+  <ShowActiveCalls><![CDATA[//*[@id='uniform-Show Active Calls']/span]]></ShowActiveCalls>
+  <ShowMyActiveCalls><![CDATA[//*[@id='uniform-Show My Active Calls']/span]]></ShowMyActiveCalls>
+  <ShowMyCallNotifications><![CDATA[//*[@id='uniform-Show My Call Notifications']/span]]></ShowMyCallNotifications>
+  //TASK
+  <CreateTask><![CDATA[//div[@id='tabs-1']/fieldset[7]/div/ul/li[1]/div]]></CreateTask>
+  <DeleteTask><![CDATA[//div[@id='tabs-1']/fieldset[7]/div/ul/li[2]/div]]></DeleteTask>
+  <TaskDeletePermanent><![CDATA[//div[@id='tabs-1']/fieldset[7]/div/ul/li[3]/div]]></TaskDeletePermanent>
+  <EditTask><![CDATA[//div[@id='tabs-1']/fieldset[7]/div/ul/li[4]/div]]></EditTask>
+  <ListAllTask><![CDATA[//div[@id='tabs-1']/fieldset[7]/div/ul/li[5]/div]]></ListAllTask>
+  <OpenTask><![CDATA[//div[@id='tabs-1']/fieldset[7]/div/ul/li[6]/div]]></OpenTask>
+  <OpenTaskByDay><![CDATA[//div[@id='tabs-1']/fieldset[7]/div/ul/li[7]/div]]></OpenTaskByDay>
+  <TaskRestore><![CDATA[//div[@id='tabs-1']/fieldset[7]/div/ul/li[9]/div]]></TaskRestore>
+  <TaskView><![CDATA[//div[@id='tabs-1']/fieldset[7]/div/ul/li[10]/div]]></TaskView>
+  <ViewOpenTask><![CDATA[//div[@id='tabs-1']/fieldset[7]/div/ul/li[11]/div]]></ViewOpenTask>
+  //#################  SAVE BUTTON
+  <ClickOnSaveBtn><![CDATA[//*[@id='main_container']/div[2]/div/a[1]/span[2]]]></ClickOnSaveBtn>
+  //#############################################   CORE LEVEL PRIVILEGES   ###################################################
+  <ClickOnCoreLevelPrivlageTab><![CDATA[//*[@id='CorporateAvatarCorpCreateForm']/div[3]/ul/li[2]/a]]></ClickOnCoreLevelPrivlageTab>
+  //############################  API CODES
+  <CreateApiCodes><![CDATA[//div[@id='tabs-2']/fieldset[1]/div/ul/li[1]/div]]></CreateApiCodes>
+  <ApiCodes><![CDATA[//div[@id='tabs-2']/fieldset[1]/div/ul/li[2]/div]]></ApiCodes>
+  //############################  CLIENTS
+  <ClientGenerateAgreement><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[1]/div]]></ClientGenerateAgreement>
+  <ClientAgreementReminder><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[2]/div]]></ClientAgreementReminder>
+  <ClientMerchantBoarding><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[3]/div]]></ClientMerchantBoarding>
+  <ClientBusinessDetails><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[4]/div]]></ClientBusinessDetails>
+  <ClientClone><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[5]/div]]></ClientClone>
+  <ClientCompanyDetails><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[7]/div]]></ClientCompanyDetails>
+  <AddressAndContacts><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[8]/div]]></AddressAndContacts>
+  <ClientCreate><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[9]/div]]></ClientCreate>
+  <CreateClintUser><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[10]/div]]></CreateClintUser>
+  <CustmerRelationship><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[11]/div]]></CustmerRelationship>
+  <ClientDelete><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[12]/div]]></ClientDelete>
+  <DeleteOmhaBoardingFile><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[13]/div]]></DeleteOmhaBoardingFile>
+  <DeletePermantClient><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[15]/div]]></DeletePermantClient>
+  <ClientExport><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[16]/div]]></ClientExport>
+  <ClientImport><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[17]/div]]></ClientImport>
+  <ClientListAll><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[18]/div]]></ClientListAll>
+  <CreateClientUserAndLinkToOtherClient><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[19]/div]]></CreateClientUserAndLinkToOtherClient>
+  <LinkClientUserToAnotherClient><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[20]/div]]></LinkClientUserToAnotherClient>
+  <AddDeletClientGrp><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[21]/div]]></AddDeletClientGrp>
+  <ManageClientGrp><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[22]/div]]></ManageClientGrp>
+  <MarketingDetails><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[23]/div]]></MarketingDetails>
+  <ClientMassUpdate><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[24]/div]]></ClientMassUpdate>
+  <ClientMerchantNumber><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[25]/div]]></ClientMerchantNumber>
+  <MergeClient><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[26]/div]]></MergeClient>
+  <SignAgreementClient><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[27]/div]]></SignAgreementClient>
+  <ClientOwners><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[28]/div]]></ClientOwners>
+  <EmailPDFs><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[29]/div]]></EmailPDFs>
+  <ClientsPdfs><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[30]/div]]></ClientsPdfs>
+  <ClientProducts><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[31]/div]]></ClientProducts>
+  <ClientRatefees><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[32]/div]]></ClientRatefees>
+  <ClientRecycleBin><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[33]/div]]></ClientRecycleBin>
+  <ClientRefrence><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[34]/div]]></ClientRefrence>
+  <ClientResetAgreement><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[35]/div]]></ClientResetAgreement>
+  <ResetClientUserPassword><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[36]/div]]></ResetClientUserPassword>
+  <ClientResidualIncome><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[37]/div]]></ClientResidualIncome>
+  <RestoreClient><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[38]/div]]></RestoreClient>
+  <ClientSaveFilter><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[39]/div]]></ClientSaveFilter>
+  <ClientShareFiles><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[40]/div]]></ClientShareFiles>
+  <TerminalEquipmentClinet><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[41]/div]]></TerminalEquipmentClinet>
+  <UnmaskTheEncryptFile><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[42]/div]]></UnmaskTheEncryptFile>
+  <SetAgentReveniueShare><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[43]/div]]></SetAgentReveniueShare>
+  <UploadSupportingDocuments><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[44]/div]]></UploadSupportingDocuments>
+  <ClinetView><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[45]/div]]></ClinetView>
+  <ViewAllClientActivities><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[46]/div]]></ViewAllClientActivities>
+  <ClinetViewDocumnets><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[47]/div]]></ClinetViewDocumnets>
+  <DeleteVentiveBoardingDoc><![CDATA[//div[@id='tabs-2']/fieldset[2]/div/ul/li[49]/div]]></DeleteVentiveBoardingDoc>
+  //############################   CONTACTS   ##########################################
+  <CloningContact><![CDATA[//div[@id='tabs-2']/fieldset[3]/div/ul/li[1]/div]]></CloningContact>
+  <CreateContact><![CDATA[//div[@id='tabs-2']/fieldset[3]/div/ul/li[2]/div]]></CreateContact>
+  <DeleteContact><![CDATA[//div[@id='tabs-2']/fieldset[3]/div/ul/li[3]/div]]></DeleteContact>
+  <DeleteContactPermanent><![CDATA[//div[@id='tabs-2']/fieldset[3]/div/ul/li[4]/div]]></DeleteContactPermanent>
+  <EditContact><![CDATA[//div[@id='tabs-2']/fieldset[3]/div/ul/li[5]/div]]></EditContact>
+  <ExportContact><![CDATA[//div[@id='tabs-2']/fieldset[3]/div/ul/li[6]/div]]></ExportContact>
+  <ImportContact><![CDATA[//div[@id='tabs-2']/fieldset[3]/div/ul/li[7]/div]]></ImportContact>
+  <TmportContactFromVCard><![CDATA[//div[@id='tabs-2']/fieldset[3]/div/ul/li[8]/div]]></TmportContactFromVCard>
+  <ContactListALL><![CDATA[//div[@id='tabs-2']/fieldset[3]/div/ul/li[9]/div]]></ContactListALL>
+  <AddDeleteContactGrp><![CDATA[//div[@id='tabs-2']/fieldset[3]/div/ul/li[10]/div]]></AddDeleteContactGrp>
+  <ManageContactGrp><![CDATA[//div[@id='tabs-2']/fieldset[3]/div/ul/li[11]/div]]></ManageContactGrp>
+  <ContactMassUpdate><![CDATA[//div[@id='tabs-2']/fieldset[3]/div/ul/li[12]/div]]></ContactMassUpdate>
+  <ContactRecyclebin><![CDATA[//div[@id='tabs-2']/fieldset[3]/div/ul/li[14]/div]]></ContactRecyclebin>
+  <RestoreContact><![CDATA[//div[@id='tabs-2']/fieldset[3]/div/ul/li[15]/div]]></RestoreContact>
+  <ExportAsVCard><![CDATA[//div[@id='tabs-2']/fieldset[3]/div/ul/li[17]/div]]></ExportAsVCard>
+  <ViewAllActivities><![CDATA[//div[@id='tabs-2']/fieldset[3]/div/ul/li[18]/div]]></ViewAllActivities>
+  //##############################   DESHBOARD AND RECORDS   ###################
+  <CallPerformantionDeshboard><![CDATA[//div[@id='tabs-2']/fieldset[4]/div/ul/li[1]/div]]></CallPerformantionDeshboard>
+  <CreateRecords><![CDATA[//div[@id='tabs-2']/fieldset[4]/div/ul/li[3]/div]]></CreateRecords>
+  <DeleteRecords><![CDATA[//div[@id='tabs-2']/fieldset[4]/div/ul/li[4]/div]]></DeleteRecords>
+  <EditRecords><![CDATA[//div[@id='tabs-2']/fieldset[4]/div/ul/li[5]/div]]></EditRecords>
+  <LeadPerformantionDeshboard><![CDATA[//div[@id='tabs-2']/fieldset[4]/div/ul/li[7]/div]]></LeadPerformantionDeshboard>
+  <QuickLinks><![CDATA[//div[@id='tabs-2']/fieldset[4]/div/ul/li[8]/div]]></QuickLinks>
+  <ReportDeshboard><![CDATA[//div[@id='tabs-2']/fieldset[4]/div/ul/li[9]/div]]></ReportDeshboard>
+  <DeshboardDeleteReports><![CDATA[//div[@id='tabs-2']/fieldset[4]/div/ul/li[11]/div]]></DeshboardDeleteReports>
+  <ExportDeshboardReports><![CDATA[//div[@id='tabs-2']/fieldset[4]/div/ul/li[13]/div]]></ExportDeshboardReports>
+  <CallsPredefinedReports><![CDATA[//div[@id='tabs-2']/fieldset[4]/div/ul/li[15]/div]]></CallsPredefinedReports>
+  <ViewDeshboardReports><![CDATA[//div[@id='tabs-2']/fieldset[4]/div/ul/li[16]/div]]></ViewDeshboardReports>
+  //##############################   LEADS   ############################
+  <leadBusinessDetails><![CDATA[//div[@id='tabs-2']/fieldset[5]/div/ul/li[1]/div]]></leadBusinessDetails>
+  <LeadCompanyDetails><![CDATA[//div[@id='tabs-2']/fieldset[5]/div/ul/li[2]/div]]></LeadCompanyDetails>
+  <CreateLead><![CDATA[//div[@id='tabs-2']/fieldset[5]/div/ul/li[3]/div]]></CreateLead>
+  <LeadDelete><![CDATA[//div[@id='tabs-2']/fieldset[5]/div/ul/li[4]/div]]></LeadDelete>
+  <LeadDeletePermanent><![CDATA[//div[@id='tabs-2']/fieldset[5]/div/ul/li[5]/div]]></LeadDeletePermanent>
+  <LeadImport><![CDATA[//div[@id='tabs-2']/fieldset[5]/div/ul/li[7]/div]]></LeadImport>
+  <LeadImportFromVCard><![CDATA[//div[@id='tabs-2']/fieldset[5]/div/ul/li[8]/div]]></LeadImportFromVCard>
+  <LeadViewAll><![CDATA[//div[@id='tabs-2']/fieldset[5]/div/ul/li[9]/div]]></LeadViewAll>
+  <LeadCreatePackagePdfs><![CDATA[//div[@id='tabs-2']/fieldset[5]/div/ul/li[11]/div]]></LeadCreatePackagePdfs>
+  <AddDeleteLeadGroup><![CDATA[//div[@id='tabs-2']/fieldset[5]/div/ul/li[12]/div]]></AddDeleteLeadGroup>
+  <LeadMarketingDetails><![CDATA[//div[@id='tabs-2']/fieldset[5]/div/ul/li[14]/div]]></LeadMarketingDetails>
+  <MergeLeads><![CDATA[//div[@id='tabs-2']/fieldset[5]/div/ul/li[16]/div]]></MergeLeads>
+  <PDFsLeads><![CDATA[//div[@id='tabs-2']/fieldset[5]/div/ul/li[18]/div]]></PDFsLeads>
+  <LeadRatesAndFees><![CDATA[//div[@id='tabs-2']/fieldset[5]/div/ul/li[19]/div]]></LeadRatesAndFees>
+  <LeadSavedFilter><![CDATA[//div[@id='tabs-2']/fieldset[5]/div/ul/li[22]/div]]></LeadSavedFilter>
+  <LeadViewAllActivities><![CDATA[//div[@id='tabs-2']/fieldset[5]/div/ul/li[26]/div]]></LeadViewAllActivities>
+  //###################################    OMAHAH  API    ########################################
+  <SubmitFileToOmaha><![CDATA[//div[@id='tabs-2']/fieldset[6]/div/ul/li[1]/div]]></SubmitFileToOmaha>
+  <OmahaAPISetting><![CDATA[//div[@id='tabs-2']/fieldset[6]/div/ul/li[2]/div]]></OmahaAPISetting>
+  //############################   OPPOTUNITIES   ###############################################
+  <CreateOppotunities><![CDATA[//div[@id='tabs-2']/fieldset[7]/div/ul/li[1]/div]]></CreateOppotunities>
+  <DeleteOpportunities><![CDATA[//div[@id='tabs-2']/fieldset[7]/div/ul/li[2]/div]]></DeleteOpportunities>
+  <DeletePermanentOpportunities><![CDATA[//div[@id='tabs-2']/fieldset[7]/div/ul/li[3]/div]]></DeletePermanentOpportunities>
+  <ExportOpportunities><![CDATA[//div[@id='tabs-2']/fieldset[7]/div/ul/li[4]/div]]></ExportOpportunities>
+  <ListAllOpportunities><![CDATA[//div[@id='tabs-2']/fieldset[7]/div/ul/li[6]/div]]></ListAllOpportunities>
+  <AddDeleteOpportunitiesGrp><![CDATA[//div[@id='tabs-2']/fieldset[7]/div/ul/li[7]/div]]></AddDeleteOpportunitiesGrp>
+  <OpportunitiesMassUpdate><![CDATA[//div[@id='tabs-2']/fieldset[7]/div/ul/li[10]/div]]></OpportunitiesMassUpdate>
+  <MergeOpportunities><![CDATA[//div[@id='tabs-2']/fieldset[7]/div/ul/li[11]/div]]></MergeOpportunities>
+  <OpportunitiesRecyclebin><![CDATA[//div[@id='tabs-2']/fieldset[7]/div/ul/li[13]/div]]></OpportunitiesRecyclebin>
+  <OpportunitiesSaveFilter><![CDATA[//div[@id='tabs-2']/fieldset[7]/div/ul/li[15]/div]]></OpportunitiesSaveFilter>
+  <OpportunitiesViewAllFilter><![CDATA[//div[@id='tabs-2']/fieldset[7]/div/ul/li[17]/div]]></OpportunitiesViewAllFilter>
+  //###########################   PARTNERS    ########################################
+  <CreatePartnerAgent><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[1]/div]]></CreatePartnerAgent>
+  <EditPartnerAgent><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[2]/div]]></EditPartnerAgent>
+  <ViewPartnerAgent><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[3]/div]]></ViewPartnerAgent>
+  <ListAllPartnerAgent><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[5]/div]]></ListAllPartnerAgent>
+  <PartnerAgentRevenueShare><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[6]/div]]></PartnerAgentRevenueShare>
+  <CreatePartnerAssociation><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[7]/div]]></CreatePartnerAssociation>
+  <EditPartnerAssociation><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[8]/div]]></EditPartnerAssociation>
+  <ViewPartnerAssociation><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[9]/div]]></ViewPartnerAssociation>
+  <ListAllPartnerAssociation><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[10]/div]]></ListAllPartnerAssociation>
+  <PartnerAssociationsRevenueShare><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[11]/div]]></PartnerAssociationsRevenueShare>
+  <ToCreatePartnerAssociationuser><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[13]/div]]></ToCreatePartnerAssociationuser>
+  <CreatePartnerUser><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[14]/div]]></CreatePartnerUser>
+  <PartnerEditUserDetail><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[17]/div]]></PartnerEditUserDetail>
+  <PartnerUserCreateLead><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[18]/div]]></PartnerUserCreateLead>
+  <PartnerUserEditLead><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[19]/div]]></PartnerUserEditLead>
+  <PartnerUserLead><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[20]/div]]></PartnerUserLead>
+  <PartnerAgentAssocoiationRevenue><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[21]/div]]></PartnerAgentAssocoiationRevenue>
+  <DetailedLayout><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[24]/div]]></DetailedLayout>
+  <ReportsPartnerss><![CDATA[//div[@id='tabs-2']/fieldset[8]/div/ul/li[26]/div]]></ReportsPartnerss>
+  //####################################   PRODUCTS    ########################################
+  <ProductsCategories><![CDATA[//div[@id='tabs-2']/fieldset[9]/div/ul/li[1]/div]]></ProductsCategories>
+  <ProductCatogoryDelete><![CDATA[//div[@id='tabs-2']/fieldset[9]/div/ul/li[2]/div]]></ProductCatogoryDelete>
+  <ProductCategoryEdit><![CDATA[//div[@id='tabs-2']/fieldset[9]/div/ul/li[3]/div]]></ProductCategoryEdit>
+  <ProductCopy><![CDATA[//div[@id='tabs-2']/fieldset[9]/div/ul/li[4]/div]]></ProductCopy>
+  <ProductCreate><![CDATA[//div[@id='tabs-2']/fieldset[9]/div/ul/li[5]/div]]></ProductCreate>
+  <ProductUpdate><![CDATA[//div[@id='tabs-2']/fieldset[9]/div/ul/li[6]/div]]></ProductUpdate>
+  <ProductDelete><![CDATA[//div[@id='tabs-2']/fieldset[9]/div/ul/li[7]/div]]></ProductDelete>
+  <ProductUpdate><![CDATA[//div[@id='tabs-2']/fieldset[9]/div/ul/li[8]/div]]></ProductUpdate>
+  //###################################   TICKETS   ##############################################
+  <ResolveTicket><![CDATA[//div[@id='tabs-2']/fieldset[10]/div/ul/li[1]/div]]></ResolveTicket>
+  <AlertRules><![CDATA[//div[@id='tabs-2']/fieldset[10]/div/ul/li[2]/div]]></AlertRules>
+  <TicketSetting><![CDATA[//div[@id='tabs-2']/fieldset[10]/div/ul/li[3]/div]]></TicketSetting>
+  <BulkTicketCreate><![CDATA[//div[@id='tabs-2']/fieldset[10]/div/ul/li[4]/div]]></BulkTicketCreate>
+  <CloseTicket><![CDATA[//div[@id='tabs-2']/fieldset[10]/div/ul/li[6]/div]]></CloseTicket>
+  <CreateTickets><![CDATA[//div[@id='tabs-2']/fieldset[10]/div/ul/li[7]/div]]></CreateTickets>
+  <MasterDataDelete><![CDATA[//div[@id='tabs-2']/fieldset[10]/div/ul/li[9]/div]]></MasterDataDelete>
+  <TicketDelPermanent><![CDATA[//div[@id='tabs-2']/fieldset[10]/div/ul/li[11]/div]]></TicketDelPermanent>
+  <EditTicket><![CDATA[//div[@id='tabs-2']/fieldset[10]/div/ul/li[13]/div]]></EditTicket>
+  <EmailTempolateView><![CDATA[//div[@id='tabs-2']/fieldset[10]/div/ul/li[15]/div]]></EmailTempolateView>
+  <MasterDataTicket><![CDATA[//div[@id='tabs-2']/fieldset[10]/div/ul/li[18]/div]]></MasterDataTicket>
+  <MasterDataMakeActiveAndInactive><![CDATA[//div[@id='tabs-2']/fieldset[10]/div/ul/li[20]/div]]></MasterDataMakeActiveAndInactive>
+  <TicketReopen><![CDATA[//div[@id='tabs-2']/fieldset[10]/div/ul/li[22]/div]]></TicketReopen>
+  <TicketDownloadAttachment><![CDATA[//div[@id='tabs-2']/fieldset[10]/div/ul/li[25]/div]]></TicketDownloadAttachment>
+  <CreateTicket><![CDATA[//div[@id='tabs-2']/fieldset[10]/div/ul/li[26]/div]]></CreateTicket>
+  <CreateDarftTicket><![CDATA[//div[@id='tabs-2']/fieldset[10]/div/ul/li[29]/div]]></CreateDarftTicket>
+  <TicketReopen><![CDATA[//div[@id='tabs-2']/fieldset[10]/div/ul/li[32]/div]]></TicketReopen>
+  <TicketView><![CDATA[//div[@id='tabs-2']/fieldset[10]/div/ul/li[34]/div]]></TicketView>
+  //###################################   VANTIV API    ##########################################
+  <BoardfileToVantiv><![CDATA[//div[@id='tabs-2']/fieldset[11]/div/ul/li[1]/div]]></BoardfileToVantiv>
+  <VantivFTPsetting><![CDATA[//div[@id='tabs-2']/fieldset[11]/div/ul/li[2]/div]]></VantivFTPsetting>
+  //#########################################  OFFICE LEVEL PRIVILEDGE     #####################################################
+  <OfficeLevelPrivledge><![CDATA[//*[@id='CorporateAvatarCorpCreateForm']/div[3]/ul/li[3]/a]]></OfficeLevelPrivledge>
+  //Department
+  <CreateDepartment><![CDATA[//div[@id='tabs-3']/fieldset[1]/div/ul/li[1]/div]]></CreateDepartment>
+  <DeleteDepartment><![CDATA[//div[@id='tabs-3']/fieldset[1]/div/ul/li[2]/div]]></DeleteDepartment>
+  <ListALLDepartment><![CDATA[//div[@id='tabs-3']/fieldset[1]/div/ul/li[4]/div]]></ListALLDepartment>
+  <ViewDepartment><![CDATA[//div[@id='tabs-3']/fieldset[1]/div/ul/li[5]/div]]></ViewDepartment>
+  //########    GROUPS
+  <CreateGroups><![CDATA[//div[@id='tabs-3']/fieldset[2]/div/ul/li[1]/div]]></CreateGroups>
+  <DeleteGrps><![CDATA[//div[@id='tabs-3']/fieldset[2]/div/ul/li[2]/div]]></DeleteGrps>
+  <EditGrps><![CDATA[//div[@id='tabs-3']/fieldset[2]/div/ul/li[3]/div]]></EditGrps>
+  <ListAll><![CDATA[//div[@id='tabs-3']/fieldset[2]/div/ul/li[4]/div]]></ListAll>
+  <GrpView><![CDATA[//div[@id='tabs-3']/fieldset[2]/div/ul/li[5]/div]]></GrpView>
+  //########   ROLES
+  <DeleteRole><![CDATA[//div[@id='tabs-3']/fieldset[3]/div/ul/li[1]/div]]></DeleteRole>
+  <EditRole><![CDATA[//div[@id='tabs-3']/fieldset[3]/div/ul/li[2]/div]]></EditRole>
+  <AllTeamsRoles><![CDATA[//div[@id='tabs-3']/fieldset[3]/div/ul/li[3]/div]]></AllTeamsRoles>
+  <TeamDeleteRoles><![CDATA[//div[@id='tabs-3']/fieldset[3]/div/ul/li[4]/div]]></TeamDeleteRoles>
+  <TeamViewRoles><![CDATA[//div[@id='tabs-3']/fieldset[3]/div/ul/li[5]/div]]></TeamViewRoles>
+  <ListAllRoles><![CDATA[//div[@id='tabs-3']/fieldset[3]/div/ul/li[6]/div]]></ListAllRoles>
+  //###################################### RESIDUAL INCOME LEVEL PRIVILEGES    ##############################################
+  <ResidualIncomeLevelPrivileges><![CDATA[//*[@id='CorporateAvatarCorpCreateForm']/div[3]/ul/li[4]/a]]></ResidualIncomeLevelPrivileges>
+  //###CORPORATE RULES
+  <CopyRuleSet><![CDATA[//*[@id='tabs-4']/fieldset[1]//ul/li[1]/div]]></CopyRuleSet>
+  <CreateRulus><![CDATA[//*[@id='tabs-4']/fieldset[1]//ul/li[2]/div]]></CreateRulus>
+  <CreateRulesets><![CDATA[//*[@id='tabs-4']/fieldset[1]//ul/li[3]/div]]></CreateRulesets>
+  <DeleteRulesets><![CDATA[//*[@id='tabs-4']/fieldset[1]//ul/li[5]/div]]></DeleteRulesets>
+  <ListAllRules><![CDATA[//*[@id='tabs-4']/fieldset[1]//ul/li[6]/div]]></ListAllRules>
+  <MasterRulesets><![CDATA[//*[@id='tabs-4']/fieldset[1]//ul/li[8]/div]]></MasterRulesets>
+  <Rulessets><![CDATA[//*[@id='tabs-4']/fieldset[1]//ul/li[10]/div]]></Rulessets>
+  //#############  OFFICE PAYOUTS
+  <AgentLookUp><![CDATA[//*[@id='tabs-4']/fieldset[2]//ul/li[1]/div]]></AgentLookUp>
+  <AgentPayoutSummary><![CDATA[//*[@id='tabs-4']/fieldset[2]//ul/li[2]/div]]></AgentPayoutSummary>
+  <CalculateOfficeAdjustmnts><![CDATA[//*[@id='tabs-4']/fieldset[2]//ul/li[3]/div]]></CalculateOfficeAdjustmnts>
+  <DetailedPayoutOff><![CDATA[//*[@id='tabs-4']/fieldset[2]//ul/li[6]/div]]></DetailedPayoutOff>
+  <FileWizard><![CDATA[//*[@id='tabs-4']/fieldset[2]//ul/li[8]/div]]></FileWizard>
+  <ViewPayout><![CDATA[//*[@id='tabs-4']/fieldset[2]//ul/li[11]/div]]></ViewPayout>
+  <PublishPayout><![CDATA[//*[@id='tabs-4']/fieldset[2]//ul/li[13]/div]]></PublishPayout>
+  <showLogPayout><![CDATA[//*[@id='tabs-4']/fieldset[2]//ul/li[15]/div]]></showLogPayout>
+  <startOver><![CDATA[//*[@id='tabs-4']/fieldset[2]//ul/li[16]/div]]></startOver>
+  <Detailedpayout><![CDATA[//*[@id='tabs-4']/fieldset[2]//ul/li[17]/div]]></Detailedpayout>
+  <SummaryReport><![CDATA[//*[@id='tabs-4']/fieldset[2]//ul/li[18]/div]]></SummaryReport>
+  <TransactionView><![CDATA[//*[@id='tabs-4']/fieldset[2]//ul/li[20]/div]]></TransactionView>
+  <UserPayout><![CDATA[//*[@id='tabs-4']/fieldset[2]//ul/li[22]/div]]></UserPayout>
+  <UserReportPayout><![CDATA[//*[@id='tabs-4']/fieldset[2]//ul/li[24]/div]]></UserReportPayout>
+  //#####################   OFFICE RULE
+  <CalculationHierarchySetting><![CDATA[//*[@id='tabs-4']/fieldset[3]//ul/li[1]/div]]></CalculationHierarchySetting>
+  <CreateMasterRuleSets><![CDATA[//*[@id='tabs-4']/fieldset[3]//ul/li[2]/div]]></CreateMasterRuleSets>
+  <DeleteMasterRuleSet><![CDATA[//*[@id='tabs-4']/fieldset[3]//ul/li[3]/div]]></DeleteMasterRuleSet>
+  <EditMasterRuleSet><![CDATA[//*[@id='tabs-4']/fieldset[3]//ul/li[4]/div]]></EditMasterRuleSet>
+  <ManageReportDisplayColoumn><![CDATA[//*[@id='tabs-4']/fieldset[3]//ul/li[4]/div]]></ManageReportDisplayColoumn>
+  //####################  RESIDUAL INCOME
+  <ShowCalculationRI><![CDATA[//*[@id='tabs-4']/fieldset[4]//ul/li[1]/div]]></ShowCalculationRI>
+  <CalculatePayout><![CDATA[//*[@id='tabs-4']/fieldset[4]//ul/li[2]/div]]></CalculatePayout>
+  <DeleteResidualIncome><![CDATA[//*[@id='tabs-4']/fieldset[4]//ul/li[3]/div]]></DeleteResidualIncome>
+  <FileGroundWizard><![CDATA[//*[@id='tabs-4']/fieldset[4]//ul/li[5]/div]]></FileGroundWizard>
+  <ImportResidualIncome><![CDATA[//*[@id='tabs-4']/fieldset[4]//ul/li[7]/div]]></ImportResidualIncome>
+  <ListAllResidual><![CDATA[//*[@id='tabs-4']/fieldset[4]//ul/li[8]/div]]></ListAllResidual>
+  <PayoutsSummaryRI><![CDATA[//*[@id='tabs-4']/fieldset[4]//ul/li[10]/div]]></PayoutsSummaryRI>
+  <PublishPayout><![CDATA[//*[@id='tabs-4']/fieldset[4]//ul/li[12]/div]]></PublishPayout>
+  <ReportsRI><![CDATA[//*[@id='tabs-4']/fieldset[4]//ul/li[13]/div]]></ReportsRI>
+  <ShowLogsRI><![CDATA[//*[@id='tabs-4']/fieldset[4]//ul/li[14]/div]]></ShowLogsRI>
+  <DetailedPayoutRI><![CDATA[//*[@id='tabs-4']/fieldset[4]//ul/li[16]/div]]></DetailedPayoutRI>
+  <TransactinRI><![CDATA[//*[@id='tabs-4']/fieldset[4]//ul/li[17]/div]]></TransactinRI>
+  <ShowGTransactionDetailss><![CDATA[//*[@id='tabs-4']/fieldset[4]//ul/li[19]/div]]></ShowGTransactionDetailss>
+  //#######################  SYSTEM LEVEL PRIVLEDGES   ##################################################################
+  <ClickOnSysteLevelPrivledges><![CDATA[//*[@id='CorporateAvatarCorpCreateForm']/div[3]/ul/li[5]/a]]></ClickOnSysteLevelPrivledges>
+  //########## AGENTS
+  <AgentActivities><![CDATA[//*[@id='tabs-5']/fieldset[1]//ul/li[1]/div]]></AgentActivities>
+  <ToCreate1099SaleAgent><![CDATA[//*[@id='tabs-5']/fieldset[1]//ul/li[3]/div]]></ToCreate1099SaleAgent>
+  <createEmployees><![CDATA[//*[@id='tabs-5']/fieldset[1]//ul/li[4]/div]]></createEmployees>
+  <CreateSaleAgent><![CDATA[//*[@id='tabs-5']/fieldset[1]//ul/li[5]/div]]></CreateSaleAgent>
+  <EditEmployee><![CDATA[//*[@id='tabs-5']/fieldset[1]//ul/li[6]/div]]></EditEmployee>
+  <EditSaleSAgent><![CDATA[//*[@id='tabs-5']/fieldset[1]//ul/li[7]/div]]></EditSaleSAgent>
+  <BulkUpdate><![CDATA[//*[@id='tabs-5']/fieldset[1]//ul/li[8]/div]]></BulkUpdate>
+  <ToCreateEmloyeeUser><![CDATA[//*[@id='tabs-5']/fieldset[1]//ul/li[9]/div]]></ToCreateEmloyeeUser>
+  <AllEmployees><![CDATA[//*[@id='tabs-5']/fieldset[1]//ul/li[10]/div]]></AllEmployees>
+  <AllSaleAgent><![CDATA[//*[@id='tabs-5']/fieldset[1]//ul/li[12]/div]]></AllSaleAgent>
+  <ViewAllAssignments><![CDATA[//*[@id='tabs-5']/fieldset[1]//ul/li[13]/div]]></ViewAllAssignments>
+  <ViewSaleAgent><![CDATA[//*[@id='tabs-5']/fieldset[1]//ul/li[15]/div]]></ViewSaleAgent>
+  //###########  CORPORATE
+  <EditDetailsCorporate><![CDATA[//*[@id='tabs-5']/fieldset[2]//ul/li[1]/div]]></EditDetailsCorporate>
+  <CreateCorporateEmployees><![CDATA[//*[@id='tabs-5']/fieldset[2]//ul/li[2]/div]]></CreateCorporateEmployees>
+  <EditCorporateEmployees><![CDATA[//*[@id='tabs-5']/fieldset[2]//ul/li[3]/div]]></EditCorporateEmployees>
+  <ViewCorporateEmployees><![CDATA[//*[@id='tabs-5']/fieldset[2]//ul/li[4]/div]]></ViewCorporateEmployees>
+  <CorprateMerchantBusinessDeatils><![CDATA[//*[@id='tabs-5']/fieldset[2]//ul/li[6]/div]]></CorprateMerchantBusinessDeatils>
+  <CoporateMerchnatContact><![CDATA[//*[@id='tabs-5']/fieldset[2]//ul/li[8]/div]]></CoporateMerchnatContact>
+  <CoporateMerchantMerketingDetail><![CDATA[//*[@id='tabs-5']/fieldset[2]//ul/li[10]/div]]></CoporateMerchantMerketingDetail>
+  <MerchantNumberCorporate><![CDATA[//*[@id='tabs-5']/fieldset[2]//ul/li[11]/div]]></MerchantNumberCorporate>
+  <CorporateMerchantOwners><![CDATA[//*[@id='tabs-5']/fieldset[2]//ul/li[12]/div]]></CorporateMerchantOwners>
+  <CorporateMerchantTerminalsAndEquipment><![CDATA[//*[@id='tabs-5']/fieldset[2]//ul/li[15]/div]]></CorporateMerchantTerminalsAndEquipment>
+  <CorporateMerchnats><![CDATA[//*[@id='tabs-5']/fieldset[2]//ul/li[17]/div]]></CorporateMerchnats>
+  //########### EMAIL TEMPLATE
+  <CorporateEdITeMailTemplate><![CDATA[//*[@id='tabs-5']/fieldset[3]//ul/li[1]/div]]></CorporateEdITeMailTemplate>
+  <CorporateListAll><![CDATA[//*[@id='tabs-5']/fieldset[3]//ul/li[2]/div]]></CorporateListAll>
+  <CorporateViewEmailTemplate><![CDATA[//*[@id='tabs-5']/fieldset[3]//ul/li[3]/div]]></CorporateViewEmailTemplate>
+  <EmailTemplateListAll><![CDATA[//*[@id='tabs-5']/fieldset[3]//ul/li[5]/div]]></EmailTemplateListAll>
+  <ViewEmailTemplate><![CDATA[//*[@id='tabs-5']/fieldset[3]//ul/li[6]/div]]></ViewEmailTemplate>
+  //#############  EQUIPMENTS
+  <EquipmentsCreate><![CDATA[//*[@id='tabs-5']/fieldset[4]//ul/li[1]/div]]></EquipmentsCreate>
+  <DeleteEquipments><![CDATA[//*[@id='tabs-5']/fieldset[4]//ul/li[2]/div]]></DeleteEquipments>
+  <EquipmentsEdit><![CDATA[//*[@id='tabs-5']/fieldset[4]//ul/li[5]/div]]></EquipmentsEdit>
+  <EquipmentClone><![CDATA[//*[@id='tabs-5']/fieldset[4]//ul/li[6]/div]]></EquipmentClone>
+  <CreateEditDownload><![CDATA[//*[@id='tabs-5']/fieldset[4]//ul/li[8]/div]]></CreateEditDownload>
+  <EquipmentView><![CDATA[//*[@id='tabs-5']/fieldset[4]//ul/li[11]/div]]></EquipmentView>
+  //#################  IFRAME
+  <CreateIframe><![CDATA[//*[@id='tabs-5']/fieldset[5]//ul/li[1]/div]]></CreateIframe>
+  <IframeSetting><![CDATA[//*[@id='tabs-5']/fieldset[5]//ul/li[3]/div]]></IframeSetting>
+  <LisTAllIframe><![CDATA[//*[@id='tabs-5']/fieldset[5]//ul/li[4]/div]]></LisTAllIframe>
+  <IframeThirdParty><![CDATA[//*[@id='tabs-5']/fieldset[5]//ul/li[5]/div]]></IframeThirdParty>
+  //########## MASTER DATA
+  <MasterAmexRate><![CDATA[//*[@id='tabs-5']/fieldset[6]//ul/li[1]/div]]></MasterAmexRate>
+  <CorporateMasterAmexRates><![CDATA[//*[@id='tabs-5']/fieldset[6]//ul/li[2]/div]]></CorporateMasterAmexRates>
+  <CorporateDeleteMasterPricingplan><![CDATA[//*[@id='tabs-5']/fieldset[6]//ul/li[5]/div]]></CorporateDeleteMasterPricingplan>
+  <CorporateCreateMasterEditPlan><![CDATA[//*[@id='tabs-5']/fieldset[6]//ul/li[11]/div]]></CorporateCreateMasterEditPlan>
+  <CorporateMasterMerchantType><![CDATA[//div[@id='tabs-5']/fieldset[6]/div/ul/li[14]/div]]></CorporateMasterMerchantType>
+  <CorporateMasterProcessor><![CDATA[//div[@id='tabs-5']/fieldset[6]/div/ul/li[19]/div]]></CorporateMasterProcessor>
+  <DeleteMasterMerchantType><![CDATA[//div[@id='tabs-5']/fieldset[6]/div/ul/li[20]/div]]></DeleteMasterMerchantType>
+  <FrontEnd><![CDATA[//div[@id='tabs-5']/fieldset[6]/div/ul/li[24]/div]]></FrontEnd>
+  <CreateEditMasterAmexRate><![CDATA[//div[@id='tabs-5']/fieldset[6]/div/ul/li[26]/div]]></CreateEditMasterAmexRate>
+  <OmhaAuthGrip><![CDATA[//div[@id='tabs-5']/fieldset[6]/div/ul/li[32]/div]]></OmhaAuthGrip>
+  //################  MODULE
+  <AuditTrail><![CDATA[//div[@id='tabs-5']/fieldset[7]/div/ul/li[1]/div]]></AuditTrail>
+  <CorporateAuditTrail><![CDATA[//div[@id='tabs-5']/fieldset[7]/div/ul/li[4]/div]]></CorporateAuditTrail>
+  <RefreshCorporateAuditTrailColumn><![CDATA[//div[@id='tabs-5']/fieldset[7]/div/ul/li[5]/div]]></RefreshCorporateAuditTrailColumn>
+  <CorporatePermission><![CDATA[//div[@id='tabs-5']/fieldset[7]/div/ul/li[7]/div]]></CorporatePermission>
+  <RefreshDefaultPermission><![CDATA[//div[@id='tabs-5']/fieldset[7]/div/ul/li[9]/div]]></RefreshDefaultPermission>
+  <ManagePermission><![CDATA[//div[@id='tabs-5']/fieldset[7]/div/ul/li[10]/div]]></ManagePermission>
+  /####################  OFFICE
+  <SendOfficeMail><![CDATA[//div[@id='tabs-5']/fieldset[8]/div/ul/li[1]/div]]></SendOfficeMail>
+  <CreateOfficeDocument><![CDATA[//div[@id='tabs-5']/fieldset[8]/div/ul/li[3]/div]]></CreateOfficeDocument>
+  <CreateOfficeTask><![CDATA[//div[@id='tabs-5']/fieldset[8]/div/ul/li[6]div]]></CreateOfficeTask>
+  <DownloadOfficeDocument><![CDATA[//div[@id='tabs-5']/fieldset[8]/div/ul/li[8]/div]]></DownloadOfficeDocument>
+  <OfficeListAll><![CDATA[//div[@id='tabs-5']/fieldset[8]/div/ul/li[12]/div]]></OfficeListAll>
+  <MyCorporateDeatil><![CDATA[//div[@id='tabs-5']/fieldset[8]/div/ul/li[14]/div]]></MyCorporateDeatil>
+  <ViewOfficewActivity><![CDATA[//div[@id='tabs-5']/fieldset[8]/div/ul/li[18]/div]]></ViewOfficewActivity>
+  //###################   PDFs Templates
+  <ListAllCategories><![CDATA[//div[@id='tabs-5']/fieldset[9]/div/ul/li[1]/div]]></ListAllCategories>
+  <PdfTemplatedelete><![CDATA[//div[@id='tabs-5']/fieldset[9]/div/ul/li[3]/div]]></PdfTemplatedelete>
+  <PdfTemplateListAll><![CDATA[//div[@id='tabs-5']/fieldset[9]/div/ul/li[6]/div]]></PdfTemplateListAll>
+  <PackagePdfCreate><![CDATA[//div[@id='tabs-5']/fieldset[9]/div/ul/li[12]/div]]></PackagePdfCreate>
+  <SetPdfPermission><![CDATA[//div[@id='tabs-5']/fieldset[9]/div/ul/li[30]/div]]></SetPdfPermission>
+  <PdfTempolateView><![CDATA[//div[@id='tabs-5']/fieldset[9]/div/ul/li[34]/div]]></PdfTempolateView>
+  //#################  PERSPECTIVE
+  <CreatePrespective><![CDATA[//div[@id='tabs-5']/fieldset[10]/div/ul/li[1]/div]]></CreatePrespective>
+  <CorporateAddNew><![CDATA[//div[@id='tabs-5']/fieldset[10]/div/ul/li[4]/div]]></CorporateAddNew>
+  <CorporateListAll><![CDATA[//div[@id='tabs-5']/fieldset[10]/div/ul/li[6]/div]]></CorporateListAll>
+  <CorporateUpladteItem><![CDATA[//div[@id='tabs-5']/fieldset[10]/div/ul/li[8]/div]]></CorporateUpladteItem>
+  <EditItem><![CDATA[//div[@id='tabs-5']/fieldset[10]/div/ul/li[10]/div]]></EditItem>
+  //################   PRIVILEGES
+  <CorporateCreate><![CDATA[//div[@id='tabs-5']/fieldset[11]/div/ul/li[1]/div]]></CorporateCreate>
+  <CorporateListAll><![CDATA[//div[@id='tabs-5']/fieldset[11]/div/ul/li[4]/div]]></CorporateListAll>
+  <PrilageCreate><![CDATA[//div[@id='tabs-5']/fieldset[11]/div/ul/li[6]/div]]></PrilageCreate>
+  <RefreshPrivlege><![CDATA[//div[@id='tabs-5']/fieldset[11]/div/ul/li[7]/div]]></RefreshPrivlege>
+  <ListAllPrivlege><![CDATA[//div[@id='tabs-5']/fieldset[11]/div/ul/li[9]/div]]></ListAllPrivlege>
+  //###################   SCHEDULERS
+  <CorporateSchCreate><![CDATA[//div[@id='tabs-5']/fieldset[12]/div/ul/li[1]/div]]></CorporateSchCreate>
+  <SchCorpListAll><![CDATA[//div[@id='tabs-5']/fieldset[12]/div/ul/li[3]/div]]></SchCorpListAll>
+  <SchCopEdit><![CDATA[//div[@id='tabs-5']/fieldset[12]/div/ul/li[5]/div]]></SchCopEdit>
+  //#################### Setting
+  <CorporateGlobalSetting><![CDATA[//div[@id='tabs-5']/fieldset[13]/div/ul/li[1]/div]]></CorporateGlobalSetting>
+  <OrganizationSeting><![CDATA[//div[@id='tabs-5']/fieldset[13]/div/ul/li[1]/div]]></OrganizationSeting>
+  //###################  THEMES
+  <CorporateCustomizeThemes><![CDATA[//div[@id='tabs-5']/fieldset[14]/div/ul/li[1]/div]]></CorporateCustomizeThemes>
+  <CorporateChnageDefaultTheme><![CDATA[//div[@id='tabs-5']/fieldset[14]/div/ul/li[4]/div]]></CorporateChnageDefaultTheme>
+  <ThemeListAll><![CDATA[//div[@id='tabs-5']/fieldset[14]/div/ul/li[6]/div]]></ThemeListAll>
+  <ThemeMakeActiveInactive><![CDATA[//div[@id='tabs-5']/fieldset[14]/div/ul/li[7]/div]]></ThemeMakeActiveInactive>
+  <UserChangeDefaultTheme><![CDATA[//div[@id='tabs-5']/fieldset[14]/div/ul/li[11]/div]]></UserChangeDefaultTheme>
+  //#################  USER
+  <UserActivity><![CDATA[//div[@id='tabs-5']/fieldset[15]/div/ul/li[1]/div]]></UserActivity>
+  <ChangePassword><![CDATA[//div[@id='tabs-5']/fieldset[15]/div/ul/li[4]/div]]></ChangePassword>
+  <ListAllClientUser><![CDATA[//div[@id='tabs-5']/fieldset[15]/div/ul/li[5]/div]]></ListAllClientUser>
+  <CorporateUserStatics><![CDATA[//div[@id='tabs-5']/fieldset[15]/div/ul/li[8]/div]]></CorporateUserStatics>
+  <ClintUserDelIntials><![CDATA[//div[@id='tabs-5']/fieldset[15]/div/ul/li[13]/div]]></ClintUserDelIntials>
+  <DisableUser><![CDATA[//div[@id='tabs-5']/fieldset[15]/div/ul/li[15]/div]]></DisableUser>
+  <ClientUserSharedFileView><![CDATA[//div[@id='tabs-5']/fieldset[15]/div/ul/li[19]/div]]></ClientUserSharedFileView>
+  <UserStatices><![CDATA[//div[@id='tabs-5']/fieldset[15]/div/ul/li[25]/div]]></UserStatices>
+  <SignautreCreate><![CDATA[//div[@id='tabs-5']/fieldset[15]/div/ul/li[30]/div]]></SignautreCreate>
+  <UserStaticsByOffice><![CDATA[//div[@id='tabs-5']/fieldset[15]/div/ul/li[34]/div]]></UserStaticsByOffice>
+  <UserViewUser><![CDATA[//div[@id='tabs-5']/fieldset[15]/div/ul/li[37]/div]]></UserViewUser>
+  //###################    VENDER
+  <VenderCreate><![CDATA[//div[@id='tabs-5']/fieldset[16]/div/ul/li[1]/div]]></VenderCreate>
+  <VenderEdit><![CDATA[//div[@id='tabs-5']/fieldset[16]/div/ul/li[3]/div]]></VenderEdit>
+  <VenderView><![CDATA[//div[@id='tabs-5']/fieldset[16]/div/ul/li[6]/div]]></VenderView>
+
+  //################# SAVE
+  <SaveAvatarBtn><![CDATA[//*[@id='main_container']/div[1]/div[2]/a[1]/span[1]]]></SaveAvatarBtn>
+  
+</Locators>

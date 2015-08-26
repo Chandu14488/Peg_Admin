@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+
+  //###################  LOGIN WITH CROP    ############################
+  <EnterUsername><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <ClickOnLoginButtojn><![CDATA[//*[@id='UserLoginLoginForm']/div[3]/div/div[3]/button]]></ClickOnLoginButtojn>
+
+
+  <ClickOnMasterDataTab><![CDATA[//*[@id='css3menu']/li[4]/a]]></ClickOnMasterDataTab>
+  <ClickOnCreate><![CDATA[//*[@id='main_container']/div[2]/div/div[2]/div/a/span[2]]]></ClickOnCreate>
+
+  //######################    Create API CODES
+  <GridId><![CDATA[//*[@id='CorporateMasterDataGridid']]]></GridId>
+  <VisaPosAuthfees><![CDATA[//*[@id='CorporateMasterDataVisaPosAuthFee']]]></VisaPosAuthfees>
+  <MCPosAuthFees><![CDATA[//*[@id='CorporateMasterDataMastercardPosAuthFee']]]></MCPosAuthFees>
+  <AmexPosAuthFees><![CDATA[//*[@id='CorporateMasterDataAmexPosAuthFee']]]></AmexPosAuthFees>
+  <DiscPosAuthFees><![CDATA[//*[@id='CorporateMasterDataDiscoverPosAuthFee']]]></DiscPosAuthFees>
+  <JCDPosAuthFees><![CDATA[//*[@id='CorporateMasterDataJcbPosAuthFee']]]></JCDPosAuthFees>
+  <VoiceAuthFees><![CDATA[//*[@id='CorporateMasterDataVoiceAuthFee']]]></VoiceAuthFees>
+  <AVSElectronicFees><![CDATA[//*[@id='CorporateMasterDataAvsElectronicFee']]]></AVSElectronicFees>
+  <AVSVoiveFees><![CDATA[//*[@id='CorporateMasterDataAvsVoiceFee']]]></AVSVoiveFees>
+  <ARUFees><![CDATA[//*[@id='CorporateMasterDataAruFee']]]></ARUFees>
+
+
+  //#################   SAVE
+  <SaveBtn><![CDATA[//*[@id='corporatemasterdataCreate']/span[1]]]></SaveBtn>
+  
+  <!--EDIT AUTH GRIDS -->
+  <ClickEditAuth><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a[1]]]></ClickEditAuth>
+  <ClickOnDelete><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a[2]]]></ClickOnDelete>
+  <GripIdSrch><![CDATA[//*[@id='gs_gridid']]]></GripIdSrch>
+  <MCPosAuthFeesSrch><![CDATA[//*[@id='gs_mastercard_pos_auth_fee']]]></MCPosAuthFeesSrch>
+  <JobPosAuthFeeSrch><![CDATA[//*[@id='gs_jcb_pos_auth_fee']]]></JobPosAuthFeeSrch>
+  <SaveEditAuth><![CDATA[//a[@title='Save']]]></SaveEditAuth>
+  <PushToOffice><![CDATA[//*[@id='main_container']/div[3]/div/div[2]/div[2]/a/span[1]]]></PushToOffice>
+
+</Locators>
+
+

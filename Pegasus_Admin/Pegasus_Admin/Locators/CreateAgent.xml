@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   Agent Tab #######################
+  <ClickAgentTab><![CDATA[//*[@id='css3menu']/li[8]/a/span]]></ClickAgentTab>
+  <ClickOnPartnerAgent><![CDATA[//*[@id='css3menu']/li[8]/div/div/ul/li[4]/a]]></ClickOnPartnerAgent>
+  <ClickOnaAgentCreate><![CDATA[//*[@id='actionbuttons']/span]]></ClickOnaAgentCreate>
+  //####### CREATE PARTENER AGENT
+  <SelectSalutation><![CDATA[//*[@id='PartnerAgentSalutation']]]></SelectSalutation>
+  <FirstNAME><![CDATA[//*[@id='PartnerAgentFirstName']]]></FirstNAME>
+  <LastName><![CDATA[//*[@id='PartnerAgentLastName']]]></LastName>
+  <BirthDay><![CDATA[//*[@id='PartnerAgentBirthdate']]]></BirthDay>
+  <DBAName><![CDATA[//*[@id='PartnerAgentDba']]]></DBAName>
+  <LinkedInUrl><![CDATA[//*[@id='PartnerAgentLinkedinUrl']]]></LinkedInUrl>
+  <FaceBookUrl><![CDATA[//*[@id='PartnerAgentFacebookUrl']]]></FaceBookUrl>
+  <Website1><![CDATA[//*[@id='PartnerAgentWebsite']]]></Website1>
+  <TwitterURL><![CDATA[//*[@id='PartnerAgentTwitterUrl']]]></TwitterURL>
+  <SelectLanguage><![CDATA[//*[@id='PartnerAgentLanguage']]]></SelectLanguage>
+  //############## CONTACT INFORMTAION
+  <eAddressType><![CDATA[//*[@id='PartnerAgentElectronicAddress0ElectronicContentType']]]></eAddressType>
+  <eAddressLebel><![CDATA[//*[@id='PartnerAgentElectronicAddress0ElectronicContentLabel']]]></eAddressLebel>
+  <eAddress><![CDATA[//*[@id='PartnerAgentElectronicAddress0ElectronicContent']]]></eAddress>
+  // ################## PHONE
+  <SelectPhoneType><![CDATA[//*[@id='PartnerAgentPhone0PhoneType']]]></SelectPhoneType>
+  <PhoneNumber><![CDATA[//*[@id='PartnerAgentPhone0PhoneFormat']]]></PhoneNumber>
+  //#################### ADDRESS
+  <AddressType><![CDATA[//*[@id='PartnerAgentAddress0Type']]]></AddressType>
+  <AddressLine1><![CDATA[//*[@id='PartnerAgentAddress0AddressLine1']]]></AddressLine1>
+  <AddressLine2><![CDATA[//*[@id='PartnerAgentAddress0AddressLine2']]]></AddressLine2>
+  <City><![CDATA[//*[@id='PartnerAgentAddress0City']]]></City>
+  <State><![CDATA[//*[@id='PartnerAgentAddress0State']]]></State>
+  <PostalCode><![CDATA[//*[@id='PartnerAgentAddress0PostalCode']]]></PostalCode>
+  //################### CREATE USER ACCOUNT FOR THIS PARTNER AGENT
+  <ClickONcheckBox><![CDATA[//*[@id='UserCreateUser']]]></ClickONcheckBox>
+  <UserName><![CDATA[//*[@id='UserUserName']]]></UserName>
+  <ClickOnAvatar><![CDATA[//*[@id='1101']]]></ClickOnAvatar>
+  //######################  CLICK ON SAVE BUTTON
+  <SaveAGENTbtn><![CDATA[//*[@id='PartnerAgentAgentCreateForm']/div[2]/div[7]/div/a[1]/span[2]]]></SaveAGENTbtn>
+  <PrtnerAgentCntry><![CDATA[//*[@id='PartnerAgentAddress0Country']]]></PrtnerAgentCntry>
+  <ClickMiddleName><![CDATA[//*[@id='PartnerAgentMiddleName']]]></ClickMiddleName>
+  <Extension><![CDATA[//*[@id='PartnerAgentPhone0PhoneExtension']]]></Extension>
+  <PasswordAtoGenerate><![CDATA[//*[@id='UserAutogenerate']]]></PasswordAtoGenerate>
+  <PasswordAcc><![CDATA[//*[@id='UserPassword']]]></PasswordAcc>
+  
+  <!--SEARCH USER AT ADMIN SIDE-->
+  <MoveHover><![CDATA[//div[@id='user_header']/table/tbody/tr/td[2]]]></MoveHover>
+  <ClickOnOffice><![CDATA[//*[@id='css3menu']/li[1]/a]]></ClickOnOffice>
+  <EnterEmail><![CDATA[//*[@id='gs_electronic_content']]]></EnterEmail>
+  <SelectStatus1><![CDATA[//*[@id='gs_status']]]></SelectStatus1>
+  <!--Verify Email At Yop Mail-->
+  <EnterYopMailId><![CDATA[//*[@id='login']]]></EnterYopMailId>
+  <ClickOnNewEmailBtn><![CDATA[//input[@value='Check Inbox']]]></ClickOnNewEmailBtn>
+  
+  
+</Locators>

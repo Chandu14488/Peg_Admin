@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+
+  //#######################   TerminalAndEquipment  #######################
+  <ClickOwnerTab><![CDATA[//*[@id='tabs']/li[9]/a/span]]></ClickOwnerTab>
+  //##################  OWNER IFORMATION 1  #######################################
+  <FirstNameSalutation><![CDATA[//*[@id='ClientOwner0ContactContactSalutation']]]></FirstNameSalutation>
+  <FirstName><![CDATA[//*[@id='ClientOwner0ContactContactFirstName']]]></FirstName>
+  <LastName><![CDATA[//*[@id='ClientOwner0ContactContactLastName']]]></LastName>
+  <TitleOwner><![CDATA[//*[@id='ClientOwner0ContactContactTitle']]]></TitleOwner>
+  <DateOfDirt> <![CDATA[//*[@id='ClientOwner0ContactContactBirthdate']]]></DateOfDirt>
+  <Language><![CDATA[//*[@id='ClientOwner0ContactContactLanguage']]]></Language>
+  <OwnerShipPercentage><![CDATA[//*[@id='ClientOwner0OwnershipPercent']]]></OwnerShipPercentage>
+  //##########  Owners Identification Information
+  <Type><![CDATA[//*[@id='ClientOwner0IdentificationType']]]></Type>
+  <IDOwner><![CDATA[//*[@id='ClientOwner0DriversLicenseId']]]></IDOwner>
+  <State><![CDATA[//*[@id='ClientOwner0DriversLicenseState']]]></State>
+  <DateOfIssue><![CDATA[//*[@id='ClientOwner0PrevBusName']]]></DateOfIssue>
+  <DateOfExpire><![CDATA[//*[@id='ClientOwner0IdentificationExpireDate']]]></DateOfExpire>
+  //################# Owners Bankruptcy Information
+  <OwnerFieldBankrupty><![CDATA[//*[@id='ClientOwner0Bankruptcy']]]></OwnerFieldBankrupty>
+  <ChapterField><![CDATA[//*[@id='ClientOwner0BankruptChapter']]]></ChapterField>
+  <StateField><![CDATA[//*[@id='ClientOwner0BankruptState']]]></StateField>
+  <DateField><![CDATA[//*[@id='ClientOwner0BankruptDate']]]></DateField>
+  <DateEmerged><![CDATA[//*[@id='ClientOwner0BankruptEmergeDate']]]></DateEmerged>
+  //##############Previous Business Deatils
+  <IfYesEnterName><![CDATA[//*[@id='ClientOwner0PrevBusName']]]></IfYesEnterName>
+  //##########Business Identification Information
+  <BusinessIdentificationInfoType><![CDATA[//*[@id='ClientOwner0BusinessIdentificationType']]]></BusinessIdentificationInfoType>
+  <BusinessIdentificationInfoID><![CDATA[//*[@id='ClientOwner0BusinessIdentificationId']]]></BusinessIdentificationInfoID>
+  <BIInfoPlaceofIssue><![CDATA[//*[@id='ClientOwner0BusinessIdentificationIssuePlace']]]></BIInfoPlaceofIssue>
+  <DateOfIssance><![CDATA[//*[@id='ClientOwner0BusinessIdentificationIssueDate']]]></DateOfIssance>
+  <BIiNFOExpiratoionDate><![CDATA[//*[@id='ClientOwner0BusinessIdentificationExpireDate']]]></BIiNFOExpiratoionDate>
+  //############Business Bankruptcy Information
+  <FieldForBanKrupty><![CDATA[//*[@id='ClientOwner0BusinessBankruptcy']]]></FieldForBanKrupty>
+  <ChapterField><![CDATA[//*[@id='ClientOwner0BusinessBankruptChapter']]]></ChapterField>
+  <StateFieldBBI><![CDATA[//*[@id='ClientOwner0BusinessBankruptState']]]></StateFieldBBI>
+  <BusinessDtaeFieldBBI><![CDATA[//*[@id='ClientOwner0BusinessBankruptDate']]]></BusinessDtaeFieldBBI>
+  <DateEmergedBBI><![CDATA[//*[@id='ClientOwner0BusinessBankruptEmergeDate']]]></DateEmergedBBI>
+  //############# Contact Add Phone Number
+  <ClickOnAddphone><![CDATA[link=Add Phone]]></ClickOnAddphone>
+  <EnterPhoneNumber><![CDATA[//*[@id='ClientOwner0ContactContactPhone0PhoneFormat']]]></EnterPhoneNumber>
+  <EnterEntension><![CDATA[//*[@id='ClientOwnerPhDelTab_0_0']/div[2]/div/input[2]]]></EnterEntension>
+  <Primary><![CDATA[//*[@id='radios']]]></Primary>
+  //########## Add Email
+  <ClikOnAddEmailBtn><![CDATA[//*[@id='ownercontactbox0']/div/div[4]/a]]></ClikOnAddEmailBtn>
+  <EnterEmail><![CDATA[//*[@id='ClientOwnerEmailDelTab_0_0']/div[2]/div/input]]></EnterEmail>
+  <Primary><![CDATA[//*[@id='radio']]]></Primary>
+  <OptedOut><![CDATA[//*[@id='email_option_0_0']/div/input[2]]]></OptedOut>
+  //########### Add Address
+  <ClickAddAddressLink><![CDATA[//*[@id='ClientOwnerAddress0']/div[2]/a]]></ClickAddAddressLink>
+  <AdreesType><![CDATA[//*[@id='ClientOwnerAddrDelTab_0_0']/div[1]/div[1]/div/select]]></AdreesType>
+  <AddressLine1><![CDATA[//*[@id='ClientOwnerAddrDelTab_0_0']/div[1]/div[2]/div/input[1]]]></AddressLine1>
+  <AddressLine2><![CDATA[//*[@id='ClientOwnerAddrDelTab_0_0']/div[1]/div[2]/div/input[2]]]></AddressLine2>
+  <SelectState><![CDATA[//*[@id='ClientContactAddress0State']]]></SelectState>
+  <Zip><![CDATA[//*[@id='ClientContactAddress0PostalCode']]]></Zip>
+
+
+</Locators>

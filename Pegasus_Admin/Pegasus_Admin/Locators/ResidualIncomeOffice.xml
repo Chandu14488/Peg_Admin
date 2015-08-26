@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  
+  <!--Residual Income Adjustment Tool Office-->
+  <ClickOnResidualIncome><![CDATA[//*[@id='css3menu']/li[9]/a]]></ClickOnResidualIncome>
+  <ClickOnCreateBtn><![CDATA[//*[@id='actionbuttons']/span[1]]]></ClickOnCreateBtn>
+  <AdjustmentName><![CDATA[//*[@id='RirOrgMasterRulesetRuleName']]]></AdjustmentName>
+  <Description><![CDATA[//*[@id='RirOrgMasterRulesetDescription']]]></Description>
+  <AdjustmentFor><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentFor']]]></AdjustmentFor>
+  <AdjustmentType><![CDATA[//*[@id='RirOrgMasterRulesetAdjustmentType']]]></AdjustmentType>
+  <ReportingPeriod><![CDATA[//*[@id='RirOrgMasterRulesetReportingMonth']]]></ReportingPeriod>
+  <Processor><![CDATA[//*[@id='RirOrgMasterRulesetProcessor']]]></Processor>
+  <ApplyAllMerchantRadiobtn><![CDATA[//*[@id='RirOrgMasterRulesetMerchantTypeAll']]]></ApplyAllMerchantRadiobtn>
+  <ApplyToSelectMerchant><![CDATA[//*[@id='RirOrgMasterRulesetMerchantTypeSpecific']]]></ApplyToSelectMerchant>
+  <SelectMerchantLink><![CDATA[//*[@id='select_merchant']]]></SelectMerchantLink>
+  <SerchIdField><![CDATA[//*[@id='ClientId']]]></SerchIdField>
+  <ClickOnSrch><![CDATA[//*[@id='searchButton']/span[1]]]></ClickOnSrch>
+  <SelectMerchant><![CDATA[//*[@id='popupContent']/table/tbody/tr/td[2]/a]]></SelectMerchant>
+  <SetFilterProcessor><![CDATA[//*[@id='gs_processor']]]></SetFilterProcessor>
+  <VerifyTextFND><![CDATA[//table[@id]/tbody/tr[2]/td[4]]]></VerifyTextFND>
+  <ClickOnFilter><![CDATA[//*[@id='layout_disp']/span]]></ClickOnFilter>
+  <ClickReportingPeriod><![CDATA[//*[@id='SummarySummaryReportsForm']/table/tbody/tr[2]/td/table/tbody/tr[1]/td[4]/button]]></ClickReportingPeriod>
+  <!--CREATE RULE SET-->
+  <SelectRuleType><![CDATA[//*[@id='rule_type0']]]></SelectRuleType>
+  <Amount><![CDATA[//*[@id='amount_field0']]]></Amount>
+  <AddRemove><![CDATA[//*[@id='RirOrgMasterRulesetCustomRule0AddOrRemoveFlag']]]></AddRemove>
+  <ClickOnSaveBtn><![CDATA[//*[@id='main_container']/div[3]/div/a[1]/span[1]]]></ClickOnSaveBtn>
+  <EnterRuleToSearch><![CDATA[//*[@id='gs_rule_name']]]></EnterRuleToSearch>
+  
+  <!--EDIT-->
+  <ClickonRule><![CDATA[//table[@id='list1']/tbody/tr[2]/td[3]/a]]></ClickonRule>
+  
+  <!--Residual Income Tool Agent-->
+  <ApplyBeforRevenueShareCollection><![CDATA[//*[@id='RirOrgMasterRulesetBeforeOrAfterBefore']]]></ApplyBeforRevenueShareCollection>
+  <ApplyBelowRuleAfterRevenueShareCollection><![CDATA[//*[@id='RirOrgMasterRulesetBeforeOrAfterAfter']]]></ApplyBelowRuleAfterRevenueShareCollection>
+  <ApplybelowRuleForAllAgent><![CDATA[//*[@id='RirOrgMasterRulesetAgentIdTypeAll']]]></ApplybelowRuleForAllAgent>
+  <ApplyBelowRuleToSelectedAgent><![CDATA[//*[@id='RirOrgMasterRulesetAgentIdTypeSpecific']]]></ApplyBelowRuleToSelectedAgent>
+  <ApplyBelwRuleAllMerchnt><![CDATA[//*[@id='RirOrgMasterRulesetMerchantTypeAll']]]></ApplyBelwRuleAllMerchnt>
+  <ApplyRuleSpecificMerchant><![CDATA[//*[@id='RirOrgMasterRulesetMerchantTypeSpecific']]]></ApplyRuleSpecificMerchant>
+  <ClickSelectAgent><![CDATA[//*[@id='select_agent']]]></ClickSelectAgent>
+  <SelectType><![CDATA[//*[@id='AgentType']]]></SelectType>
+  <EnterAgentId><![CDATA[//*[@id='AgentId']]]></EnterAgentId>
+  <ClickOnSearch><![CDATA[//*[@id='searchButton']/span[1]]]></ClickOnSearch>
+  <ClickOnAgent><![CDATA[//*[@id='popupContent']/table/tbody/tr/td[2]/a]]></ClickOnAgent>
+  <ClickToCancel><![CDATA[//*[@id='main_container']/div[1]/div[3]/a[2]/span[1]]]></ClickToCancel>
+  
+  <!--    REPORT SUMMARY      -->
+  <ReportSummaryLink><![CDATA[//a[@title='Summary Reports']]]></ReportSummaryLink>
+  <ClickOnExport><![CDATA[//*[@id='exportactions']/span[1]]]></ClickOnExport>
+  <ExportToCSV><![CDATA[//div[@class='grid_toolbar_back']/div[2]/ul/li[1]/a]]></ExportToCSV>
+  <ExportToExcel><![CDATA[//div[@class='grid_toolbar_back']/div[2]/ul/li[2]/a]]></ExportToExcel>
+  <SelectYearReporting><![CDATA[//*[@id='RirOrgMasterRulesetReportingYear']]]></SelectYearReporting>
+
+  
+</Locators>
+
+

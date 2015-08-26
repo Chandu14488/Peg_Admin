@@ -1,0 +1,188 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Locators>
+  <ClientTab><![CDATA[//*[@id='css3menu']/li[4]/a/span]]></ClientTab>
+  <CreateClientBtn><![CDATA[//a[@title='Create New Client']]]></CreateClientBtn>
+  <ClientDBAName><![CDATA[//*[@id='ClientCompanyDbaName']]]></ClientDBAName>
+  <ClickOnSave><![CDATA[//*[@id='ClientAddress1Country']]]></ClickOnSave>
+  <Dublicate><![CDATA[//div[@class='button_bar clearfix']/div/a[1]]]></Dublicate>
+  <EnterClinentToSearch><![CDATA[//*[@id='gs_company_dba_name']]]></EnterClinentToSearch>
+  <ClickOnClient><![CDATA[//table[@id='list1']/tbody/tr[2]/td[17]/a]]></ClickOnClient>
+  <CreateTicketBtn><![CDATA[//*[@id='addTickets']/span[1]]]></CreateTicketBtn>
+  <EnterTicketName><![CDATA[//*[@id='TicketName']]]></EnterTicketName>
+  <TicketDescription><![CDATA[//*[@id='TicketDescription']]]></TicketDescription>
+  <SaveBtnTicket><![CDATA[//*[@id='savenotebtn']/span[1]]]></SaveBtnTicket>
+  <TicketTab><![CDATA[//*[@id='css3menu']/li[7]/a/span]]></TicketTab>
+  <TicketTab1><![CDATA[//*[@id='css3menu']/li[7]/a]]></TicketTab1>
+  <ClickOnCheckBox><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></ClickOnCheckBox>
+  <ClickDeleteIcon><![CDATA[//*[@id='deleteticket']/span[1]]]></ClickDeleteIcon>
+  <SelectTicketCreatedStatus><![CDATA[//*[@id='OrganizationTicketSettingDefaultstatus']]]></SelectTicketCreatedStatus>
+  <ResolvedTicketStatus><![CDATA[//*[@id='OrganizationTicketSettingResolved']]]></ResolvedTicketStatus>
+  <ClosedTicketStatus><![CDATA[//*[@id='OrganizationTicketSettingCompleted']]]></ClosedTicketStatus>
+  <ClickOnImport><![CDATA[//*[@id='main_container']/div[3]/div/div[3]/div[3]/a[2]/span/span]]></ClickOnImport>
+  <SelectFile><![CDATA[//*[@id='ClientCsvFile']]]></SelectFile>
+  <ClickOnImportClint><![CDATA[//*[@id='importform']/a/span]]></ClickOnImportClint>
+  <SelectClientImport><![CDATA[//*[@id='ClientImportMappingType']]]></SelectClientImport>
+  <ResidualImportSel><![CDATA[//*[@id='ClientImportResidualMonth']]]></ResidualImportSel>
+  <ClickImprtProcess><![CDATA[//div[@class='ui-buttonset']/a[1]]]></ClickImprtProcess>
+  <ClickOnSentToForward><![CDATA[//*[@id='mybox']/li[3]/a]]></ClickOnSentToForward>
+  <ClickOnForward><![CDATA[//*[@id='main_container']/div/div[2]/div[2]/div/div/div/div[1]/div/a[3]/span[1]]]></ClickOnForward>
+  
+  <!--CLIENT ADDRESSES-->
+  <ClickOnAddreesClient><![CDATA[//*[@id='tabs']/li[4]/a/span]]></ClickOnAddreesClient>
+  <AddressLine1><![CDATA[//*[@id='ClientAddress0AddressLine1']]]></AddressLine1>
+  <AddressLine2><![CDATA[//*[@id='ClientAddress0AddressLine2']]]></AddressLine2>
+  <Country><![CDATA[//*[@id='ClientAddress0County']]]></Country>
+  <City><![CDATA[//*[@id='ClientAddress0City']]]></City>
+  <State><![CDATA[//*[@id='ClientAddress0State']]]></State>
+  <Countrydd><![CDATA[//*[@id='ClientAddress0Country']]]></Countrydd>
+  <ClientFirstName><![CDATA[//*[@id='ClientContactDetails0FirstName']]]></ClientFirstName>
+  <ClientLastName><![CDATA[//*[@id='ClientContactDetails0LastName']]]></ClientLastName>
+  <SaveFClinet><![CDATA[//*[@id='ClientCreateForm']/div[2]/div[3]/div/a[1]/span[1]]]></SaveFClinet>
+  <SearchByFullName><![CDATA[//*[@id='gs_contactNm']]]></SearchByFullName>
+  
+  <!-- CLIENT MAILING ADDRESSES -->
+  <AddressLine1Mailinadd><![CDATA[//*[@id='ClientAddress1AddressLine1']]]></AddressLine1Mailinadd>
+  <AddressLine2MailAdd><![CDATA[//*[@id='ClientAddress1AddressLine2']]]></AddressLine2MailAdd>
+  <CountyMailingAdd><![CDATA[//*[@id='ClientAddress1County']]]></CountyMailingAdd>
+  <CityMailingAdd><![CDATA[//*[@id='ClientAddress1City']]]></CityMailingAdd>
+  <StateMailingAdd><![CDATA[//*[@id='ClientAddress1State']]]></StateMailingAdd>
+  <CountryMailingAdd><![CDATA[//*[@id='ClientAddress1Country']]]></CountryMailingAdd>
+  <ClickOnSave><![CDATA[//*[@id='main_container']/div[1]/div[3]/div/a[1]/span[1]]]></ClickOnSave>
+    <!--INFO-->
+  <ClickOnInfotab><![CDATA[//*[@id='tabs']/li[1]/a/span]]></ClickOnInfotab>
+  
+  <!--EDIT ACTIVITY TASK-->
+  <ClickOnActivityTab><![CDATA[//*[@id='css3menu']/li[6]/a]]></ClickOnActivityTab>
+  <ClickOnCreate><![CDATA[//*[@id='actionbuttons']/span/span]]></ClickOnCreate>
+  <Subject><![CDATA[//*[@id='TaskName']]]></Subject>
+  <TaskStartDate><![CDATA[//*[@id='TaskStartDate']]]></TaskStartDate>
+  <TaskDueDate><![CDATA[//*[@id='TaskDueDate']]]></TaskDueDate>
+  <ClickSaveBtn><![CDATA[//*[@id='TaskCreateForm']/div[4]/div/a[1]/span[1]]]></ClickSaveBtn>
+  <TaskSearch><![CDATA[//*[@id='gs_name']]]></TaskSearch>
+  <ClickOnTaskEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[11]/a]]></ClickOnTaskEdit>
+  <ClickEditBtn><![CDATA[//*[@id='rerun']/span[1]]]></ClickEditBtn>
+  <ClickOnEditSave><![CDATA[//*[@id='main_container']/div[1]/div[3]/a[1]/span[1]]]></ClickOnEditSave>
+  <EnterCCMuliple><![CDATA[//*[@id='EmailCcAddrs']]]></EnterCCMuliple>
+  <EnterToSearchRI><![CDATA[//*[@id='gs_to_addrs']]]></EnterToSearchRI>
+  <EnterSubjectRI><![CDATA[//*[@id='gs_subject']]]></EnterSubjectRI>
+  <ClickOnEmailIcon><![CDATA[//*[@id='right']/div[1]/table/tbody/tr/td[4]/a/img]]></ClickOnEmailIcon>
+  <EnterToEmailRI><![CDATA[//*[@id='EmailToAddrs']]]></EnterToEmailRI>
+  <EnterSubjectAttRI><![CDATA[//*[@id='EmailSubject']]]></EnterSubjectAttRI>
+  <EmailSendButtonRI><![CDATA[//*[@id='EmailComposeForm']/div[3]/div/div/a[1]/span[1]]]></EmailSendButtonRI>
+  <SendToEmail><![CDATA[//*[@id='main_container']/div/div[2]/div[2]/div[1]/div/div[2]/a[1]/span[1]]]></SendToEmail>
+  
+  <!--EDIT Omaha PDF-->
+  <ClickOnPDFTemplates><![CDATA[//*[@id='css3menu']/li[9]/a]]></ClickOnPDFTemplates>
+  <OmahaFirst><![CDATA[//*[@id='gs_name']]]></OmahaFirst>
+  <ClickOnEdit><![CDATA[//table[@id='list1']/tbody/tr[2]/td[8]/a[1]/img]]></ClickOnEdit>
+  <EnterName><![CDATA[//*[@id='CorporatePdfTemplateName']]]></EnterName>
+  <ClickOnSaveBtnPDFTemp><![CDATA[//*[@id='main_container']/div[1]/div[2]/a[1]/span[1]]]></ClickOnSaveBtnPDFTemp>
+  
+  <!--EMAIL NOTE FORWARDING-->
+  <EnterSubNote><![CDATA[//*[@id='NoteName']]]></EnterSubNote>
+  <ClickSave><![CDATA[//*[@id='NoteCreateForm']/div[2]/div[3]/a[1]/span[1]]]></ClickSave>
+  <ClickOnNote><![CDATA[//table[@id='list1']/tbody/tr[2]/td[9]/a]]></ClickOnNote>
+  <ClickOnEmail><![CDATA[//a[@title='Send This Note as E-mail']]]></ClickOnEmail>
+  <EnterToFiled><![CDATA[//*[@id='EmailToAddrs']]]></EnterToFiled>
+  <ClickSendBtn><![CDATA[//*[@id='EmailComposeForm']/div[2]/div[12]/div/div/div[2]/a[1]/span[1]]]></ClickSendBtn>
+  <EmailName><![CDATA[//*[@id='EmailName']]]></EmailName>
+  
+  <!--ADD FILTER AGENT-->
+  <ClickOnAgentTab><![CDATA[//*[@id='css3menu']/li[8]/a]]></ClickOnAgentTab>
+  <SelectAgentType><![CDATA[//*[@id='gs_UserType']]]></SelectAgentType>
+  <SelectStatus><![CDATA[//*[@id='gs_active']]]></SelectStatus>
+  <SelectRole><![CDATA[//*[@id='gs_role']]]></SelectRole>
+  <SelectDepartment><![CDATA[//*[@id='gs_departmentname']]]></SelectDepartment>
+  <SelectTeam><![CDATA[//*[@id='gs_teamname']]]></SelectTeam>
+  <VerifyStatus><![CDATA[//table[@id='list1']/tbody/tr[2]/td[7]]]></VerifyStatus>
+  
+  <!--PDF TEMPLATES PERMINSSIONS -->
+  <ClickOnPDFTab><![CDATA[//*[@id='css3menu']/li[6]/a]]></ClickOnPDFTab>
+  <MouserHoverWelcome><![CDATA[//div[@id='wrapper']/div/div[2]/table/tbody/tr/td[1]/img]]></MouserHoverWelcome>
+  <ClickPDF><![CDATA[//table[@id='list1']/tbody/tr[2]/td[10]/a]]></ClickPDF>
+  <ClickOnPermisions><![CDATA[//*[@id='main_container']/div/div[2]/ul/li[2]/a]]></ClickOnPermisions>
+  <ClickOnNoneOfThese><![CDATA[//*[@id='OrganizationAllTeams1']]]></ClickOnNoneOfThese>
+  <ClickOnUpdate><![CDATA[//*[@id='submitview']/span[1]]]></ClickOnUpdate>
+  <ClickOnForward><![CDATA[//*[@id='main_container']/div/div[2]/div[2]/div/div/div/div[1]/div/a[3]/span[1]]]></ClickOnForward>
+  
+  <!--ADD MEETING FOR LEAD-->
+  <EnterMeetingName><![CDATA[//*[@id='MeetingName']]]></EnterMeetingName>
+  <MeetingStart><![CDATA[//*[@id='MeetingStartDate']]]></MeetingStart>
+  <ClickOn2><![CDATA[//a[text()="2"]]]></ClickOn2>
+  <EndDATE><![CDATA[//*[@id='MeetingEndDate']]]></EndDATE>
+  <ClickOnText4><![CDATA[//a[text()="4"]]]></ClickOnText4>
+  <SelectRelatedTo><![CDATA[//*[@id='MeetingParentType']]]></SelectRelatedTo>
+  <ClickOnAssign2><![CDATA[//*[@id='assignParent']/span[2]]]></ClickOnAssign2>
+  <ClickOnAssignedToMeeting><![CDATA[//*[@id='assignParent']/span[1]]]></ClickOnAssignedToMeeting>
+  <ClickOnAssignee><![CDATA[//table[@class='static']/tbody/tr[1]/td[2]/a]]></ClickOnAssignee>
+  <ClickOnClientMeeting><![CDATA[//div[@id='popupContent']/table/tbody/tr[1]/td[2]/a]]></ClickOnClientMeeting>
+  <ClickOnSaveButn><![CDATA[//*[@id='main_container']/div/div[3]/a[1]/span[1]]]></ClickOnSaveButn>
+  
+  <!--CLIENT ZIP CODE  -->
+  <EnterAddressZipCode><![CDATA[//*[@id='ClientAddress0PostalCode']]]></EnterAddressZipCode>
+  <MailingZipCode><![CDATA[//*[@id='ClientAddress1PostalCode']]]></MailingZipCode>
+  <!--OPPORTUNITIES ZIP CODE-->
+  <OpportunityTab><![CDATA[//*[@id='css3menu']/li[2]/a]]></OpportunityTab>
+  <ClickOnCreateBtn><![CDATA[//*[@id='actionbuttons']/span/span]]></ClickOnCreateBtn>
+  <AddressCountryDdwn><![CDATA[//*[@id='OpportunityAddress0Country']]]></AddressCountryDdwn>
+  <ZipCodeOpp><![CDATA[//*[@id='OpportunityAddress0PostalCode']]]></ZipCodeOpp>
+  <StateOpp><![CDATA[//*[@id='OpportunityAddress0State']]]></StateOpp>
+  <MailingZipCodeOpp><![CDATA[//*[@id='OpportunityAddress1PostalCode']]]></MailingZipCodeOpp>
+  <CountryDrpDwnMailing><![CDATA[//*[@id='OpportunityAddress1Country']]]></CountryDrpDwnMailing>
+  <StateMailing><![CDATA[//*[@id='OpportunityAddress1State']]]></StateMailing>
+  <AddressLine1Opp><![CDATA[//*[@id='OpportunityAddress0AddressLine1']]]></AddressLine1Opp>
+  <MailingAddLine1opp><![CDATA[//*[@id='OpportunityAddress1AddressLine1']]]></MailingAddLine1opp>
+  <!-- BULK UPDATE SALES MANAGER FOR OPPORTUNITIES -->
+  <SelectSaleManagerOpp><![CDATA[//*[@id='OpportunitySalesManagerUpdateSalesManagerId']]]></SelectSaleManagerOpp>
+  <OppSaveBtn><![CDATA[//*[@id='OpportunitySalesManagerUpdateIndexForm']/table/tbody/tr/td[3]/a/span]]></OppSaveBtn>
+
+  <ClickleadTab><![CDATA[//*[@id='css3menu']/li[3]/a]]></ClickleadTab>
+  <ClickOnOppChjkBox><![CDATA[//table[@id='list1']/tbody/tr[2]/td[1]/input]]></ClickOnOppChjkBox>
+  <ClickOnBulkUpdate><![CDATA[//*[@id='moreactions']/span[1]]]></ClickOnBulkUpdate>
+  <ChangeSaleManager><![CDATA[//div[@class='moreactions']/ul/li[6]/a]]></ChangeSaleManager>
+  <SelectSalesManager><![CDATA[//*[@id='LeadSalesManagerUpdateSalesManagerId']]]></SelectSalesManager>#423
+  <ClickUpodate><![CDATA[//*[@id='LeadSalesManagerUpdateIndexForm']/div[2]/table/tbody/tr/td[3]/a/span]]></ClickUpodate>
+  <!--CLIENT -->
+  <SelectSaleManager><![CDATA[//*[@id='ClientSalesManagerUpdateSalesManagerId']]]></SelectSaleManager>
+  <ClientBulkUpdateBTN><![CDATA[//*[@id='ClientSalesManagerUpdateIndexForm']/table/tbody/tr/td[3]/a/span]]></ClientBulkUpdateBTN>
+  <!--TICKET-->
+  <SelectStatustICKET><![CDATA[//*[@id='TicketStatus']]]></SelectStatustICKET>
+  <AssignedTo><![CDATA[//*[@id='TicketAssignedUserId']]]></AssignedTo>
+  <AssignedManager><![CDATA[//*[@id='TicketAssignedManagerId']]]></AssignedManager>
+  <!--LOGIN PAGE LOCATORS-->
+  <EnterUsername><![CDATA[//*[@id='UserLoginUserName']]]></EnterUsername>
+  <EnterPassword><![CDATA[//*[@id='UserLoginPasswordHash']]]></EnterPassword>
+  <LoginBtn><![CDATA[//*[@id='UserLoginLoginForm']/div[3]/div/div[3]/button]]></LoginBtn>
+  <ClickOnEditTicket><![CDATA[//table[@id='list1']/tbody/tr[2]/td[13]/span/a/span/img]]></ClickOnEditTicket>
+  <!--PICKLIST-->
+  <ClickOnSystemTab><![CDATA[//*[@id='css3menu']/li[3]/a]]></ClickOnSystemTab>
+  <EnterNamePicklist><![CDATA[//*[@id='gs_label']]]></EnterNamePicklist>
+  <EnterModule><![CDATA[//*[@id='gs_module']]]></EnterModule>
+  <ClickOnStatuses><![CDATA[//table[@id='list1']/tbody/tr[2]/td[2]/a]]></ClickOnStatuses>
+  <ClickOnAddBtn><![CDATA[//*[@id='main_container']/div/div[2]/a[1]/span[1]]]></ClickOnAddBtn>
+  <EnterPickListValue><![CDATA[//*[@id='PickListValueValue']]]></EnterPickListValue>
+  <PickListSaveBtn><![CDATA[//*[@id='add-item-submit']/span[1]]]></PickListSaveBtn>
+  
+  <!-- Residual Income Office -->
+  <SelectStatusRIReport><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[5]/select]]></SelectStatusRIReport>
+  <ViewReports><![CDATA[//table[@id='related_positions_table']/tbody/tr[2]/td[16]/a[4]]]></ViewReports>
+  <ClickOnFileDate><![CDATA[//*[@id='ImportIndexFileDate']]]></ClickOnFileDate>
+  <SelectDate><![CDATA[//a[text()='28']]]></SelectDate>
+  <ClickOnCalculationWizard><![CDATA[//*[@id='related_positions_table']/tbody/tr[2]/td[16]/a[2]/img]]></ClickOnCalculationWizard>
+  <AgentLookUp><![CDATA[//a[@title='Agent Lookup']]]></AgentLookUp>
+  <CalculateAdjustment><![CDATA[//a[@title='Calculate Adjustments']]]></CalculateAdjustment>
+  <AgentPayoutCalculation><![CDATA[//a[@title='Calculate']]]></AgentPayoutCalculation>
+  <ClickPublish><![CDATA[//a[@title='Publish']]]></ClickPublish>
+  <ViewPublishedPayoutRI><![CDATA[//a[@title='View Payouts']]]></ViewPublishedPayoutRI>
+  <CorpViewReports><![CDATA[//*[@id='related_positions_table']/tbody/tr[2]/td[9]/a[4]/span]]></CorpViewReports>
+  <FileFormat><![CDATA[//*[@id='related_positions_table']/thead/tr[2]/th[4]/select]]></FileFormat>
+  <ClickOnRIDate><![CDATA[//table[@id='related_positions_table']/tbody/tr[2]/td[2]/a]]></ClickOnRIDate>
+  <!--PDFs Email Share-->
+  <ClickOnEmail><![CDATA[//div[@id='card_service_agreements']/table/tbody/tr[1]/td[2]/table/tbody/tr[2]/td[1]/a]]></ClickOnEmail>
+  <ConirmAndContinue><![CDATA[//span[text()='Confirm Options and Continue']]]></ConirmAndContinue>
+  <ClickOnSendPDFEmail><![CDATA[//a[@title='Send']]]></ClickOnSendPDFEmail>
+  
+
+</Locators>
+

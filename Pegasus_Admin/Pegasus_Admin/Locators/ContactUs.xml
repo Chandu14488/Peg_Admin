@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Locators>
+  <ContactUsLink><![CDATA[link=Contact Us]]></ContactUsLink>
+  <EnterName><![CDATA[//*[@id='UserContactUsName']]]></EnterName>
+  <EnterEmail><![CDATA[//*[@id='UserContactUsEmail']]]></EnterEmail>
+  <EnterSubject><![CDATA[//*[@id='UserContactUsSubject']]]></EnterSubject>
+  <EnterMessage><![CDATA[//*[@id='UserContactUsBody']]]></EnterMessage>
+  <Send><![CDATA[//*[@id='contactUsbtn']]]></Send>
+  
+  //#########################     FORGET PASSWORD
+  <ForgetPassword><![CDATA[link=Forgot Password?]]></ForgetPassword>
+  <EnterEmailOfUserName><![CDATA[//*[@id='UserForgotPasswordEmail']]]></EnterEmailOfUserName>
+  <ClickOnSendEmailBtn><![CDATA[//button[@id='forgotPwdbtn']]]></ClickOnSendEmailBtn>
+  
+  //#########################    Verify Account
+  <VerifyAccountLink><![CDATA[link=Verify My Account]]></VerifyAccountLink>
+  <UserVerificationEmail><![CDATA[//*[@id='UserEmailVerificationEmail']]]></UserVerificationEmail>
+  <EmailVerifyBtn><![CDATA[//*[@id='emailVerifybtn']]]></EmailVerifyBtn>
+  
+</Locators>
